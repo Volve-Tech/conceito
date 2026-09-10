@@ -1,0 +1,229 @@
+{
+  "__typename": "TopicBusinessInfo",
+  "sys": {
+    "id": "ohspi5gYQSqQdFADFTg6F"
+  },
+  "media": null,
+  "name": "Über uns",
+  "isDark": true,
+  "shortDescription": "Wir setzen Technologie ein, um Bankgeschäfte bequem, persönlich und sicher zu machen.",
+  "youtube": "https://www.youtube.com/watch?v=j2nj5vMDduM&list=PLk5qvOMfDB9T3tKYIgVrLW-FxckeVz9dn&index=1 ",
+  "featuredImage": {
+    "__typename": "Asset",
+    "sys": {
+      "id": "46VWjsk4I1yEFOEh1ynqSP"
+    },
+    "contentType": "image/png",
+    "width": 1440,
+    "height": 558,
+    "url": "/assets/46VWjsk4I1yEFOEh1ynqSP-bg-conceito.png",
+    "fileName": "bg-conceito.png",
+    "title": "bg-conceito",
+    "description": "",
+    "localPath": "/assets/46VWjsk4I1yEFOEh1ynqSP-bg-conceito.png"
+  },
+  "body": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Unser Unternehmen",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "heading-3"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Die Mission von Colorful Coin besteht darin, Menschen auf der ganzen Welt zu helfen, ihr Geld mit Leichtigkeit und Zuversicht zu verwalten. Durch die Zusammenführung modernster Technologien und die unermüdliche Konzentration auf Kundenerlebnisse bieten wir Bank-, Zahlungs- und Kreditdienstleistungen, die auf die Bedürfnisse unserer Kunden zugeschnitten sind.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        },
+        {
+          "data": {
+            "target": {
+              "sys": {
+                "id": "4NWujw1qFOZ0HrxfHa550v",
+                "type": "Link",
+                "linkType": "Entry"
+              }
+            }
+          },
+          "content": [],
+          "nodeType": "embedded-entry-block"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Unsere Geschichte",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "heading-3"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Die Münzgeschichte beginnt mit einer einfachen Frage. Was wäre, wenn unser Bankgeschäft mit der gleichen Leidenschaft, dem gleichen Einfallsreichtum und der gleichen Liebe zum Detail gestaltet worden wäre, die in die Herstellung unserer Telefone einfließen? Im Jahr 2014 arbeitete Poppy Terrell an einem Umweltprojekt in einem kleinen Dorf in Sri Lanka. Entfernt von den Annehmlichkeiten einer Großstadt, wo sie sich bei all ihren Bankgeschäften auf ihr iPhone verlassen musste, erlebte Poppy Terrell so manches frustrierende Wochenende und kehrte entschlossen in die USA zurück, sich nie wieder auf eine traditionelle Bank für ihre täglichen finanziellen Bedürfnisse zu verlassen.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Die anfängliche Frustration wich bald der Neugierde. Wie würde das digitale Bankwesen aussehen, wenn man es von Grund auf neu erfinden würde? Poppy nutzte all ihre Ersparnisse, um einen Prototyp zu bauen. 2015 traf sie den talentierten Entwickler Marc Young, und nachdem sie in das Y Combinator-Programm aufgenommen worden war, ging es für sie an die Rennen. Zwei große Umgestaltungen und eine Reihe von Engels-Investitionen später knackte das Duo schließlich den Code für das digitale Bankwesen und durchlief 2017 eine Phase des Hyperwachstums, in der es seinen Kundenstamm in weniger als 12 Monaten um 674% ausbaute.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Das einzigartige Wertversprechen der Münze zog nicht nur Kunden, sondern auch Investoren an, die daran interessiert waren, das traditionelle Bankwesen zu revolutionieren. Im Februar 2019 trat der charismatische Vorsitzende des Colorful Collective, Terence Fisher, an Poppy Terrell heran, und die beiden begannen ein monatelanges Gespräch über die Zukunft von Coin. Schließlich kam der Kompromiss zustande, und das Colorful Collective erwarb Coin und machte es damit zu Colorful Coin, Europas führender digitaler Bank. Nach der Übernahme setzte das Unternehmen seine rasche Expansion fort, eröffnete 6 globale Niederlassungen und verdoppelte die Zahl der Mitarbeiter. ",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Führung",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "heading-3"
+        },
+        {
+          "data": {
+            "target": {
+              "sys": {
+                "id": "1jt29A18iuzzBstXBpZXgL",
+                "type": "Link",
+                "linkType": "Entry"
+              }
+            }
+          },
+          "content": [],
+          "nodeType": "embedded-entry-block"
+        },
+        {
+          "data": {
+            "target": {
+              "sys": {
+                "id": "2r0v7iZ7SS0khYkCAK82lw",
+                "type": "Link",
+                "linkType": "Entry"
+              }
+            }
+          },
+          "content": [],
+          "nodeType": "embedded-entry-block"
+        },
+        {
+          "data": {
+            "target": {
+              "sys": {
+                "id": "5YEkWZ4oATSKbR2i7ZUF06",
+                "type": "Link",
+                "linkType": "Entry"
+              }
+            }
+          },
+          "content": [],
+          "nodeType": "embedded-entry-block"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      },
+      "entries": {
+        "block": [
+          {
+            "__typename": "ComponentInfoBlock",
+            "sys": {
+              "id": "4NWujw1qFOZ0HrxfHa550v"
+            }
+          },
+          {
+            "__typename": "TopicPerson",
+            "sys": {
+              "id": "1jt29A18iuzzBstXBpZXgL"
+            }
+          },
+          {
+            "__typename": "TopicPerson",
+            "sys": {
+              "id": "2r0v7iZ7SS0khYkCAK82lw"
+            }
+          },
+          {
+            "__typename": "TopicPerson",
+            "sys": {
+              "id": "5YEkWZ4oATSKbR2i7ZUF06"
+            }
+          }
+        ],
+        "hyperlink": [],
+        "inline": []
+      }
+    }
+  }
+}

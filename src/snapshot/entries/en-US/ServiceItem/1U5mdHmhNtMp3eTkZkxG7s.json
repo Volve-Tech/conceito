@@ -1,0 +1,46 @@
+{
+  "__typename": "ServiceItem",
+  "sys": {
+    "id": "1U5mdHmhNtMp3eTkZkxG7s"
+  },
+  "name": "Gestão e Revisão do FAP/RAT",
+  "targetPage": {
+    "__typename": "Page",
+    "sys": {
+      "id": "1HFL2uYcTSuGg6aD4eo6zZ"
+    },
+    "slug": "gestao-e-revisao-do-fap-rat",
+    "pageName": "Gestão e revisão do FAP RAT"
+  },
+  "description": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Precisão e estratégia na gestão e revisão do FAP/RAT da sua empresa.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      },
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      }
+    }
+  }
+}

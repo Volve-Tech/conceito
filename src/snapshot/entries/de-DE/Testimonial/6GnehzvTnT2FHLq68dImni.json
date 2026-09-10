@@ -1,0 +1,68 @@
+{
+  "__typename": "Testimonial",
+  "sys": {
+    "id": "6GnehzvTnT2FHLq68dImni"
+  },
+  "video": null,
+  "company": "Simaq",
+  "position": "Proprietário",
+  "fullname": "Denilson Simionato",
+  "youtube": "https://www.youtube.com/watch?v=3s4nTyUHvgc",
+  "brand": {
+    "__typename": "Asset",
+    "sys": {
+      "id": "2wFD6H9EEQsxFirzDY9176"
+    },
+    "contentType": "image/png",
+    "width": 594,
+    "height": 141,
+    "url": "/assets/2wFD6H9EEQsxFirzDY9176-Simaq.png",
+    "fileName": "Simaq.png",
+    "title": "Simaq",
+    "description": "",
+    "localPath": "/assets/2wFD6H9EEQsxFirzDY9176-Simaq.png"
+  },
+  "body": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Conhecemos a Conceito Contabilidade por indicação de um amigo. Nossa primeira visita aconteceu entre março e abril de 2004, quando fomos atendidos pelo Fernando. Desde aquele momento, ficou evidente o comprometimento e a vontade que ele tinha de crescer junto com empresas que estavam apenas começando. Foi assim que nos tornamos parceiros.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Hoje, após 20 anos de trajetória juntos, posso dizer que a Conceito é um pilar essencial para a credibilidade e solidez da Simaq. Eles são o nosso norte em todas as questões fiscais, tributárias e burocráticas. Mais do que um escritório de contabilidade, a Conceito atua como uma verdadeira consultoria tributária dentro da nossa empresa. O diferencial? Não somos nós que temos que ir até eles—eles vêm até nós, garantindo um acompanhamento próximo e decisões sempre assertivas. Na parte tributária, podemos resumir nossa parceria em uma frase: muita Conceito e pouca Simaq; muita razão e pouca emoção.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      },
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      }
+    }
+  }
+}

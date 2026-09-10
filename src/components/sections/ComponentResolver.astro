@@ -1,0 +1,73 @@
+---
+import { getEntry } from '../../lib/content';
+import { defaultLayout } from '../../lib/theme';
+import type { LayoutProps } from '../../lib/types';
+import HeroBanner from './HeroBanner.astro';
+import Duplex from './Duplex.astro';
+import InfoBlock from './InfoBlock.astro';
+import Services from './Services.astro';
+import ServiceItem from './ServiceItem.astro';
+import Testimonials from './Testimonials.astro';
+import Testimonial from './Testimonial.astro';
+import LocationsGroup from './LocationsGroup.astro';
+import Location from './Location.astro';
+import ContactSection from './ContactSection.astro';
+import BusinessInfo from './BusinessInfo.astro';
+import Product from './Product.astro';
+import ProductTable from './ProductTable.astro';
+import Person from './Person.astro';
+
+interface Props {
+  typename: string;
+  id: string;
+  locale: string;
+  layout?: LayoutProps;
+  previousComponent?: string | null;
+}
+
+const { typename, id, locale, layout = defaultLayout, previousComponent = null } = Astro.props;
+const entry = getEntry<any>(locale, typename, id);
+
+if (!entry) {
+  throw new Error(`Unknown or missing snapshot entry ${typename}:${id} (${locale})`);
+}
+
+const known = new Set([
+  'ComponentHeroBanner',
+  'ComponentDuplex',
+  'ComponentInfoBlock',
+  'ServiceComponent',
+  'ServiceItem',
+  'Testimonials',
+  'Testimonial',
+  'LocationsGroup',
+  'Locations',
+  'ContactSection',
+  'TopicBusinessInfo',
+  'TopicProduct',
+  'ComponentProductTable',
+  'TopicPerson',
+  'TopicProductFeature',
+  'Page',
+]);
+
+if (!known.has(typename)) {
+  throw new Error(`Unhandled __typename ${typename} on page zone (${locale}/${id})`);
+}
+---
+
+{typename === 'ComponentHeroBanner' && <HeroBanner entry={entry} locale={locale} />}
+{typename === 'ComponentDuplex' && <Duplex entry={entry} locale={locale} />}
+{typename === 'ComponentInfoBlock' && <InfoBlock entry={entry} locale={locale} previousComponent={previousComponent} />}
+{typename === 'ServiceComponent' && <Services entry={entry} locale={locale} />}
+{typename === 'ServiceItem' && <ServiceItem entry={entry} locale={locale} />}
+{typename === 'Testimonials' && <Testimonials entry={entry} locale={locale} />}
+{typename === 'Testimonial' && <Testimonial entry={entry} locale={locale} />}
+{typename === 'LocationsGroup' && <LocationsGroup entry={entry} locale={locale} />}
+{typename === 'Locations' && <Location entry={entry} locale={locale} />}
+{typename === 'ContactSection' && <ContactSection entry={entry} locale={locale} />}
+{typename === 'TopicBusinessInfo' && <BusinessInfo entry={entry} locale={locale} />}
+{typename === 'TopicProduct' && <Product entry={entry} locale={locale} />}
+{typename === 'ComponentProductTable' && <ProductTable entry={entry} locale={locale} />}
+{typename === 'TopicPerson' && <Person entry={entry} locale={locale} layout={layout} />}
+{typename === 'TopicProductFeature' && entry.name && <section><h3>{entry.name}</h3></section>}

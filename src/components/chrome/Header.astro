@@ -1,0 +1,112 @@
+---
+import { CONTAINER_WIDTH, HEADER_HEIGHT, HEADER_HEIGHT_MD } from '../../lib/theme';
+import { resolvePageHref } from '../../lib/hrefs';
+import { t } from '../../lib/content';
+import Navigation from './Navigation.astro';
+
+interface Props {
+  locale: string;
+  strings: Record<string, Record<string, string>>;
+}
+
+const { locale, strings } = Astro.props;
+const homeHref = resolvePageHref('home', locale);
+---
+
+<header class="site-header" data-header>
+  <div class="toolbar" style={`max-width:${CONTAINER_WIDTH / 10}rem`}>
+    <a href={homeHref} class="logo-link" title={t(strings, 'common.homepage')}>
+      <img src="/assets/brand/conceito-logo.svg" alt={t(strings, 'common.logoImageAltText')} class="logo" width="220" height="49" />
+    </a>
+    <div class="desktop-nav">
+      <Navigation locale={locale} />
+    </div>
+  </div>
+  <button
+    class="menu-button"
+    type="button"
+    data-menu-open
+    title={t(strings, 'navigation.mobileMenuButton')}
+    aria-controls="mobile-menu"
+    aria-expanded="false"
+    aria-haspopup="dialog"
+  >
+    <span class="visually-hidden">{t(strings, 'navigation.mobileMenuButton')}</span>
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      <path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+    </svg>
+  </button>
+</header>
+
+<style define:vars={{ headerHeight: HEADER_HEIGHT, headerHeightMd: HEADER_HEIGHT_MD }}>
+  .site-header {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    box-shadow: none;
+    margin-bottom: -8rem;
+    transition: ease 0.4s all;
+    padding: 0 1.6rem;
+  }
+
+  .site-header.is-dark {
+    background: rgba(0, 0, 0, 0.8);
+  }
+
+  .toolbar {
+    display: flex;
+    align-items: center;
+    height: var(--headerHeightMd);
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .logo {
+    display: block;
+    width: 22rem;
+    height: auto;
+    margin-right: 10rem;
+  }
+
+  .desktop-nav {
+    display: none;
+  }
+
+  .menu-button {
+    background: none;
+    border: 0;
+    color: #fff;
+    padding: 0.8rem;
+    cursor: pointer;
+  }
+
+  @media (min-width: 600px) {
+    .site-header {
+      padding: 0 3rem;
+    }
+  }
+
+  @media (min-width: 900px) {
+    .toolbar {
+      height: var(--headerHeight);
+    }
+
+    .desktop-nav {
+      display: block;
+    }
+
+    .menu-button {
+      display: none;
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .site-header {
+      padding: 0 7.5rem;
+    }
+  }
+</style>

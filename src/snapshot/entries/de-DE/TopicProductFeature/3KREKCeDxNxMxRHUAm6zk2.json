@@ -1,0 +1,69 @@
+{
+  "__typename": "TopicProductFeature",
+  "sys": {
+    "id": "3KREKCeDxNxMxRHUAm6zk2"
+  },
+  "name": "Abhebungen am Geldautomaten",
+  "longDescription": {
+    "json": {
+      "nodeType": "document",
+      "data": {},
+      "content": [
+        {
+          "nodeType": "paragraph",
+          "content": [
+            {
+              "nodeType": "text",
+              "value": "Kostenlose Abhebungen an Geldautomaten in der EU und Nordamerika bis zu 2.000 €/Monat",
+              "marks": [],
+              "data": {}
+            }
+          ],
+          "data": {}
+        }
+      ]
+    },
+    "links": {
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      },
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      }
+    }
+  },
+  "shortDescription": {
+    "json": {
+      "nodeType": "document",
+      "data": {},
+      "content": [
+        {
+          "nodeType": "paragraph",
+          "content": [
+            {
+              "nodeType": "text",
+              "value": "Kostenlose Abhebungen an Geldautomaten in der EU und Nordamerika bis zu 2.000 €/Monat",
+              "marks": [],
+              "data": {}
+            }
+          ],
+          "data": {}
+        }
+      ]
+    },
+    "links": {
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      },
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      }
+    }
+  }
+}

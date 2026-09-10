@@ -1,0 +1,36 @@
+{
+  "__typename": "Page",
+  "sys": {
+    "id": "3q6u8UxXUa4nU6fQ935ysg"
+  },
+  "pageName": "Über das Unternehmen",
+  "slug": "abertura-de-empresas",
+  "seo": null,
+  "topSection": [],
+  "pageContent": {
+    "__typename": "TopicBusinessInfo",
+    "sys": {
+      "id": "6x2sNyYiEOnQdla47QVEUg"
+    }
+  },
+  "extraSection": [
+    {
+      "__typename": "ContactSection",
+      "sys": {
+        "id": "SDbMOAHowuvbuAp18vrDy"
+      }
+    },
+    {
+      "__typename": "Testimonials",
+      "sys": {
+        "id": "1nRQoCtjPkX7amearb4IiG"
+      }
+    },
+    {
+      "__typename": "LocationsGroup",
+      "sys": {
+        "id": "6MFt4PHwoTKMfFvyAqX0Ir"
+      }
+    }
+  ]
+}

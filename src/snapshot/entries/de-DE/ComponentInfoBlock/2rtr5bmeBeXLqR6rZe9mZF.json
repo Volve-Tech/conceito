@@ -1,0 +1,180 @@
+{
+  "__typename": "ComponentInfoBlock",
+  "sys": {
+    "id": "2rtr5bmeBeXLqR6rZe9mZF"
+  },
+  "headline": "In allen unseren Plänen enthalten",
+  "subline": null,
+  "colorPalette": null,
+  "block1Image": {
+    "__typename": "Asset",
+    "sys": {
+      "id": "2YmAPpb1FhPh77wWxasGY0"
+    },
+    "contentType": "image/svg+xml",
+    "width": 377,
+    "height": 368,
+    "url": "/assets/2YmAPpb1FhPh77wWxasGY0-Biometric-login-1-.svg",
+    "fileName": "Biometric-login (1).svg",
+    "title": "Biometric-login (1)",
+    "description": null,
+    "localPath": "/assets/2YmAPpb1FhPh77wWxasGY0-Biometric-login-1-.svg"
+  },
+  "block2Image": {
+    "__typename": "Asset",
+    "sys": {
+      "id": "5WMBnHUD2eeSRuBrBRjiTz"
+    },
+    "contentType": "image/svg+xml",
+    "width": 377,
+    "height": 368,
+    "url": "/assets/5WMBnHUD2eeSRuBrBRjiTz-Deposit-Protection-1-.svg",
+    "fileName": "Deposit-Protection (1).svg",
+    "title": "Deposit-Protection (1)",
+    "description": null,
+    "localPath": "/assets/5WMBnHUD2eeSRuBrBRjiTz-Deposit-Protection-1-.svg"
+  },
+  "block3Image": {
+    "__typename": "Asset",
+    "sys": {
+      "id": "10jmqCiNU047SMTkUhvwYi"
+    },
+    "contentType": "image/svg+xml",
+    "width": 377,
+    "height": 368,
+    "url": "/assets/10jmqCiNU047SMTkUhvwYi-247-help-line.svg",
+    "fileName": "247-help-line.svg",
+    "title": "247-help-line",
+    "description": null,
+    "localPath": "/assets/10jmqCiNU047SMTkUhvwYi-247-help-line.svg"
+  },
+  "block1Body": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Sicheres Login",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "heading-3"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Die Verwendung nur eines Geräts, die biometrische Anmeldung und die optionale Zwei-Faktor-Authentifizierung (2FA) verhindern unbefugten Zugriff.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      },
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      }
+    }
+  },
+  "block2Body": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Mobile Brieftasche",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "heading-3"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Berühren Sie mit unseren ApplePay- und GooglePay-kompatiblen digitalen Karten nie wieder Ihre Brieftasche.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      },
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      }
+    }
+  },
+  "block3Body": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "24/7-Unterstützung",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "heading-3"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Zugriff auf In-App-Support zu jeder Tageszeit. Wählen Sie unter fünf unterstützten Sprachen.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      },
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      }
+    }
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "__typename": "ComponentInfoBlock",
+  "sys": {
+    "id": "3JqLncpMbnZYrCPebujXhK"
+  },
+  "headline": null,
+  "subline": null,
+  "colorPalette": null,
+  "block1Image": {
+    "__typename": "Asset",
+    "sys": {
+      "id": "7IhsDLG4vu2tVJTvWRo3SJ"
+    },
+    "contentType": "image/svg+xml",
+    "width": 377,
+    "height": 368,
+    "url": "/assets/7IhsDLG4vu2tVJTvWRo3SJ-dashboard.svg",
+    "fileName": "dashboard.svg",
+    "title": "dashboard",
+    "description": null,
+    "localPath": "/assets/7IhsDLG4vu2tVJTvWRo3SJ-dashboard.svg"
+  },
+  "block2Image": {
+    "__typename": "Asset",
+    "sys": {
+      "id": "1YMPPHSXoWeGFfukysBiLM"
+    },
+    "contentType": "image/svg+xml",
+    "width": 377,
+    "height": 368,
+    "url": "/assets/1YMPPHSXoWeGFfukysBiLM-chart.svg",
+    "fileName": "chart.svg",
+    "title": "chart",
+    "description": null,
+    "localPath": "/assets/1YMPPHSXoWeGFfukysBiLM-chart.svg"
+  },
+  "block3Image": {
+    "__typename": "Asset",
+    "sys": {
+      "id": "5WMBnHUD2eeSRuBrBRjiTz"
+    },
+    "contentType": "image/svg+xml",
+    "width": 377,
+    "height": 368,
+    "url": "/assets/5WMBnHUD2eeSRuBrBRjiTz-Deposit-Protection-1-.svg",
+    "fileName": "Deposit-Protection (1).svg",
+    "title": "Deposit-Protection (1)",
+    "description": null,
+    "localPath": "/assets/5WMBnHUD2eeSRuBrBRjiTz-Deposit-Protection-1-.svg"
+  },
+  "block1Body": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Echtzeit-Saldo",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "heading-3"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Sehen Sie den aktuellen Kontostand und erhalten Sie Echtzeit-Benachrichtigungen über Ihre Kartenaktivität.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      },
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      }
+    }
+  },
+  "block2Body": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Integrierte Budgetierung",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "heading-3"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Mit einem preisgekrönten Budgetierungsassistenten können Sie Ihre Ausgaben einfach kategorisieren und Einsparziele erreichen.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      },
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      }
+    }
+  },
+  "block3Body": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Volle Kontrolle",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "heading-3"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Ändern Sie Ihre PIN, sperren Sie die Karte, legen Sie tägliche Ausgaben- und Abhebungslimits fest - alles innerhalb Ihrer mobilen App.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      },
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      }
+    }
+  }
+}

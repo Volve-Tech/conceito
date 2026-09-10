@@ -1,0 +1,46 @@
+{
+  "__typename": "ServiceItem",
+  "sys": {
+    "id": "45YkFp6qZyZr10sUvK95U6"
+  },
+  "name": "Recuperações Tributárias e Administrativas",
+  "targetPage": {
+    "__typename": "Page",
+    "sys": {
+      "id": "3jltZt9bMoeolX8Wf3SgII"
+    },
+    "slug": "recuperacoes-tributarias-e-administrativas",
+    "pageName": "Recuperações Tributárias e Administrativas"
+  },
+  "description": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Recuperações tributárias e administrativas personalizadas, garantindo economia e resultados sólidos. ",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      },
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      }
+    }
+  }
+}

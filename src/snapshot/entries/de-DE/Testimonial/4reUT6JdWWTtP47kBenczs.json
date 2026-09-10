@@ -1,0 +1,80 @@
+{
+  "__typename": "Testimonial",
+  "sys": {
+    "id": "4reUT6JdWWTtP47kBenczs"
+  },
+  "video": null,
+  "company": "Grupo Santa Catarina",
+  "position": "Proprietário",
+  "fullname": "Neimar Colpani",
+  "youtube": "https://www.youtube.com/watch?v=T2rTGxHYnq8",
+  "brand": {
+    "__typename": "Asset",
+    "sys": {
+      "id": "1doNaz9KfunjIsINHSOaFv"
+    },
+    "contentType": "image/png",
+    "width": 469,
+    "height": 184,
+    "url": "/assets/1doNaz9KfunjIsINHSOaFv-Grupo-Santa-Catarina.png",
+    "fileName": "Grupo Santa Catarina.png",
+    "title": "Grupo Santa Catarina",
+    "description": "",
+    "localPath": "/assets/1doNaz9KfunjIsINHSOaFv-Grupo-Santa-Catarina.png"
+  },
+  "body": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Nossa empresa tem 21 anos, e, com o tempo, sentimos a necessidade de contar com uma contabilidade mais estratégica e um atendimento próximo e eficiente. Para nós, que atuamos na indústria, isso é fundamental.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "O setor tributário está em constante mudança, e acompanhar todas as atualizações é um desafio para qualquer empresário. Ter ao nosso lado uma contabilidade séria, que fornece respostas rápidas e objetivas, faz toda a diferença. No mundo dos negócios, tempo é um fator determinante, e qualquer demora pode significar a perda de oportunidades valiosas.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "As questões tributárias impactam diretamente a precificação e os custos dos nossos produtos. Por isso, contar com a expertise da Conceito foi uma decisão estratégica. A qualidade do atendimento foi o que nos fez migrar para a Conceito, e hoje temos a segurança de trabalhar com uma equipe preparada e comprometida com o nosso crescimento.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      },
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      }
+    }
+  }
+}

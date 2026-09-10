@@ -1,0 +1,143 @@
+---
+import { getEntry } from '../../lib/content';
+import Location from './Location.astro';
+
+interface Props {
+  entry: any;
+  locale: string;
+}
+
+const { entry, locale } = Astro.props;
+const items = (entry.locationsCollection?.items || [])
+  .filter(Boolean)
+  .map((item: any) => getEntry<any>(locale, item.__typename, item.sys.id))
+  .filter(Boolean);
+const firstPhone = items[0]?.phone || '';
+const digits = firstPhone.replace(/\D/g, '');
+const formatted = digits.startsWith('55') ? digits : `55${digits}`;
+const whatsapp = firstPhone ? `https://wa.me/${formatted}` : '#';
+const area = firstPhone.substring(0, 2);
+const rest = firstPhone.substring(2);
+---
+
+<section class="locations">
+  <div class="inner">
+    <div class="grid">
+      {items.map((item: any) => (
+        <Location entry={item} locale={locale} />
+      ))}
+    </div>
+  </div>
+  <div class="cta">
+    <p class="need">Precisou conta<br />com a gente</p>
+    <a class="phone" href={whatsapp} target="_blank" rel="noopener noreferrer">
+      <span class="icons">
+        <img src="/assets/brand/whats.svg" alt="" width="32" height="32" />
+        <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true"><path fill="#fff" d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.5.6 3.6.1.4 0 .7-.2 1l-2.3 2.2z"/></svg>
+      </span>
+      <span class="area">{area}</span>
+      {rest}
+    </a>
+  </div>
+</section>
+
+<style>
+  .locations {
+    width: 100%;
+    position: relative;
+  }
+
+  .locations::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 158px;
+    background: linear-gradient(to right, white 50%, #001bdb 50%);
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+  }
+
+  .inner {
+    margin: 0 auto;
+    max-width: 126rem;
+    padding: 4rem 2.5rem;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 2rem;
+  }
+
+  .cta {
+    background: #001bdb;
+    padding: 4rem 2.5rem 4rem 4rem;
+    border-radius: 16px 0 0 0;
+    margin: 4rem auto 0;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    max-width: 126rem;
+  }
+
+  .need {
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 600;
+    min-width: 12rem;
+  }
+
+  .phone {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .area {
+    margin-right: 0.5rem;
+    margin-top: 1.5rem;
+    font-size: 3.5rem;
+    font-weight: 300;
+  }
+
+  .icons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-right: 1rem;
+    padding-top: 1rem;
+  }
+
+  @media (max-width: 899px) {
+    .inner {
+      background: #001bdb;
+      color: #fff;
+    }
+
+    .grid {
+      grid-template-columns: 1fr;
+    }
+
+    .cta {
+      margin-top: -4rem;
+      border-radius: 0;
+      padding-left: 3rem;
+    }
+
+    .locations::after {
+      background: #001bdb;
+      height: 296px;
+    }
+  }
+
+  @media (max-width: 599px) {
+    .need {
+      display: none;
+    }
+  }
+</style>

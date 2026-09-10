@@ -1,0 +1,68 @@
+{
+  "__typename": "TopicBusinessInfo",
+  "sys": {
+    "id": "ohspi5gYQSqQdFADFTg6F"
+  },
+  "media": null,
+  "name": "Sobre nós",
+  "isDark": true,
+  "shortDescription": "Vamos além dos números, impulsionamos o sucesso do seu negócio!",
+  "youtube": "https://www.youtube.com/watch?v=j2nj5vMDduM&list=PLk5qvOMfDB9T3tKYIgVrLW-FxckeVz9dn&index=1 ",
+  "featuredImage": {
+    "__typename": "Asset",
+    "sys": {
+      "id": "46VWjsk4I1yEFOEh1ynqSP"
+    },
+    "contentType": "image/png",
+    "width": 1440,
+    "height": 558,
+    "url": "/assets/46VWjsk4I1yEFOEh1ynqSP-bg-conceito.png",
+    "fileName": "bg-conceito.png",
+    "title": "bg-conceito",
+    "description": "",
+    "localPath": "/assets/46VWjsk4I1yEFOEh1ynqSP-bg-conceito.png"
+  },
+  "body": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Na Conceito Contabilidade, nosso comprometimento com o sucesso do seu negócio vai além do tradicional. Nossa equipe de especialistas está pronta para orientar você em relação aos melhores procedimentos financeiros e comerciais para o seu dia a dia, garantindo informações adequadas e prontas para suas necessidades. ",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Nosso atendimento é pautado pela agilidade, oferecendo acompanhamento constante para que você tenha sempre o melhor suporte em todas as etapas do processo contábil. Na Conceito, você conta com uma contabilidade personalizada, que entende as particularidades do seu negócio e está comprometida em fazer sua empresa crescer.\n",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      },
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      }
+    }
+  }
+}

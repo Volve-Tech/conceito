@@ -1,0 +1,69 @@
+{
+  "__typename": "TopicProductFeature",
+  "sys": {
+    "id": "SqM1CTv2IkrucOJhtQjQU"
+  },
+  "name": "Telefonische Unterstützung",
+  "longDescription": {
+    "json": {
+      "nodeType": "document",
+      "data": {},
+      "content": [
+        {
+          "nodeType": "paragraph",
+          "content": [
+            {
+              "nodeType": "text",
+              "value": "24/7 telefonische Unterstützung bei Zahlungen, Versicherungsansprüchen und Reisebuchungen.",
+              "marks": [],
+              "data": {}
+            }
+          ],
+          "data": {}
+        }
+      ]
+    },
+    "links": {
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      },
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      }
+    }
+  },
+  "shortDescription": {
+    "json": {
+      "nodeType": "document",
+      "data": {},
+      "content": [
+        {
+          "nodeType": "paragraph",
+          "content": [
+            {
+              "nodeType": "text",
+              "value": "24/7 telefonische Unterstützung bei Zahlungen, Versicherungsansprüchen und Reisebuchungen.",
+              "marks": [],
+              "data": {}
+            }
+          ],
+          "data": {}
+        }
+      ]
+    },
+    "links": {
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      },
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      }
+    }
+  }
+}

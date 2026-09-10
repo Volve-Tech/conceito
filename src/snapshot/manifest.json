@@ -1,0 +1,272 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-23T01:31:45.348Z",
+  "locales": [
+    "en-US",
+    "de-DE"
+  ],
+  "pages": [
+    {
+      "locale": "en-US",
+      "slug": "trabalhe-conosco",
+      "path": "/trabalhe-conosco"
+    },
+    {
+      "locale": "en-US",
+      "slug": "regularizacao-de-obras-civis",
+      "path": "/regularizacao-de-obras-civis"
+    },
+    {
+      "locale": "en-US",
+      "slug": "recuperacoes-tributarias-e-administrativas",
+      "path": "/recuperacoes-tributarias-e-administrativas"
+    },
+    {
+      "locale": "en-US",
+      "slug": "planejamento-tributario",
+      "path": "/planejamento-tributario"
+    },
+    {
+      "locale": "en-US",
+      "slug": "planejamento-sucessorio",
+      "path": "/planejamento-sucessorio"
+    },
+    {
+      "locale": "en-US",
+      "slug": "planejamento-previdenciario",
+      "path": "/planejamento-previdenciario"
+    },
+    {
+      "locale": "en-US",
+      "slug": "gestao-financeira-de-entidades-e-condominios",
+      "path": "/gestao-financeira-de-entidades-e-condominios"
+    },
+    {
+      "locale": "en-US",
+      "slug": "holding-familiar",
+      "path": "/holding-familiar"
+    },
+    {
+      "locale": "en-US",
+      "slug": "gestao-e-revisao-do-fap-rat",
+      "path": "/gestao-e-revisao-do-fap-rat"
+    },
+    {
+      "locale": "en-US",
+      "slug": "blindagem-patrimonial",
+      "path": "/blindagem-patrimonial"
+    },
+    {
+      "locale": "en-US",
+      "slug": "departamento-pessoal",
+      "path": "/departamento-pessoal"
+    },
+    {
+      "locale": "en-US",
+      "slug": "fale-com-a-gente",
+      "path": "/fale-com-a-gente"
+    },
+    {
+      "locale": "en-US",
+      "slug": "livro-caixa-para-atividade-rural-e-profissionais-liberais",
+      "path": "/livro-caixa-para-atividade-rural-e-profissionais-liberais"
+    },
+    {
+      "locale": "en-US",
+      "slug": "imposto-de-renda-pessoa-fisica",
+      "path": "/imposto-de-renda-pessoa-fisica"
+    },
+    {
+      "locale": "en-US",
+      "slug": "contabilidade",
+      "path": "/contabilidade"
+    },
+    {
+      "locale": "en-US",
+      "slug": "apuracao-fiscal",
+      "path": "/apuracao-fiscal"
+    },
+    {
+      "locale": "en-US",
+      "slug": "abertura-de-empresas",
+      "path": "/abertura-de-empresas"
+    },
+    {
+      "locale": "en-US",
+      "slug": "servicos",
+      "path": "/servicos"
+    },
+    {
+      "locale": "en-US",
+      "slug": "sobre-nos",
+      "path": "/sobre-nos"
+    },
+    {
+      "locale": "en-US",
+      "slug": "home",
+      "path": "/"
+    },
+    {
+      "locale": "en-US",
+      "slug": "accessibility",
+      "path": "/accessibility"
+    },
+    {
+      "locale": "en-US",
+      "slug": "classic-card",
+      "path": "/classic-card"
+    },
+    {
+      "locale": "en-US",
+      "slug": "black-card",
+      "path": "/black-card"
+    },
+    {
+      "locale": "en-US",
+      "slug": "pricing",
+      "path": "/pricing"
+    },
+    {
+      "locale": "en-US",
+      "slug": "corporate-card",
+      "path": "/corporate-card"
+    },
+    {
+      "locale": "de-DE",
+      "slug": "trabalhe-conosco",
+      "path": "/de-DE/trabalhe-conosco"
+    },
+    {
+      "locale": "de-DE",
+      "slug": "regularizacao-de-obras-civis",
+      "path": "/de-DE/regularizacao-de-obras-civis"
+    },
+    {
+      "locale": "de-DE",
+      "slug": "recuperacoes-tributarias-e-administrativas",
+      "path": "/de-DE/recuperacoes-tributarias-e-administrativas"
+    },
+    {
+      "locale": "de-DE",
+      "slug": "planejamento-tributario",
+      "path": "/de-DE/planejamento-tributario"
+    },
+    {
+      "locale": "de-DE",
+      "slug": "planejamento-sucessorio",
+      "path": "/de-DE/planejamento-sucessorio"
+    },
+    {
+      "locale": "de-DE",
+      "slug": "planejamento-previdenciario",
+      "path": "/de-DE/planejamento-previdenciario"
+    },
+    {
+      "locale": "de-DE",
+      "slug": "gestao-financeira-de-entidades-e-condominios",
+      "path": "/de-DE/gestao-financeira-de-entidades-e-condominios"
+    },
+    {
+      "locale": "de-DE",
+      "slug": "holding-familiar",
+      "path": "/de-DE/holding-familiar"
+    },
+    {
+      "locale": "de-DE",
+      "slug": "gestao-e-revisao-do-fap-rat",
+      "path": "/de-DE/gestao-e-revisao-do-fap-rat"
+    },
+    {
+      "locale": "de-DE",
+      "slug": "blindagem-patrimonial",
+      "path": "/de-DE/blindagem-patrimonial"
+    },
+    {
+      "locale": "de-DE",
+      "slug": "departamento-pessoal",
+      "path": "/de-DE/departamento-pessoal"
+    },
+    {
+      "locale": "de-DE",
+      "slug": "fale-com-a-gente",
+      "path": "/de-DE/fale-com-a-gente"
+    },
+    {
+      "locale": "de-DE",
+      "slug": "livro-caixa-para-atividade-rural-e-profissionais-liberais",
+      "path": "/de-DE/livro-caixa-para-atividade-rural-e-profissionais-liberais"
+    },
+    {
+      "locale": "de-DE",
+      "slug": "imposto-de-renda-pessoa-fisica",
+      "path": "/de-DE/imposto-de-renda-pessoa-fisica"
+    },
+    {
+      "locale": "de-DE",
+      "slug": "contabilidade",
+      "path": "/de-DE/contabilidade"
+    },
+    {
+      "locale": "de-DE",
+      "slug": "apuracao-fiscal",
+      "path": "/de-DE/apuracao-fiscal"
+    },
+    {
+      "locale": "de-DE",
+      "slug": "abertura-de-empresas",
+      "path": "/de-DE/abertura-de-empresas"
+    },
+    {
+      "locale": "de-DE",
+      "slug": "servicos",
+      "path": "/de-DE/servicos"
+    },
+    {
+      "locale": "de-DE",
+      "slug": "sobre-nos",
+      "path": "/de-DE/sobre-nos"
+    },
+    {
+      "locale": "de-DE",
+      "slug": "home",
+      "path": "/de-DE"
+    },
+    {
+      "locale": "de-DE",
+      "slug": "accessibility",
+      "path": "/de-DE/accessibility"
+    },
+    {
+      "locale": "de-DE",
+      "slug": "classic-card",
+      "path": "/de-DE/classic-card"
+    },
+    {
+      "locale": "de-DE",
+      "slug": "black-card",
+      "path": "/de-DE/black-card"
+    },
+    {
+      "locale": "de-DE",
+      "slug": "pricing",
+      "path": "/de-DE/pricing"
+    },
+    {
+      "locale": "de-DE",
+      "slug": "corporate-card",
+      "path": "/de-DE/corporate-card"
+    }
+  ],
+  "entryCount": 188,
+  "assetCount": 25,
+  "externalUrls": [
+    "https://br.linkedin.com/company/conceito-contabilidade",
+    "https://conceitocontabilidade.app.questorpublico.com.br/entrar",
+    "https://www.facebook.com/conceitocontabilidade.cnt",
+    "https://www.instagram.com/conceitocontabilidade_/",
+    "https://www.tiktok.com/@conceitocontabilidade",
+    "https://www.youtube.com/@conceito.contabilidade",
+    "https://yt3.googleusercontent.com/EzrNgCBc6zStXDNHqvnp5a6LMrtyZWi6BS2sEJiu9lSnSV4PrnZZWModt9LH7JlbF43o-hilfg=s900-c-k-c0x00ffffff-no-rj"
+  ],
+  "warnings": []
+}

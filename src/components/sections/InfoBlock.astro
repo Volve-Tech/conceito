@@ -1,0 +1,107 @@
+---
+import { getColorConfigFromPalette, defaultLayout } from '../../lib/theme';
+import Asset from '../shared/Asset.astro';
+import RichText from '../shared/RichText.astro';
+import SectionHeadlines from '../shared/SectionHeadlines.astro';
+
+interface Props {
+  entry: any;
+  locale: string;
+  previousComponent?: string | null;
+}
+
+const { entry, locale, previousComponent } = Astro.props;
+const color = getColorConfigFromPalette(entry.colorPalette);
+const tight = previousComponent === 'ComponentInfoBlock' && !entry.headline && !entry.subline;
+const blocks = [
+  { image: entry.block1Image, body: entry.block1Body },
+  { image: entry.block2Image, body: entry.block2Body },
+  { image: entry.block3Image, body: entry.block3Body },
+].filter((block) => block.body);
+const layout = { ...defaultLayout, parent: 'info-block' };
+---
+
+<section class="info" style={`background-color:${color.backgroundColor}`}>
+  <div class:list={['inner', tight && 'is-tight']}>
+    <SectionHeadlines
+      headline={entry.headline}
+      subline={entry.subline}
+      headlineColor={color.headlineColor}
+      textColor={color.textColor}
+      class="heads"
+    />
+    <div class="grid">
+      {blocks.map((block) => (
+        <div class="block">
+          {block.image && (
+            <div class="icon">
+              <Asset {...block.image} showDescription={false} layout={layout} />
+            </div>
+          )}
+          <div class="text" style={`color:${color.textColor}`}>
+            <RichText field={block.body} locale={locale} layout={layout} />
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  .info {
+    width: 100%;
+  }
+
+  .inner {
+    margin: 0 auto;
+    max-width: 126rem;
+    padding: 9.5rem 0;
+  }
+
+  .is-tight {
+    margin-top: -9.5rem;
+    padding-top: 0;
+  }
+
+  .heads {
+    margin-bottom: 6rem;
+  }
+
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: -5rem 0 0 -5rem;
+  }
+
+  .block {
+    margin: 5rem 0 0 5rem;
+    max-width: 39rem;
+    width: 100%;
+  }
+
+  .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 11.3rem;
+    width: 11.3rem;
+  }
+
+  :global(.text h3) {
+    font-size: 1.8rem;
+    margin: 3rem 0 2rem;
+  }
+
+  :global(.text p) {
+    color: #6f6f6f;
+    font-size: 1.8rem;
+    line-height: 1.52;
+  }
+
+  @media (min-width: 900px) {
+    .block {
+      width: calc((100% - 15rem) / 3);
+    }
+  }
+</style>

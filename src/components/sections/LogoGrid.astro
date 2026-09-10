@@ -1,0 +1,62 @@
+---
+import { clientLogos } from '../../data/client-logos';
+import { imageAlt } from '../../lib/sanitize';
+
+/**
+ * Individual client marks for the home “Quem confia em nós” section.
+ */
+---
+
+<ul class="logo-grid">
+  {clientLogos.map((logo) => (
+    <li class="item">
+      <img
+        src={logo.src}
+        alt={imageAlt(logo.alt)}
+        width={logo.width}
+        height={logo.height}
+      />
+    </li>
+  ))}
+</ul>
+
+<style>
+  .logo-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    column-gap: 2.5rem;
+    row-gap: 3.5rem;
+  }
+
+  .item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 calc((100% - 2.5rem) / 2);
+    min-width: 0;
+  }
+
+  .item img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 6rem;
+    object-fit: contain;
+  }
+
+  @media (min-width: 900px) {
+    .item {
+      flex: 0 0 calc((100% - 7.5rem) / 4);
+    }
+
+    .item img {
+      max-height: 7.2rem;
+    }
+  }
+</style>

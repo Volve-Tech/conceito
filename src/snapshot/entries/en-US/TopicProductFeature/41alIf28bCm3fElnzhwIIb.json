@@ -1,0 +1,69 @@
+{
+  "__typename": "TopicProductFeature",
+  "sys": {
+    "id": "41alIf28bCm3fElnzhwIIb"
+  },
+  "name": "Instant transfers",
+  "longDescription": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Instantly send, receive or request money from anyone using the Coin app. No need to request account numbers, you can wire money with an email or phone number of the recipient.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      },
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      }
+    }
+  },
+  "shortDescription": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Free, instant money transfers within the Coin network",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      },
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      }
+    }
+  }
+}

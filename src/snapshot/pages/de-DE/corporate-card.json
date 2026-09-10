@@ -1,0 +1,30 @@
+{
+  "__typename": "Page",
+  "sys": {
+    "id": "jYxVlZPpqdeZs93jmpAlF"
+  },
+  "pageName": "Corporate Card: Bankdienstleistungen für moderne Unternehmen",
+  "slug": "corporate-card",
+  "seo": null,
+  "topSection": [],
+  "pageContent": {
+    "__typename": "TopicProduct",
+    "sys": {
+      "id": "2Jv15oYNaOUzyyJEp5P5z4"
+    }
+  },
+  "extraSection": [
+    {
+      "__typename": "ComponentInfoBlock",
+      "sys": {
+        "id": "7bAX9PLozjr4DWQTgxpvuv"
+      }
+    },
+    {
+      "__typename": "ComponentInfoBlock",
+      "sys": {
+        "id": "1TDY4os1IjIPbyAXnjJLk3"
+      }
+    }
+  ]
+}

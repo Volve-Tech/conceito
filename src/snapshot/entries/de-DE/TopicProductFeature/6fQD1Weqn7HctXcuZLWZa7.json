@@ -1,0 +1,69 @@
+{
+  "__typename": "TopicProductFeature",
+  "sys": {
+    "id": "6fQD1Weqn7HctXcuZLWZa7"
+  },
+  "name": "Kostenloses Konto",
+  "longDescription": {
+    "json": {
+      "nodeType": "document",
+      "data": {},
+      "content": [
+        {
+          "nodeType": "paragraph",
+          "content": [
+            {
+              "nodeType": "text",
+              "value": "Zu jedem Münzkonto gehört ein kostenloses Sparkonto und die EU-unterstützte Einlagensicherungsgarantie für die Gelder bis zu 100.000 €.",
+              "marks": [],
+              "data": {}
+            }
+          ],
+          "data": {}
+        }
+      ]
+    },
+    "links": {
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      },
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      }
+    }
+  },
+  "shortDescription": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Kostenloses IBAN-Konto mit einer Einlagensicherungsgarantie von 100.000 €",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      },
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      }
+    }
+  }
+}

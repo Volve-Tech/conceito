@@ -1,0 +1,180 @@
+{
+  "__typename": "ComponentInfoBlock",
+  "sys": {
+    "id": "7bAX9PLozjr4DWQTgxpvuv"
+  },
+  "headline": "Even more great features",
+  "subline": null,
+  "colorPalette": null,
+  "block1Image": {
+    "__typename": "Asset",
+    "sys": {
+      "id": "6RXhV9aCkOGHRtvkAAQhNL"
+    },
+    "contentType": "image/svg+xml",
+    "width": 377,
+    "height": 368,
+    "url": "/assets/6RXhV9aCkOGHRtvkAAQhNL-Tax-liability-estimates-1-.svg",
+    "fileName": "Tax liability-estimates (1).svg",
+    "title": "Tax liability-estimates (1)",
+    "description": null,
+    "localPath": "/assets/6RXhV9aCkOGHRtvkAAQhNL-Tax-liability-estimates-1-.svg"
+  },
+  "block2Image": {
+    "__typename": "Asset",
+    "sys": {
+      "id": "7IhsDLG4vu2tVJTvWRo3SJ"
+    },
+    "contentType": "image/svg+xml",
+    "width": 377,
+    "height": 368,
+    "url": "/assets/7IhsDLG4vu2tVJTvWRo3SJ-dashboard.svg",
+    "fileName": "dashboard.svg",
+    "title": "dashboard",
+    "description": null,
+    "localPath": "/assets/7IhsDLG4vu2tVJTvWRo3SJ-dashboard.svg"
+  },
+  "block3Image": {
+    "__typename": "Asset",
+    "sys": {
+      "id": "2U8G6vBUgwugmUq0o7ieyR"
+    },
+    "contentType": "image/svg+xml",
+    "width": 377,
+    "height": 368,
+    "url": "/assets/2U8G6vBUgwugmUq0o7ieyR-shopping-cart.svg",
+    "fileName": "shopping-cart.svg",
+    "title": "shopping-cart",
+    "description": null,
+    "localPath": "/assets/2U8G6vBUgwugmUq0o7ieyR-shopping-cart.svg"
+  },
+  "block1Body": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Exchange Rates",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "heading-3"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Spend across borders with peace of mind thanks to the best exchange rate in 100+ currencies (we use the interbank exchange rate).",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      },
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      }
+    }
+  },
+  "block2Body": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Instant Transactions",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "heading-3"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Instantly send and request money from your friends and acquaintances within the Coin network. ",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      },
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      }
+    }
+  },
+  "block3Body": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Cashback and rewards",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "heading-3"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Get instant discounts from well-known brands and up to 3% cashback on your regular shopping.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      },
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      }
+    }
+  }
+}

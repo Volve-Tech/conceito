@@ -1,0 +1,46 @@
+{
+  "__typename": "ServiceItem",
+  "sys": {
+    "id": "6mo03UeKMFh8bH1eZunrKE"
+  },
+  "name": "Planejamento Sucessório",
+  "targetPage": {
+    "__typename": "Page",
+    "sys": {
+      "id": "10SzI3UjPHUGYOwzLQA0HU"
+    },
+    "slug": "planejamento-sucessorio",
+    "pageName": "Planejamento Sucessório"
+  },
+  "description": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Preserve seu legado e garanta a segurança financeira da sua família com planejamento eficiente.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      },
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      }
+    }
+  }
+}

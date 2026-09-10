@@ -1,0 +1,56 @@
+{
+  "__typename": "TopicBusinessInfo",
+  "sys": {
+    "id": "3FA4TbHovUiD1fziPPoF2"
+  },
+  "media": null,
+  "name": "Livro caixa para atividade rural  e profissionais liberais",
+  "isDark": true,
+  "shortDescription": "Sempre em busca das melhores soluções para nossos clientes.",
+  "youtube": "https://www.youtube.com/watch?v=a8F8GBFWlDc&list=PLk5qvOMfDB9RnzyQ2WRpwVGaOHQUnpQSf&index=8 ",
+  "featuredImage": {
+    "__typename": "Asset",
+    "sys": {
+      "id": "46VWjsk4I1yEFOEh1ynqSP"
+    },
+    "contentType": "image/png",
+    "width": 1440,
+    "height": 558,
+    "url": "/assets/46VWjsk4I1yEFOEh1ynqSP-bg-conceito.png",
+    "fileName": "bg-conceito.png",
+    "title": "bg-conceito",
+    "description": "",
+    "localPath": "/assets/46VWjsk4I1yEFOEh1ynqSP-bg-conceito.png"
+  },
+  "body": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Na Conceito, sabemos que cada oportunidade de ganho é importante para os produtores rurais e profissionais liberais. É por isso que utilizamos todas as ferramentas de economia disponíveis, incluindo o livro caixa, para ajudar nossos clientes a economizarem e reinvestirem em seus negócios.\n\nPensar diferente é uma das nossas especialidades, por isso, estamos comprometidos em oferecer um serviço completo e de qualidade nessa área, utilizando. \n\nCom esse serviço, vamos te ajudar a melhorar as finanças, economizar impostos e aumentar a lucratividade.\n",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      },
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      }
+    }
+  }
+}

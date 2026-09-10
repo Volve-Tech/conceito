@@ -1,0 +1,69 @@
+{
+  "__typename": "TopicProductFeature",
+  "sys": {
+    "id": "1NoAzQOubK9yoTk4chu1yd"
+  },
+  "name": "Kartendesign",
+  "longDescription": {
+    "json": {
+      "nodeType": "document",
+      "data": {},
+      "content": [
+        {
+          "nodeType": "paragraph",
+          "content": [
+            {
+              "nodeType": "text",
+              "value": "Kontaktlose Kreditkarte in Premium, schwarze Ausführung",
+              "marks": [],
+              "data": {}
+            }
+          ],
+          "data": {}
+        }
+      ]
+    },
+    "links": {
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      },
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      }
+    }
+  },
+  "shortDescription": {
+    "json": {
+      "nodeType": "document",
+      "data": {},
+      "content": [
+        {
+          "nodeType": "paragraph",
+          "content": [
+            {
+              "nodeType": "text",
+              "value": "Kontaktlose Kreditkarte in Premium, schwarze Ausführung",
+              "marks": [],
+              "data": {}
+            }
+          ],
+          "data": {}
+        }
+      ]
+    },
+    "links": {
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      },
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      }
+    }
+  }
+}

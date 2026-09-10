@@ -1,0 +1,36 @@
+---
+import { defaultLayout } from '../../lib/theme';
+import { renderRichTextSegments } from '../../lib/rich-text';
+import type { LayoutProps, RichTextField } from '../../lib/types';
+import Asset from './Asset.astro';
+import ComponentResolver from '../sections/ComponentResolver.astro';
+
+interface Props {
+  field?: RichTextField | null;
+  locale: string;
+  layout?: LayoutProps;
+  class?: string;
+}
+
+const { field, locale, layout = defaultLayout, class: className = '' } = Astro.props;
+const segments = renderRichTextSegments(field, { locale, layout, className });
+---
+
+<div class:list={['rt-root', className]}>
+  {segments.map((segment) => {
+    if (segment.type === 'html') {
+      return <Fragment set:html={segment.html} />;
+    }
+    if (segment.type === 'asset') {
+      return <Asset {...segment.asset} layout={layout} />;
+    }
+    return (
+      <ComponentResolver
+        typename={segment.entry.__typename}
+        id={segment.entry.sys.id}
+        locale={locale}
+        layout={layout}
+      />
+    );
+  })}
+</div>

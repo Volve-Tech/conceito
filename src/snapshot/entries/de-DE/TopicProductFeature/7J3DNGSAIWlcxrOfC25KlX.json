@@ -1,0 +1,129 @@
+{
+  "__typename": "TopicProductFeature",
+  "sys": {
+    "id": "7J3DNGSAIWlcxrOfC25KlX"
+  },
+  "name": "Reiseversicherung",
+  "longDescription": {
+    "json": {
+      "nodeType": "document",
+      "data": {},
+      "content": [
+        {
+          "nodeType": "heading-5",
+          "content": [
+            {
+              "nodeType": "text",
+              "value": "Medizinische Notfalldeckung",
+              "marks": [],
+              "data": {}
+            }
+          ],
+          "data": {}
+        },
+        {
+          "nodeType": "paragraph",
+          "content": [
+            {
+              "nodeType": "text",
+              "value": "Wenn Sie während einer Reise, die einen medizinischen Dienst erfordert, verletzt oder krank werden, können Sie Anspruch auf medizinische Leistungen und Rücktransport haben.",
+              "marks": [],
+              "data": {}
+            }
+          ],
+          "data": {}
+        },
+        {
+          "nodeType": "heading-5",
+          "content": [
+            {
+              "nodeType": "text",
+              "value": "Erstattung für verlorenes Gepäck",
+              "marks": [],
+              "data": {}
+            }
+          ],
+          "data": {}
+        },
+        {
+          "nodeType": "paragraph",
+          "content": [
+            {
+              "nodeType": "text",
+              "value": "Verlorenes oder beschädigtes Handgepäck und aufgegebenes Gepäck sind bis zu 2.100 € pro Passagier gedeckt.",
+              "marks": [],
+              "data": {}
+            }
+          ],
+          "data": {}
+        },
+        {
+          "nodeType": "heading-5",
+          "content": [
+            {
+              "nodeType": "text",
+              "value": "Versicherung bei Gepäckverspätung",
+              "marks": [],
+              "data": {}
+            }
+          ],
+          "data": {}
+        },
+        {
+          "nodeType": "paragraph",
+          "content": [
+            {
+              "nodeType": "text",
+              "value": "Wenn das Gepäck mehr als 5 Stunden verspätet ist, werden Ihre wesentlichen Einkäufe wie Toilettenartikel und Kleidung erstattet. Der Erstattungshöchstbetrag beträgt bis zu 80 € pro Passagier und Tag für bis zu 3 Tage.",
+              "marks": [],
+              "data": {}
+            }
+          ],
+          "data": {}
+        }
+      ]
+    },
+    "links": {
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      },
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      }
+    }
+  },
+  "shortDescription": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Kranken-, Flug- und Gepäckverspätungsversicherung",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      },
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      }
+    }
+  }
+}

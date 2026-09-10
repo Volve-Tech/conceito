@@ -1,0 +1,39 @@
+{
+  "__typename": "ServiceItem",
+  "sys": {
+    "id": "5FoaEuItJj2TxtMloFx4G6"
+  },
+  "targetPage": null,
+  "name": "Gestão Financeira de Entidades e Condomínios",
+  "description": {
+    "json": {
+      "nodeType": "document",
+      "data": {},
+      "content": [
+        {
+          "nodeType": "paragraph",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "text",
+              "value": "Gestão financeira eficiente e transparente para condomínios e entidades.",
+              "marks": [],
+              "data": {}
+            }
+          ]
+        }
+      ]
+    },
+    "links": {
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      },
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      }
+    }
+  }
+}

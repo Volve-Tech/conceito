@@ -1,0 +1,31 @@
+{
+  "name": "conceito-static-migration",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=18.17"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check",
+    "snapshot": "node scripts/snapshot-contentful.mjs",
+    "check-snapshot": "node scripts/check-snapshot.mjs",
+    "check-html": "node scripts/check-html.mjs",
+    "deploy": "astro build && wrangler deploy",
+    "cf:dev": "astro build && wrangler dev"
+  },
+  "dependencies": {
+    "@contentful/rich-text-types": "^16.8.5",
+    "astro": "^5.13.2",
+    "swiper": "^11.2.10"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.4",
+    "@types/node": "^24.3.0",
+    "typescript": "^5.9.2",
+    "wrangler": "^4.127.0"
+  }
+}

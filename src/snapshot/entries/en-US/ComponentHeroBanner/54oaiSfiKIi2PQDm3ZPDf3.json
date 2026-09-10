@@ -1,0 +1,88 @@
+{
+  "__typename": "ComponentHeroBanner",
+  "sys": {
+    "id": "54oaiSfiKIi2PQDm3ZPDf3"
+  },
+  "headline": "Quem conta com a Conceito, conta com mais performance",
+  "ctaText": "Fale com a gente",
+  "imageStyle": false,
+  "heroSize": true,
+  "colorPalette": "7. Black (#000000)",
+  "targetPage": {
+    "__typename": "Page",
+    "sys": {
+      "id": "7wGhPNCZNLknpSaJVWfnHf"
+    },
+    "slug": "sobre-nos",
+    "pageName": "Sobre Nós"
+  },
+  "image": {
+    "__typename": "Asset",
+    "sys": {
+      "id": "gJArMceFvS7Jd3pjvVfdO"
+    },
+    "contentType": "image/png",
+    "width": 1440,
+    "height": 1161,
+    "url": "/assets/gJArMceFvS7Jd3pjvVfdO-banner1-compressed.png",
+    "fileName": "banner1-compressed.png",
+    "title": "Banner 1",
+    "description": "",
+    "localPath": "/assets/gJArMceFvS7Jd3pjvVfdO-banner1-compressed.png"
+  },
+  "bodyText": {
+    "json": {
+      "nodeType": "document",
+      "data": {},
+      "content": [
+        {
+          "nodeType": "paragraph",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "text",
+              "value": "+ 27 anos de atuação",
+              "marks": [],
+              "data": {}
+            }
+          ]
+        },
+        {
+          "nodeType": "paragraph",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "text",
+              "value": "+ 1000 clientes atendidos",
+              "marks": [],
+              "data": {}
+            }
+          ]
+        },
+        {
+          "nodeType": "paragraph",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "text",
+              "value": "+ 60 colaboradores",
+              "marks": [],
+              "data": {}
+            }
+          ]
+        }
+      ]
+    },
+    "links": {
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      },
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      }
+    }
+  }
+}

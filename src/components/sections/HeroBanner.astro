@@ -1,0 +1,151 @@
+---
+import { getColorConfigFromPalette, HEADER_HEIGHT, HEADER_HEIGHT_MD, defaultLayout } from '../../lib/theme';
+import PageLink from '../shared/PageLink.astro';
+import RichText from '../shared/RichText.astro';
+
+interface Props {
+  entry: any;
+  locale: string;
+}
+
+const { entry, locale } = Astro.props;
+const color = getColorConfigFromPalette(entry.colorPalette);
+const imageStyle = entry.imageStyle ? 'partial' : 'full';
+const fullScreen = entry.heroSize === null || entry.heroSize === true;
+const bg = entry.image?.url;
+const layout = { ...defaultLayout, parent: 'hero-banner-body' };
+---
+
+<section
+  class:list={['hero', fullScreen && 'is-fullscreen']}
+  style={`background-color:${color.backgroundColor};${imageStyle === 'full' && bg ? `background-image:url(${bg})` : ''}`}
+>
+  {imageStyle === 'partial' && bg && (
+    <div class="partial">
+      <div class="partial-bg" style={`background-image:url(${bg})`}></div>
+    </div>
+  )}
+  <div class="inner">
+    {entry.headline && <h1 class="headline" style={`color:${color.headlineColor}`}>{entry.headline}</h1>}
+    {entry.targetPage && entry.ctaText && (
+      <div class="cta">
+        <PageLink page={entry.targetPage} locale={locale} variant="contained" type="secondary">
+          {entry.ctaText}
+        </PageLink>
+      </div>
+    )}
+    {entry.bodyText && (
+      <div class="body" style={`color:${color.textColor}`}>
+        <RichText field={entry.bodyText} locale={locale} layout={layout} class="hero-body" />
+      </div>
+    )}
+  </div>
+</section>
+
+<style define:vars={{ headerHeight: HEADER_HEIGHT, headerHeightMd: HEADER_HEIGHT_MD }}>
+  .hero {
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+
+  .is-fullscreen {
+    min-height: calc(100vh - var(--headerHeightMd));
+  }
+
+  .inner {
+    margin: 0 auto;
+    max-width: 125.8rem;
+    padding: 16.5rem 0 16.5rem 2.5rem;
+    position: relative;
+    width: 100%;
+  }
+
+  .body {
+    margin-top: 3rem;
+    max-width: 46.9rem;
+  }
+
+  .headline {
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 1.5;
+    max-width: 44rem;
+  }
+
+  .cta {
+    margin: 12rem 0;
+  }
+
+  .partial {
+    display: none;
+    height: 100%;
+    left: 50%;
+    max-width: 192rem;
+    position: absolute;
+    top: 0;
+    transform: translateX(-50%);
+    width: 100%;
+  }
+
+  .partial-bg {
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+  }
+
+  :global(.hero-body p) {
+    font-size: 3rem;
+    background: black;
+    padding: 0.3rem 2rem;
+    color: white;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.56;
+    max-width: 46.9rem;
+  }
+
+  :global(.hero-body p::first-letter) {
+    color: #001bdb;
+    margin-right: 0.5rem;
+  }
+
+  @media (min-width: 900px) {
+    .is-fullscreen {
+      min-height: calc(100vh - var(--headerHeight));
+    }
+
+    .partial {
+      display: block;
+    }
+  }
+
+  @media (min-height: 91.2em) {
+    .is-fullscreen {
+      min-height: 91.2rem;
+    }
+
+    .inner {
+      padding: 19.5rem 0;
+    }
+  }
+
+  @media (min-width: 1536px) {
+    .headline {
+      font-size: 5rem;
+    }
+
+    :global(.hero-body p) {
+      font-size: 3.5rem;
+    }
+  }
+</style>

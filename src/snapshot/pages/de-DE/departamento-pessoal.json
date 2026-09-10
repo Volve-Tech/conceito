@@ -1,0 +1,36 @@
+{
+  "__typename": "Page",
+  "sys": {
+    "id": "2ARIpFBWopmAd27rB9PmRP"
+  },
+  "pageName": "Über das Unternehmen",
+  "slug": "departamento-pessoal",
+  "seo": null,
+  "topSection": [],
+  "pageContent": {
+    "__typename": "TopicBusinessInfo",
+    "sys": {
+      "id": "A52Dw5IOuTGT4jqqXyYwN"
+    }
+  },
+  "extraSection": [
+    {
+      "__typename": "ContactSection",
+      "sys": {
+        "id": "SDbMOAHowuvbuAp18vrDy"
+      }
+    },
+    {
+      "__typename": "Testimonials",
+      "sys": {
+        "id": "1nRQoCtjPkX7amearb4IiG"
+      }
+    },
+    {
+      "__typename": "LocationsGroup",
+      "sys": {
+        "id": "6MFt4PHwoTKMfFvyAqX0Ir"
+      }
+    }
+  ]
+}

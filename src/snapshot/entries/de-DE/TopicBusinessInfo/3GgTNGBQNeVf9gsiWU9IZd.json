@@ -1,0 +1,212 @@
+{
+  "__typename": "TopicBusinessInfo",
+  "sys": {
+    "id": "3GgTNGBQNeVf9gsiWU9IZd"
+  },
+  "media": null,
+  "name": "Gestão Financeira de Entidades e Condomínios",
+  "isDark": true,
+  "shortDescription": "Desfrute de um ambiente tranquilo e bem administrado",
+  "youtube": "https://www.youtube.com/watch?v=TajCZ4e_Ems&list=PLk5qvOMfDB9RnzyQ2WRpwVGaOHQUnpQSf&index=5",
+  "featuredImage": {
+    "__typename": "Asset",
+    "sys": {
+      "id": "46VWjsk4I1yEFOEh1ynqSP"
+    },
+    "contentType": "image/png",
+    "width": 1440,
+    "height": 558,
+    "url": "/assets/46VWjsk4I1yEFOEh1ynqSP-bg-conceito.png",
+    "fileName": "bg-conceito.png",
+    "title": "bg-conceito",
+    "description": "",
+    "localPath": "/assets/46VWjsk4I1yEFOEh1ynqSP-bg-conceito.png"
+  },
+  "body": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "A Conceito oferece serviços especializados em gestão financeira para condomínios e entidades. Nossa equipe cuida de administrar o dinheiro coletivo, direcionando-o em benefício dos moradores. Entre as atividades abrangidas por nossa gestão financeira, destacam-se:",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "Emissão dos boletos para pagamento da taxa condominial pelos moradores;",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                }
+              ],
+              "nodeType": "list-item"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "Elaboração e distribuição de demonstrativos financeiros do condomínio;",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                }
+              ],
+              "nodeType": "list-item"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "Elaboração de prestação de contas e previsão orçamentária anual;",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                }
+              ],
+              "nodeType": "list-item"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "Realização de cobranças de taxas condominiais em atraso;",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                }
+              ],
+              "nodeType": "list-item"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "Administração do fundo de reserva do condomínio;",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                }
+              ],
+              "nodeType": "list-item"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "Gerenciamento das contas a pagar;",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                }
+              ],
+              "nodeType": "list-item"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "Elaboração de relatório.",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                }
+              ],
+              "nodeType": "list-item"
+            }
+          ],
+          "nodeType": "unordered-list"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Nosso objetivo é garantir uma gestão financeira eficiente, transparente e profissional, assegurando que as finanças do condomínio sejam gerenciadas de forma responsável e organizada. ",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "\n",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      },
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "__typename": "Page",
+  "sys": {
+    "id": "6LznwSwpmSWNCMwbgmtB2L"
+  },
+  "pageName": "Black card: Die Karte mit den ultimativen Reisevergünstigungen ",
+  "slug": "black-card",
+  "seo": null,
+  "topSection": [],
+  "pageContent": {
+    "__typename": "TopicProduct",
+    "sys": {
+      "id": "5BfEkkNsrAGLLJQukwIjrJ"
+    }
+  },
+  "extraSection": [
+    {
+      "__typename": "ComponentInfoBlock",
+      "sys": {
+        "id": "7bAX9PLozjr4DWQTgxpvuv"
+      }
+    },
+    {
+      "__typename": "ComponentInfoBlock",
+      "sys": {
+        "id": "1TDY4os1IjIPbyAXnjJLk3"
+      }
+    }
+  ]
+}

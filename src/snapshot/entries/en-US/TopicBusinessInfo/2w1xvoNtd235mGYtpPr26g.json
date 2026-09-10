@@ -1,0 +1,80 @@
+{
+  "__typename": "TopicBusinessInfo",
+  "sys": {
+    "id": "2w1xvoNtd235mGYtpPr26g"
+  },
+  "media": null,
+  "name": "Regularização de Obras Civis",
+  "isDark": true,
+  "shortDescription": "Economia e competitividade é com a Conceito",
+  "youtube": "https://www.youtube.com/watch?v=RZXh8hnI5GM&list=PLk5qvOMfDB9RnzyQ2WRpwVGaOHQUnpQSf&index=13",
+  "featuredImage": {
+    "__typename": "Asset",
+    "sys": {
+      "id": "46VWjsk4I1yEFOEh1ynqSP"
+    },
+    "contentType": "image/png",
+    "width": 1440,
+    "height": 558,
+    "url": "/assets/46VWjsk4I1yEFOEh1ynqSP-bg-conceito.png",
+    "fileName": "bg-conceito.png",
+    "title": "bg-conceito",
+    "description": "",
+    "localPath": "/assets/46VWjsk4I1yEFOEh1ynqSP-bg-conceito.png"
+  },
+  "body": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Na Conceito Contabilidade, oferecemos um serviço especializado de assessoria em todas as etapas fiscais de uma obra civil, desde a abertura da matrícula até a emissão da certidão negativa. Entendemos que o emaranhado de regras e determinações a serem seguidas pode encarecer qualquer projeto de construção.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Com a nossa assessoria especializada na legislação pertinente às obras de construção civil, os clientes da Conceito podem aproveitar oportunidades que nem imaginavam, resultando em expressiva economia no custo final dos imóveis. Nossa equipe está preparada para lidar com todas as questões fiscais relacionadas à regularização de obras, garantindo que todas as etapas sejam realizadas de acordo com as normas vigentes.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "A regularização de obras civis é essencial não apenas para garantir a conformidade legal, mas também para promover a competitividade e o sucesso do empreendimento. Com a Conceito, você pode contar com uma assessoria especializada que irá identificar as melhores soluções e estratégias para otimizar os recursos financeiros e minimizar custos.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      },
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      }
+    }
+  }
+}

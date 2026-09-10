@@ -1,0 +1,80 @@
+{
+  "__typename": "Testimonial",
+  "sys": {
+    "id": "3BCxBDykQVR1y6xaHlWfVB"
+  },
+  "video": null,
+  "company": "AMB",
+  "position": "Proprietário",
+  "fullname": "Fábio Ambrósio",
+  "youtube": "https://www.youtube.com/watch?v=bI6PjJJMCTg",
+  "brand": {
+    "__typename": "Asset",
+    "sys": {
+      "id": "4sSh5mkQP3ilEbTbQBVFOZ"
+    },
+    "contentType": "image/png",
+    "width": 994,
+    "height": 194,
+    "url": "/assets/4sSh5mkQP3ilEbTbQBVFOZ-AMB-1-.png",
+    "fileName": "AMB (1).png",
+    "title": "AMB (1)",
+    "description": "",
+    "localPath": "/assets/4sSh5mkQP3ilEbTbQBVFOZ-AMB-1-.png"
+  },
+  "body": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Conheci a Conceito Contabilidade em meados de 2009, quando ainda era colaborador em outra empresa. Desde o início, percebi que se tratava de um escritório moderno, inovador e extremamente coerente. Mas o que realmente me marcou foi a proximidade que eles mantêm com os clientes.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "A Conceito não é apenas um escritório de contabilidade—é uma consultoria estratégica para o meu negócio. Sempre que pensamos em desenvolver um novo produto, serviço ou iniciativa, conseguimos, de forma simples e ágil, nos reunir com a equipe da Conceito para discutir as melhores decisões. Essa facilidade de comunicação, aliada à competência do time, faz com que eu tenha total confiança neles.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Contabilidade e gestão tributária são fatores críticos para o sucesso de qualquer empresa. Por isso, confio a Conceito a missão de cuidar do que é essencial, garantindo que as decisões sejam tomadas com segurança e conhecimento.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      },
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "__typename": "ServiceItem",
+  "sys": {
+    "id": "G73lZSJKPTdKN0mh5iA9r"
+  },
+  "name": "Planejamento Tributário",
+  "targetPage": {
+    "__typename": "Page",
+    "sys": {
+      "id": "40VOJUM3lCQQxJG0XRajyF"
+    },
+    "slug": "planejamento-tributario",
+    "pageName": "Planejamento Tributário"
+  },
+  "description": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Estratégias tributárias personalizadas para maximizar a economia e a eficiência fiscal da sua empresa.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      },
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      }
+    }
+  }
+}

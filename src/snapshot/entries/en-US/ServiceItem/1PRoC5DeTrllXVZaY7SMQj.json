@@ -1,0 +1,46 @@
+{
+  "__typename": "ServiceItem",
+  "sys": {
+    "id": "1PRoC5DeTrllXVZaY7SMQj"
+  },
+  "name": "Abertura de empresa",
+  "targetPage": {
+    "__typename": "Page",
+    "sys": {
+      "id": "3q6u8UxXUa4nU6fQ935ysg"
+    },
+    "slug": "abertura-de-empresas",
+    "pageName": "Abertura de Empresas"
+  },
+  "description": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Soluções completas e estratégicas para constituir sua empresa com segurança.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      },
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      }
+    }
+  }
+}

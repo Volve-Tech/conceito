@@ -1,0 +1,55 @@
+{
+  "__typename": "TopicPerson",
+  "sys": {
+    "id": "5YEkWZ4oATSKbR2i7ZUF06"
+  },
+  "name": "Jesse Ferguson, Kundenbeauftragter",
+  "website": null,
+  "location": "Berlin, Deutschland",
+  "cardStyle": false,
+  "avatar": {
+    "__typename": "Asset",
+    "sys": {
+      "id": "69Z0seKXE1wpqezBsAv6Fg"
+    },
+    "contentType": "image/png",
+    "width": 100,
+    "height": 100,
+    "url": "/assets/69Z0seKXE1wpqezBsAv6Fg-Ellipse-3.png",
+    "fileName": "Ellipse 3.png",
+    "title": "Jesse Ferguson",
+    "description": "",
+    "localPath": "/assets/69Z0seKXE1wpqezBsAv6Fg-Ellipse-3.png"
+  },
+  "bio": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Jesse arbeitet seit mehr als 15 Jahren mit wachstumsstarken Unternehmen zusammen, wobei er eine Erfolgsbilanz bei der Skalierung von Support-Teams und der Erzielung von Spitzenleistungen in kundenorientierten Teams vorweisen kann. Jesse ist eine leidenschaftliche Köchin und ein aktives Gemeindemitglied, das sich für die Emanzipation der Frauen einsetzt. Jesse ist für ihre Führungsqualitäten mehrfach ausgezeichnet worden, zuletzt mit der Auszeichnung Women in Tech Leader of the Year\" im Jahr 2018. Sie hat einen B.A. in englischer Literatur von der Universität Yale.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      },
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      }
+    }
+  }
+}

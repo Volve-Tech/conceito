@@ -1,0 +1,46 @@
+{
+  "__typename": "ServiceItem",
+  "sys": {
+    "id": "47xxj92eEdtW1miIBqBm8r"
+  },
+  "name": "Holding Familiar",
+  "targetPage": {
+    "__typename": "Page",
+    "sys": {
+      "id": "7ezf5Vdd4hytVWYluHqJUs"
+    },
+    "slug": "holding-familiar",
+    "pageName": "Holding Familiar"
+  },
+  "description": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Proteja seu patrimônio com estratégias inteligentes.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      },
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      }
+    }
+  }
+}

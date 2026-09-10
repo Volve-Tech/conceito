@@ -1,0 +1,65 @@
+{
+  "__typename": "ComponentDuplex",
+  "sys": {
+    "id": "5hOYnlXbV9FFDfe1qwtNio"
+  },
+  "title": "Capacitação que <br/><span style=\"color: #001BDB; font-weight: bold\">TRANSFORMA</span>",
+  "containerLayout": true,
+  "headline": "Entdecken Sie eine ganz neue Welt des Reisens",
+  "ctaText": "Fale com a gente",
+  "imageStyle": false,
+  "colorPalette": "1. White (#FFFFFF)",
+  "targetPage": {
+    "__typename": "Page",
+    "sys": {
+      "id": "3t7Iub6Arm23Cn7wWkIJTd"
+    },
+    "slug": "home",
+    "pageName": "Die Karte, die Sie schon immer wollten"
+  },
+  "image": {
+    "__typename": "Asset",
+    "sys": {
+      "id": "wlv1inqoxUGHWkrOX8jQi"
+    },
+    "contentType": "image/png",
+    "width": 592,
+    "height": 596,
+    "url": "/assets/wlv1inqoxUGHWkrOX8jQi-grouped.png",
+    "fileName": "grouped.png",
+    "title": "new treinamentos",
+    "description": "",
+    "localPath": "/assets/wlv1inqoxUGHWkrOX8jQi-grouped.png"
+  },
+  "bodyText": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Mit kostenlosen Abhebungen an Geldautomaten im Ausland und einem 24/7-Kundendienst macht Coin das Reisen so einfach wie nie zuvor. Rüsten Sie Ihr Konto auf und werden Sie Teil der Jetset Gesellschaft.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      },
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "__typename": "ServiceItem",
+  "sys": {
+    "id": "2dF5p8uH11C0AbdYYBh7Uo"
+  },
+  "name": "Livro Caixa para Atividade Rural e Profissionais Liberais",
+  "targetPage": {
+    "__typename": "Page",
+    "sys": {
+      "id": "28iVWDx1QJZs1mvV0kXnxH"
+    },
+    "slug": "livro-caixa-para-atividade-rural-e-profissionais-liberais",
+    "pageName": "Livro caixa para atividade rural  e profissionais liberais"
+  },
+  "description": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": " Soluções eficientes para otimizar as finanças e aumentar a lucratividade.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      },
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      }
+    }
+  }
+}

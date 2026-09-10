@@ -1,0 +1,67 @@
+{
+  "__typename": "TopicBusinessInfo",
+  "sys": {
+    "id": "5MiID5lyQ7VHKmYIQ7qodp"
+  },
+  "featuredImage": null,
+  "media": null,
+  "name": "Gestão e revisão do FAP RAT",
+  "isDark": true,
+  "shortDescription": "Precisão financeira em todos os aspectos da sua empresa",
+  "youtube": "https://www.youtube.com/watch?v=3CMs2GyaTTo&list=PLk5qvOMfDB9RnzyQ2WRpwVGaOHQUnpQSf&index=15",
+  "body": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "A Conceito Contabilidade oferece serviços especializados de gestão e revisão do FAP/RAT para empresas. O FAP (Fator Acidentário de Prevenção) é um componente importante na determinação da alíquota do RAT (Riscos Ambientais do Trabalho), o qual incide sobre a folha de pagamentos das empresas (exceto optantes pelo Simples Nacional). Essa alíquota pode variar de 0,5% a 6% e representa um custo significativo para qualquer negócio.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "No entanto, o cálculo e divulgação do FAP são realizados pelo INSS, o que muitas vezes gera dúvidas e inconsistências. É aí que entra nosso trabalho especializado de perícia, no qual realizamos uma análise minuciosa do cálculo feito pelo INSS na apuração do FAP/RAT. Nosso objetivo é verificar se o cálculo realizado pelo órgão público está adequado ou se apresenta inconsistências, permitindo assim que nossos clientes reduzam a alíquota do RAT, gerando economia e até mesmo buscando o reembolso de valores pagos indevidamente.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Confie na expertise da Conceito Contabilidade para garantir que o cálculo do FAP/RAT esteja correto e para otimizar os custos relacionados aos riscos ambientais do trabalho. Nossa equipe está preparada para ajudar sua empresa a obter economia e a assegurar que todos os pagamentos sejam justos e adequados.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      },
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      }
+    }
+  }
+}

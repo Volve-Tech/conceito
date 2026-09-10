@@ -1,0 +1,21 @@
+---
+import Base from '../layouts/Base.astro';
+import PageView from '../components/sections/PageView.astro';
+import { getPage } from '../lib/content';
+import { DEFAULT_LOCALE } from '../lib/theme';
+
+const page = getPage(DEFAULT_LOCALE, 'home');
+if (!page) throw new Error('Missing home page snapshot for en-US');
+---
+
+<Base
+  locale={DEFAULT_LOCALE}
+  slug="home"
+  title={page.seo?.title || page.pageName}
+  description={page.seo?.description}
+  image={page.seo?.image?.url}
+  noIndex={page.seo?.noIndex}
+  noFollow={page.seo?.noFollow}
+>
+  <PageView page={page} locale={DEFAULT_LOCALE} />
+</Base>

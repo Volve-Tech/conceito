@@ -1,0 +1,68 @@
+{
+  "__typename": "Testimonial",
+  "sys": {
+    "id": "2yAHUQ3OBDE8ZgYf9V6jTP"
+  },
+  "video": null,
+  "company": "2op Digital",
+  "position": "Proprietário",
+  "fullname": "André Rezende",
+  "youtube": "https://www.youtube.com/watch?v=xBW7_ly73cM",
+  "brand": {
+    "__typename": "Asset",
+    "sys": {
+      "id": "43C7Qbi5OjMeza5q4zZc0F"
+    },
+    "contentType": "image/png",
+    "width": 1080,
+    "height": 1080,
+    "url": "/assets/43C7Qbi5OjMeza5q4zZc0F-2OP.png",
+    "fileName": "2OP.png",
+    "title": "2OP",
+    "description": "",
+    "localPath": "/assets/43C7Qbi5OjMeza5q4zZc0F-2OP.png"
+  },
+  "body": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Sempre ouvi dizer que todos os escritórios de contabilidade são iguais, e, por muito tempo, também pensei assim—até conhecer a Conceito Contabilidade. O que mudou minha percepção foi o compromisso deles em realmente entender o nosso negócio. Na Conceito, nunca senti que éramos apenas mais um cliente. A proximidade e a sinergia no atendimento fazem toda a diferença.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Com o suporte da Conceito Contabilidade, conseguimos identificar oportunidades, reduzir custos e tomar decisões assertivas, impulsionando o nosso crescimento. Essa parceria vai além da contabilidade tradicional; eles oferecem um olhar estratégico e personalizado. As decisões são embasadas em dados e análises precisas, o que nos dá segurança. Recomendo a Conceito Contabilidade para quem busca mais do que números—para quem quer um verdadeiro parceiro no crescimento dos negócios.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      },
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      }
+    }
+  }
+}

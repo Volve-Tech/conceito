@@ -1,0 +1,30 @@
+{
+  "__typename": "Page",
+  "sys": {
+    "id": "2SKWtzmGOnQm80nRGIIclu"
+  },
+  "pageName": "Pricing",
+  "slug": "pricing",
+  "seo": null,
+  "topSection": [],
+  "pageContent": {
+    "__typename": "ComponentProductTable",
+    "sys": {
+      "id": "5YZ9fKKF3Vg9bNV7x3Xl08"
+    }
+  },
+  "extraSection": [
+    {
+      "__typename": "ComponentInfoBlock",
+      "sys": {
+        "id": "2rtr5bmeBeXLqR6rZe9mZF"
+      }
+    },
+    {
+      "__typename": "ComponentInfoBlock",
+      "sys": {
+        "id": "3JqLncpMbnZYrCPebujXhK"
+      }
+    }
+  ]
+}

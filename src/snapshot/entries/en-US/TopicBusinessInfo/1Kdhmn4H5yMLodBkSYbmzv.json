@@ -1,0 +1,178 @@
+{
+  "__typename": "TopicBusinessInfo",
+  "sys": {
+    "id": "1Kdhmn4H5yMLodBkSYbmzv"
+  },
+  "media": null,
+  "name": "Trabalhe Conosco",
+  "isDark": true,
+  "shortDescription": "Sempre em busca das melhores soluções para nossos clientes.",
+  "youtube": null,
+  "featuredImage": {
+    "__typename": "Asset",
+    "sys": {
+      "id": "46VWjsk4I1yEFOEh1ynqSP"
+    },
+    "contentType": "image/png",
+    "width": 1440,
+    "height": 558,
+    "url": "/assets/46VWjsk4I1yEFOEh1ynqSP-bg-conceito.png",
+    "fileName": "bg-conceito.png",
+    "title": "bg-conceito",
+    "description": "",
+    "localPath": "/assets/46VWjsk4I1yEFOEh1ynqSP-bg-conceito.png"
+  },
+  "body": {
+    "json": {
+      "nodeType": "document",
+      "data": {},
+      "content": [
+        {
+          "nodeType": "paragraph",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "text",
+              "value": "Na Conceito Contabilidade, acreditamos que pessoas fazem a diferença. Buscamos profissionais comprometidos, proativos e que queiram crescer junto com a gente em um ambiente colaborativo, dinâmico e em constante evolução.",
+              "marks": [],
+              "data": {}
+            }
+          ]
+        },
+        {
+          "nodeType": "paragraph",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "text",
+              "value": "Atuando nas unidades de Xanxerê, Chapecó e Ponte Serrada, trabalhamos diariamente para oferecer soluções contábeis com excelência, inovação e proximidade aos nossos clientes.",
+              "marks": [],
+              "data": {}
+            }
+          ]
+        },
+        {
+          "nodeType": "paragraph",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "text",
+              "value": "Valorizamos o desenvolvimento profissional, o aprendizado contínuo e o trabalho em equipe. Aqui, você terá oportunidade de evoluir, enfrentar novos desafios e construir sua trajetória ao lado de um time que acredita no crescimento conjunto.",
+              "marks": [],
+              "data": {}
+            }
+          ]
+        },
+        {
+          "nodeType": "paragraph",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "text",
+              "value": "Venha fazer parte do nosso time!",
+              "marks": [],
+              "data": {}
+            }
+          ]
+        },
+        {
+          "nodeType": "paragraph",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "text",
+              "value": "Envie seu currículo para: ",
+              "marks": [],
+              "data": {}
+            },
+            {
+              "nodeType": "hyperlink",
+              "data": {
+                "uri": "mailto:rh@conceitocontabilidade.com.br"
+              },
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "rh@conceitocontabilidade.com.br",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "text",
+              "value": " ",
+              "marks": [],
+              "data": {}
+            }
+          ]
+        },
+        {
+          "nodeType": "paragraph",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "text",
+              "value": "ou pelo ",
+              "marks": [],
+              "data": {}
+            }
+          ]
+        },
+        {
+          "nodeType": "paragraph",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "text",
+              "value": "WhatsApp",
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "data": {}
+            },
+            {
+              "nodeType": "text",
+              "value": ": ",
+              "marks": [],
+              "data": {}
+            },
+            {
+              "nodeType": "hyperlink",
+              "data": {
+                "uri": "https://bit.ly/RecursosHumanosConceito "
+              },
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "+55 49 9 9109-2583",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "text",
+              "value": " ",
+              "marks": [],
+              "data": {}
+            }
+          ]
+        }
+      ]
+    },
+    "links": {
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      },
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      }
+    }
+  }
+}

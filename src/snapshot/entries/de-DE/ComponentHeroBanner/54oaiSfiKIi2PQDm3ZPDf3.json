@@ -1,0 +1,64 @@
+{
+  "__typename": "ComponentHeroBanner",
+  "sys": {
+    "id": "54oaiSfiKIi2PQDm3ZPDf3"
+  },
+  "headline": "Wir wollten, dass das Bankwesen einfach ist. Also bauten wir es von Grund auf neu auf.",
+  "ctaText": "Fale com a gente",
+  "imageStyle": false,
+  "heroSize": true,
+  "colorPalette": "7. Black (#000000)",
+  "targetPage": {
+    "__typename": "Page",
+    "sys": {
+      "id": "7wGhPNCZNLknpSaJVWfnHf"
+    },
+    "slug": "sobre-nos",
+    "pageName": "Über das Unternehmen"
+  },
+  "image": {
+    "__typename": "Asset",
+    "sys": {
+      "id": "gJArMceFvS7Jd3pjvVfdO"
+    },
+    "contentType": "image/png",
+    "width": 1440,
+    "height": 1161,
+    "url": "/assets/gJArMceFvS7Jd3pjvVfdO-banner1-compressed.png",
+    "fileName": "banner1-compressed.png",
+    "title": "Banner 1",
+    "description": "",
+    "localPath": "/assets/gJArMceFvS7Jd3pjvVfdO-banner1-compressed.png"
+  },
+  "bodyText": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Coin-Karten bieten großartige Tarife, personalisierte Dienstleistungen und exklusive Vergünstigungen, die Ihnen helfen, Ihr Geld mit Zuversicht zu verwalten.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      },
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      }
+    }
+  }
+}

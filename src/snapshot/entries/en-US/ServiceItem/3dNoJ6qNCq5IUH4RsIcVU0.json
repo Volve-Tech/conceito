@@ -1,0 +1,46 @@
+{
+  "__typename": "ServiceItem",
+  "sys": {
+    "id": "3dNoJ6qNCq5IUH4RsIcVU0"
+  },
+  "name": "Blindagem Patrimonial",
+  "targetPage": {
+    "__typename": "Page",
+    "sys": {
+      "id": "5vvyPhFdR4J1E2quKvUCjE"
+    },
+    "slug": "blindagem-patrimonial",
+    "pageName": "Blindagem Patrimonial"
+  },
+  "description": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Proteção que traz tranquilidade e gera resultados.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      },
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      }
+    }
+  }
+}

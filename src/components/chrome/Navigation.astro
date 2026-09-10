@@ -1,0 +1,130 @@
+---
+import { getNavigation, notNull } from '../../lib/content';
+import { resolvePageHref } from '../../lib/hrefs';
+import type { MenuChild, MenuGroup } from '../../lib/types';
+
+interface Props {
+  locale: string;
+}
+
+const { locale } = Astro.props;
+const navigation = getNavigation(locale);
+const items = (navigation.items?.[0]?.menuItemsCollection?.items || []).filter(notNull) as MenuGroup[];
+
+function childHref(item: MenuChild) {
+  return resolvePageHref(item.slug, locale);
+}
+
+function childLabel(item: MenuChild) {
+  return item.pageName || item.categoryName || item.postName || item.slug || '';
+}
+---
+
+<nav aria-label="Primary">
+  <ul class="menu">
+    {items.map((item) => {
+      const children = (item.children?.items || []).filter(notNull);
+      const href = item.link?.slug ? resolvePageHref(item.link.slug, locale) : null;
+      return (
+        <li class:list={['menu-item', item.featured && 'is-featured']}>
+          {href ? <a href={href}>{item.groupName}</a> : <span>{item.groupName}</span>}
+          {!href && children.length > 0 && (
+            <ul class="submenu">
+              {children.map((child) => (
+                <li class="submenu-item">
+                  <a href={childHref(child)}>{childLabel(child)}</a>
+                </li>
+              ))}
+            </ul>
+          )}
+        </li>
+      );
+    })}
+  </ul>
+</nav>
+
+<style>
+  .menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .menu-item {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    height: 8rem;
+    margin-right: 4rem;
+    font-size: 1.7rem;
+    font-weight: 400;
+    line-height: 1.9;
+    color: #fff;
+  }
+
+  .menu-item a {
+    color: #fff;
+    display: inline-block;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .menu-item:hover > a,
+  .menu-item:focus-within > a {
+    transform: translateY(-4px);
+  }
+
+  .menu-item:hover .submenu,
+  .menu-item:focus-within .submenu {
+    opacity: 1;
+    pointer-events: all;
+    transform: translateY(0);
+  }
+
+  .submenu {
+    position: absolute;
+    top: calc(100% - 2rem);
+    left: -5rem;
+    background: #000;
+    box-shadow: 0 3px 6px #00000029;
+    border-radius: 14px;
+    list-style: none;
+    opacity: 0;
+    padding: 2rem 5rem;
+    pointer-events: none;
+    transform: translateY(20%);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .submenu-item {
+    font-size: 1.4rem;
+    white-space: nowrap;
+    margin: 1rem 0;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .submenu-item a {
+    display: inline-block;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .submenu-item:hover a,
+  .submenu-item:focus-within a {
+    transform: translateY(-4px);
+  }
+
+  .is-featured > a {
+    background: #001bdb;
+    border-radius: 50px;
+    padding: 10px 30px;
+    margin-left: 100px;
+  }
+
+  @media (min-width: 1200px) {
+    .menu-item {
+      margin-right: 5rem;
+    }
+  }
+</style>

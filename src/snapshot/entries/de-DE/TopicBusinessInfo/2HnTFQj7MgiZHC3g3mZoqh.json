@@ -1,0 +1,68 @@
+{
+  "__typename": "TopicBusinessInfo",
+  "sys": {
+    "id": "2HnTFQj7MgiZHC3g3mZoqh"
+  },
+  "media": null,
+  "name": "Abertura de Empresa",
+  "isDark": true,
+  "shortDescription": "Na Conceito, sua empresa está em boas mãos",
+  "youtube": "https://www.youtube.com/watch?v=6-cWggwRMpw&list=PLk5qvOMfDB9RnzyQ2WRpwVGaOHQUnpQSf&index=2",
+  "featuredImage": {
+    "__typename": "Asset",
+    "sys": {
+      "id": "46VWjsk4I1yEFOEh1ynqSP"
+    },
+    "contentType": "image/png",
+    "width": 1440,
+    "height": 558,
+    "url": "/assets/46VWjsk4I1yEFOEh1ynqSP-bg-conceito.png",
+    "fileName": "bg-conceito.png",
+    "title": "bg-conceito",
+    "description": "",
+    "localPath": "/assets/46VWjsk4I1yEFOEh1ynqSP-bg-conceito.png"
+  },
+  "body": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Na Conceito Contabilidade, a apuração fiscal é um serviço que vai além da simples informação. Nós oferecemos um diagnóstico completo das dificuldades fiscais do seu negócio, adaptando as informações à sua necessidade e oferecendo um caminho seguro a ser seguido.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Nosso atendimento, seja virtual ou presencial, é pautado pela segurança, agilidade, responsabilidade e, acima de tudo, pelo compromisso de proporcionar a maior economia para o seu negócio.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      },
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      }
+    }
+  }
+}

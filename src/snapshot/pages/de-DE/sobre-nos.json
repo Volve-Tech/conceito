@@ -1,0 +1,30 @@
+{
+  "__typename": "Page",
+  "sys": {
+    "id": "7wGhPNCZNLknpSaJVWfnHf"
+  },
+  "pageName": "Über das Unternehmen",
+  "slug": "sobre-nos",
+  "seo": null,
+  "topSection": [],
+  "pageContent": {
+    "__typename": "TopicBusinessInfo",
+    "sys": {
+      "id": "ohspi5gYQSqQdFADFTg6F"
+    }
+  },
+  "extraSection": [
+    {
+      "__typename": "Testimonials",
+      "sys": {
+        "id": "1nRQoCtjPkX7amearb4IiG"
+      }
+    },
+    {
+      "__typename": "LocationsGroup",
+      "sys": {
+        "id": "6MFt4PHwoTKMfFvyAqX0Ir"
+      }
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+---
+import { getFooter, notNull } from '../../lib/content';
+import { resolvePageHref } from '../../lib/hrefs';
+import { CONTAINER_WIDTH } from '../../lib/theme';
+import type { MenuChild } from '../../lib/types';
+
+interface Props {
+  locale: string;
+}
+
+const { locale } = Astro.props;
+const footer = getFooter(locale);
+const content = footer.items?.[0];
+const menuItems = (content?.menuItemsCollection?.items || []).filter(notNull);
+
+function childHref(item: MenuChild) {
+  return resolvePageHref(item.slug, locale);
+}
+
+function childLabel(item: MenuChild) {
+  return item.pageName || item.categoryName || item.postName || item.slug || '';
+}
+
+const socials = [
+  { href: 'https://www.facebook.com/conceitocontabilidade.cnt', label: 'Facebook', icon: 'facebook' },
+  { href: 'https://www.instagram.com/conceitocontabilidade_/', label: 'Instagram', icon: 'instagram' },
+  { href: 'https://br.linkedin.com/company/conceito-contabilidade', label: 'LinkedIn', icon: 'linkedin' },
+  { href: 'https://www.youtube.com/@conceito.contabilidade', label: 'YouTube', icon: 'youtube' },
+  { href: 'https://www.tiktok.com/@conceitocontabilidade', label: 'TikTok', icon: 'tiktok' },
+  {
+    href: 'https://conceitocontabilidade.app.questorpublico.com.br/entrar',
+    label: 'Questor Público',
+    icon: 'questor',
+  },
+];
+---
+
+<footer class="footer-wrap">
+  <div class="footer" style={`max-width:${CONTAINER_WIDTH / 10}rem`}>
+    <div class="logo-col">
+      <img src="/assets/brand/conceito-logo.svg" alt="Conceito Contabilidade" width="185" height="41" />
+      <p class="tagline">
+        Comprometimento. Eficiência. Performance. Isso é Conceito Contabilidade.
+      </p>
+    </div>
+    <div class="socials" id="social-media-container">
+      {socials.map((social) => (
+        <a href={social.href} target="_blank" rel="noopener noreferrer" class="social" aria-label={social.label}>
+          {social.icon === 'facebook' && (
+            <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path fill="currentColor" d="M22 12a10 10 0 1 0-11.6 9.9v-7H8v-3h2.4V9.5c0-2.4 1.4-3.7 3.6-3.7 1 0 2.1.2 2.1.2v2.3h-1.2c-1.2 0-1.5.7-1.5 1.5V12H16l-.4 3h-2.5v7A10 10 0 0 0 22 12z"/></svg>
+          )}
+          {social.icon === 'instagram' && (
+            <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path fill="currentColor" d="M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4zm10 2H7a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2zm-5 3.2A3.8 3.8 0 1 1 8.2 12 3.8 3.8 0 0 1 12 8.2zm0 1.6A2.2 2.2 0 1 0 14.2 12 2.2 2.2 0 0 0 12 9.8zM17.4 6.6a.9.9 0 1 1-.9.9.9.9 0 0 1 .9-.9z"/></svg>
+          )}
+          {social.icon === 'linkedin' && (
+            <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path fill="currentColor" d="M6.5 9H4V20h2.5zM5.2 4A1.6 1.6 0 1 0 5.2 7.2 1.6 1.6 0 0 0 5.2 4zM20 20h-2.5v-5.6c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9V20H11V9h2.4v1.5h.1A2.6 2.6 0 0 1 16 9c3.1 0 3.7 2 3.7 4.7z"/></svg>
+          )}
+          {social.icon === 'youtube' && (
+            <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path fill="currentColor" d="M23 12.2s0-3.2-.4-4.6a3 3 0 0 0-2.1-2.1C18.6 5 12 5 12 5s-6.6 0-8.5.5A3 3 0 0 0 1.4 7.6C1 9 1 12.2 1 12.2s0 3.2.4 4.6a3 3 0 0 0 2.1 2.1C5.4 19.4 12 19.4 12 19.4s6.6 0 8.5-.5a3 3 0 0 0 2.1-2.1c.4-1.4.4-4.6.4-4.6zM9.8 15.5V8.9l6.3 3.3z"/></svg>
+          )}
+          {social.icon === 'tiktok' && (
+            <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path fill="currentColor" d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/></svg>
+          )}
+          {social.icon === 'questor' && (
+            <img
+              src="https://yt3.googleusercontent.com/EzrNgCBc6zStXDNHqvnp5a6LMrtyZWi6BS2sEJiu9lSnSV4PrnZZWModt9LH7JlbF43o-hilfg=s900-c-k-c0x00ffffff-no-rj"
+              alt="Questor Público"
+              width="24"
+              height="24"
+            />
+          )}
+        </a>
+      ))}
+    </div>
+    {menuItems.length > 0 && (
+      <nav class="menu-wrap" aria-label="Footer">
+        {menuItems.map((group) => (
+          <div class="menu-col">
+            <p class="menu-title">{group.groupName}</p>
+            <ul class="submenu">
+              {(group.featuredPagesCollection?.items || []).filter(notNull).map((item) => (
+                <li>
+                  <a href={childHref(item)}>{childLabel(item)}</a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </nav>
+    )}
+  </div>
+  <div class="company" style={`max-width:${CONTAINER_WIDTH / 10}rem`}>
+    <p class="company-name">CONCEITO CONTABILIDADE LTDA</p>
+    <p>CNPJ: 10.960.930/0001-40</p>
+    <p>R MARECHAL DEODORO DA FONSECA, 400 E</p>
+    <p>ANDAR 10 EDIF PIEMONTE EXECUTIVO SALA 1009</p>
+    <p>CEP 89.802-140</p>
+    <p>CENTRO - CHAPECÓ</p>
+  </div>
+</footer>
+
+<style>
+  .footer-wrap {
+    background: #000;
+    color: #fff;
+    width: 100%;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 4rem 0 2.5rem;
+  }
+
+  .logo-col {
+    margin-right: 8rem;
+    max-width: 20%;
+    padding-left: 4rem;
+  }
+
+  .tagline {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2;
+    margin-top: 2rem;
+  }
+
+  .socials {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+
+  .social {
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 4.8rem;
+    height: 4.8rem;
+  }
+
+  .social svg {
+    width: 3.2rem;
+    height: 3.2rem;
+  }
+
+  .social:hover,
+  .social:focus {
+    color: #7c7c7c;
+  }
+
+  .social img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+  }
+
+  .menu-wrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .menu-col {
+    padding-left: 4rem;
+  }
+
+  .menu-title,
+  .submenu {
+    list-style: none;
+    margin: 0 0 4rem;
+    padding: 0;
+    width: 17.2rem;
+    font-size: 1.8rem;
+    color: #fff;
+  }
+
+  .submenu a {
+    color: #fff;
+    border-bottom: 1px solid transparent;
+    display: inline-block;
+    margin: 0 0 2rem;
+  }
+
+  @media (min-width: 600px) {
+    .submenu a {
+      margin-bottom: 4rem;
+    }
+  }
+
+  @media (min-width: 900px) {
+    .menu-title,
+    .submenu {
+      margin-bottom: 0;
+    }
+  }
+
+  .submenu a:hover,
+  .submenu a:focus {
+    border-bottom-color: #7c7c7c;
+  }
+
+  .company {
+    margin: 4rem auto 0;
+    padding: 3rem 0 4rem;
+    border-top: 1px solid #333;
+    font-size: 1.4rem;
+    line-height: 1.8;
+    color: #b0b0b0;
+  }
+
+  @media (min-width: 900px) {
+    .company {
+      margin-top: 5rem;
+    }
+  }
+
+  .company-name {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 1rem;
+  }
+
+  @media (min-width: 600px) {
+    .footer {
+      padding: 10rem 0 5rem;
+    }
+
+    .socials {
+      width: auto;
+    }
+  }
+
+  @media (max-width: 599px) {
+    .socials {
+      width: 100%;
+      justify-content: center;
+    }
+
+    .logo-col {
+      max-width: none;
+      padding-left: 2rem;
+    }
+  }
+</style>

@@ -1,0 +1,161 @@
+{
+  "__typename": "ServiceComponent",
+  "sys": {
+    "id": "3QeyhMwksRkYL5Il090wgl"
+  },
+  "image": null,
+  "containerLayout": null,
+  "headline": "<b>Soluções</b> que fazem seu negócio acelerar",
+  "ctaText": "Conheça todos os seviços",
+  "imageStyle": null,
+  "colorPalette": "7. Black (#000000)",
+  "servicesCollection": {
+    "items": [
+      {
+        "__typename": "ServiceItem",
+        "sys": {
+          "id": "3Ayohhsf2BZzBkEpIT9QC1"
+        }
+      },
+      {
+        "__typename": "ServiceItem",
+        "sys": {
+          "id": "6T4STkFYCo6Aam0yRkjdjD"
+        }
+      },
+      {
+        "__typename": "ServiceItem",
+        "sys": {
+          "id": "1PRoC5DeTrllXVZaY7SMQj"
+        }
+      },
+      {
+        "__typename": "ServiceItem",
+        "sys": {
+          "id": "2vXeKZcsLwVAi3AUrDJaKp"
+        }
+      },
+      {
+        "__typename": "ServiceItem",
+        "sys": {
+          "id": "1U5mdHmhNtMp3eTkZkxG7s"
+        }
+      },
+      {
+        "__typename": "ServiceItem",
+        "sys": {
+          "id": "5FoaEuItJj2TxtMloFx4G6"
+        }
+      },
+      {
+        "__typename": "ServiceItem",
+        "sys": {
+          "id": "47xxj92eEdtW1miIBqBm8r"
+        }
+      },
+      {
+        "__typename": "ServiceItem",
+        "sys": {
+          "id": "3Ol2XtRbSNrojynfETohoN"
+        }
+      },
+      {
+        "__typename": "ServiceItem",
+        "sys": {
+          "id": "2dF5p8uH11C0AbdYYBh7Uo"
+        }
+      },
+      {
+        "__typename": "ServiceItem",
+        "sys": {
+          "id": "6gwwLIo6VuIoOHmHsAEUyq"
+        }
+      },
+      {
+        "__typename": "ServiceItem",
+        "sys": {
+          "id": "6mo03UeKMFh8bH1eZunrKE"
+        }
+      },
+      {
+        "__typename": "ServiceItem",
+        "sys": {
+          "id": "G73lZSJKPTdKN0mh5iA9r"
+        }
+      },
+      {
+        "__typename": "ServiceItem",
+        "sys": {
+          "id": "45YkFp6qZyZr10sUvK95U6"
+        }
+      },
+      {
+        "__typename": "ServiceItem",
+        "sys": {
+          "id": "6mI1Cqdsw1icn7Vt9BXlHx"
+        }
+      },
+      {
+        "__typename": "ServiceItem",
+        "sys": {
+          "id": "3dNoJ6qNCq5IUH4RsIcVU0"
+        }
+      }
+    ]
+  },
+  "targetPage": {
+    "__typename": "Page",
+    "sys": {
+      "id": "2SKWtzmGOnQm80nRGIIclu"
+    },
+    "slug": "pricing",
+    "pageName": "Preise"
+  },
+  "bodyText": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Nascemos para trazer um ",
+              "nodeType": "text"
+            },
+            {
+              "data": {},
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "value": "novo conceito para o segmento",
+              "nodeType": "text"
+            },
+            {
+              "data": {},
+              "marks": [],
+              "value": ", com mais proximidade, confiança e comprometimento.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      },
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      }
+    }
+  }
+}

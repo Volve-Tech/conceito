@@ -1,0 +1,80 @@
+{
+  "__typename": "TopicBusinessInfo",
+  "sys": {
+    "id": "5BdYmhPEtJIiAGg5JBiPnL"
+  },
+  "media": null,
+  "name": "Planejamento Sucessório",
+  "isDark": true,
+  "shortDescription": "Preserve seu legado e garanta a tranquilidade financeira da sua família ",
+  "youtube": "https://www.youtube.com/watch?v=GzmtjmB04NY&list=PLk5qvOMfDB9RnzyQ2WRpwVGaOHQUnpQSf&index=10",
+  "featuredImage": {
+    "__typename": "Asset",
+    "sys": {
+      "id": "46VWjsk4I1yEFOEh1ynqSP"
+    },
+    "contentType": "image/png",
+    "width": 1440,
+    "height": 558,
+    "url": "/assets/46VWjsk4I1yEFOEh1ynqSP-bg-conceito.png",
+    "fileName": "bg-conceito.png",
+    "title": "bg-conceito",
+    "description": "",
+    "localPath": "/assets/46VWjsk4I1yEFOEh1ynqSP-bg-conceito.png"
+  },
+  "body": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Na Conceito, a preocupação com a vida patrimonial de nossos clientes vai além deles mesmos. Nós nos preocupamos com toda a família, e por isso oferecemos um serviço especializado de Planejamento Sucessório. ",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Não basta apenas conhecer, orientar e planejar os negócios, é necessário organizar a sucessão do patrimônio para garantir tranquilidade e segurança para todos. ",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Esse é um trabalho extremamente detalhista, que aqui na Conceito é realizado por uma equipe experiente e especialista no assunto.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      },
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      }
+    }
+  }
+}

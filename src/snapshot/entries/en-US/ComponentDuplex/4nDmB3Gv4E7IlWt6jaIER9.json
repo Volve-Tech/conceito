@@ -1,0 +1,28 @@
+{
+  "__typename": "ComponentDuplex",
+  "sys": {
+    "id": "4nDmB3Gv4E7IlWt6jaIER9"
+  },
+  "bodyText": null,
+  "targetPage": null,
+  "title": "<b>Quem confia</b> em nós",
+  "containerLayout": true,
+  "headline": null,
+  "ctaText": null,
+  "imageStyle": false,
+  "colorPalette": "1. White (#FFFFFF)",
+  "image": {
+    "__typename": "Asset",
+    "sys": {
+      "id": "4azWb8oJIgKCme6TNzk5mu"
+    },
+    "contentType": "image/png",
+    "width": 1596,
+    "height": 392,
+    "url": "/assets/4azWb8oJIgKCme6TNzk5mu-logos1.png",
+    "fileName": "logos1.png",
+    "title": "logos1",
+    "description": "",
+    "localPath": "/assets/4azWb8oJIgKCme6TNzk5mu-logos1.png"
+  }
+}

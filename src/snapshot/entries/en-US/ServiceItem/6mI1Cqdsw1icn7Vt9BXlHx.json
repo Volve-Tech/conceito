@@ -1,0 +1,46 @@
+{
+  "__typename": "ServiceItem",
+  "sys": {
+    "id": "6mI1Cqdsw1icn7Vt9BXlHx"
+  },
+  "name": "Regularização de Obras Civis",
+  "targetPage": {
+    "__typename": "Page",
+    "sys": {
+      "id": "799xQ9qvjEJTseN9opLFqF"
+    },
+    "slug": "regularizacao-de-obras-civis",
+    "pageName": "Regularização de Obras Civis"
+  },
+  "description": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Assessoria especializada para otimizar custos e garantir a conformidade fiscal em todas as etapas da sua obra.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      },
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      }
+    }
+  }
+}

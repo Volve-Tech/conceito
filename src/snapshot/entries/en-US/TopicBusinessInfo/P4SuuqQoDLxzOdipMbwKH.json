@@ -1,0 +1,92 @@
+{
+  "__typename": "TopicBusinessInfo",
+  "sys": {
+    "id": "P4SuuqQoDLxzOdipMbwKH"
+  },
+  "media": null,
+  "name": "Planejamento Tributário",
+  "isDark": true,
+  "shortDescription": "Economia e eficiência com a Conceito Contabilidade",
+  "youtube": "https://www.youtube.com/watch?v=bheSTmb452I&list=PLk5qvOMfDB9RnzyQ2WRpwVGaOHQUnpQSf&index=14",
+  "featuredImage": {
+    "__typename": "Asset",
+    "sys": {
+      "id": "46VWjsk4I1yEFOEh1ynqSP"
+    },
+    "contentType": "image/png",
+    "width": 1440,
+    "height": 558,
+    "url": "/assets/46VWjsk4I1yEFOEh1ynqSP-bg-conceito.png",
+    "fileName": "bg-conceito.png",
+    "title": "bg-conceito",
+    "description": "",
+    "localPath": "/assets/46VWjsk4I1yEFOEh1ynqSP-bg-conceito.png"
+  },
+  "body": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Na Conceito, oferecemos um serviço especializado em planejamento tributário, tanto de forma regular como pontual. Realizamos um diagnóstico detalhado do seu negócio, analisando sua situação fiscal e propondo ações personalizadas que garantirão o regime tributário mais econômico e uma metodologia de trabalho moderna e eficiente do ponto de vista tributário.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Nosso objetivo é ajudar sua empresa a maximizar a economia de impostos, aproveitando as oportunidades e benefícios fiscais disponíveis. Por meio de análises aprofundadas e conhecimento atualizado da legislação tributária, desenvolvemos estratégias personalizadas que se alinham às necessidades e metas do seu negócio.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Com a Conceito, você pode contar com uma abordagem proativa e eficiente em termos tributários. Trabalhamos para garantir que seu regime tributário seja otimizado, resultando em economia significativa e maior eficiência financeira. Nossa equipe especializada está pronta para ajudar sua empresa a obter resultados sólidos e benefícios fiscais substanciais.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Confie na nossa expertise para um planejamento tributário eficaz e alinhado com as melhores práticas do mercado. Juntos, vamos garantir que sua empresa esteja em conformidade com as obrigações fiscais, ao mesmo tempo em que proporcionamos economia tributária.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      },
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      }
+    }
+  }
+}

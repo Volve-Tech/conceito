@@ -1,0 +1,85 @@
+{
+  "__typename": "TopicProductFeature",
+  "sys": {
+    "id": "5yXcHeDNEXNqp8qyMMsh1Z"
+  },
+  "name": "Zugang zur Lounge",
+  "longDescription": {
+    "json": {
+      "nodeType": "document",
+      "data": {},
+      "content": [
+        {
+          "nodeType": "paragraph",
+          "content": [
+            {
+              "nodeType": "text",
+              "value": "Sie haben Zugang zu mehr als 100 Flughafen-Lounges innerhalb der EU, wählen internationale Ziele kostenlos aus und erhalten exklusive Angebote von Luxus-Flughafeneinzelhändlern. Laden Sie die ",
+              "marks": [],
+              "data": {}
+            },
+            {
+              "nodeType": "text",
+              "value": "LoungeKey-App",
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "data": {}
+            },
+            {
+              "nodeType": "text",
+              "value": " herunter und registrieren Sie sich unter Angabe Ihrer Coin-Kartennummer.",
+              "marks": [],
+              "data": {}
+            }
+          ],
+          "data": {}
+        }
+      ]
+    },
+    "links": {
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      },
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      }
+    }
+  },
+  "shortDescription": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Kostenlose Flughafen-Lounge-Pässe innerhalb der EU und ausgewählte internationale Ziele",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      },
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+---
+import { getEntry } from '../../lib/content';
+import SwiperNav from '../shared/SwiperNav.astro';
+import Title from '../shared/Title.astro';
+import Testimonial from './Testimonial.astro';
+
+interface Props {
+  entry: any;
+  locale: string;
+}
+
+const { entry, locale } = Astro.props;
+const items = (entry.testimonialsCollection?.items || [])
+  .filter(Boolean)
+  .map((item: any) => getEntry(locale, item.__typename, item.sys.id))
+  .filter(Boolean);
+---
+
+<section class="wrap">
+  <div class="inner">
+    {entry.headline && <Title title={entry.headline} variant="section" />}
+    <div class="carousel">
+      <div class="swiper" data-swiper="testimonials">
+        <div class="swiper-wrapper">
+          {items.map((item: any) => (
+            <div class="swiper-slide">
+              <Testimonial entry={item} locale={locale} />
+            </div>
+          ))}
+        </div>
+        <SwiperNav variant="blue" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .wrap {
+    width: 100%;
+  }
+
+  .inner {
+    margin: 0 auto;
+    max-width: 126rem;
+    padding: 4rem 2.5rem;
+  }
+
+  .carousel {
+    margin: 2rem 0;
+    width: 100%;
+  }
+</style>

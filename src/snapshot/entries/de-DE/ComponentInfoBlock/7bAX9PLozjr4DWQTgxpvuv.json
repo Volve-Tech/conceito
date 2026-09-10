@@ -1,0 +1,192 @@
+{
+  "__typename": "ComponentInfoBlock",
+  "sys": {
+    "id": "7bAX9PLozjr4DWQTgxpvuv"
+  },
+  "headline": "Noch mehr großartige Funktionen",
+  "subline": null,
+  "colorPalette": null,
+  "block1Image": {
+    "__typename": "Asset",
+    "sys": {
+      "id": "6RXhV9aCkOGHRtvkAAQhNL"
+    },
+    "contentType": "image/svg+xml",
+    "width": 377,
+    "height": 368,
+    "url": "/assets/6RXhV9aCkOGHRtvkAAQhNL-Tax-liability-estimates-1-.svg",
+    "fileName": "Tax liability-estimates (1).svg",
+    "title": "Tax liability-estimates (1)",
+    "description": null,
+    "localPath": "/assets/6RXhV9aCkOGHRtvkAAQhNL-Tax-liability-estimates-1-.svg"
+  },
+  "block2Image": {
+    "__typename": "Asset",
+    "sys": {
+      "id": "7IhsDLG4vu2tVJTvWRo3SJ"
+    },
+    "contentType": "image/svg+xml",
+    "width": 377,
+    "height": 368,
+    "url": "/assets/7IhsDLG4vu2tVJTvWRo3SJ-dashboard.svg",
+    "fileName": "dashboard.svg",
+    "title": "dashboard",
+    "description": null,
+    "localPath": "/assets/7IhsDLG4vu2tVJTvWRo3SJ-dashboard.svg"
+  },
+  "block3Image": {
+    "__typename": "Asset",
+    "sys": {
+      "id": "2U8G6vBUgwugmUq0o7ieyR"
+    },
+    "contentType": "image/svg+xml",
+    "width": 377,
+    "height": 368,
+    "url": "/assets/2U8G6vBUgwugmUq0o7ieyR-shopping-cart.svg",
+    "fileName": "shopping-cart.svg",
+    "title": "shopping-cart",
+    "description": null,
+    "localPath": "/assets/2U8G6vBUgwugmUq0o7ieyR-shopping-cart.svg"
+  },
+  "block1Body": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Wechselkurse",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "heading-3"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Dank des besten Wechselkurses in über 100 Währungen (wir verwenden den Interbanken-Wechselkurs) können Sie beruhigt über Grenzen hinweg ausgeben.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      },
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      }
+    }
+  },
+  "block2Body": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Sofort-Transaktionen",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "heading-3"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Senden Sie sofort Geld an Freunde und Bekannte innerhalb des Coin-Netzwerks und bitten Sie diese um Geld. ",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      },
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      }
+    }
+  },
+  "block3Body": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Cashback und Belohnungen",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "heading-3"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Erhalten Sie sofortige Rabatte von bekannten Marken und bis zu 3% Cashback auf Ihre regelmäßigen Einkäufe.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      },
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      }
+    }
+  }
+}

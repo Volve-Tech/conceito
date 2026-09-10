@@ -1,0 +1,46 @@
+{
+  "__typename": "ServiceItem",
+  "sys": {
+    "id": "3Ayohhsf2BZzBkEpIT9QC1"
+  },
+  "name": "Contabilidade",
+  "targetPage": {
+    "__typename": "Page",
+    "sys": {
+      "id": "1spSMzLojsMRqh9LrIKWM3"
+    },
+    "slug": "contabilidade",
+    "pageName": "Über das Unternehmen"
+  },
+  "description": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Parceria que faz a diferença na rotina e nos resultados do seu negócio.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      },
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+---
+import Base from '../layouts/Base.astro';
+import { getStrings, t } from '../lib/content';
+import { DEFAULT_LOCALE } from '../lib/theme';
+
+const locale = DEFAULT_LOCALE;
+const strings = getStrings(locale);
+---
+
+<Base locale={locale} slug="404" title={t(strings, 'error.code', { code: 404 })} noIndex>
+  <section class="error">
+    <h1>{t(strings, 'error.code', { code: 404 })}</h1>
+    <p>{t(strings, 'error.somethingWentWrong')}</p>
+  </section>
+</Base>
+
+<style>
+  .error {
+    max-width: 80rem;
+    margin: 8rem auto;
+    padding: 2.5rem;
+  }
+
+  h1 {
+    font-size: 3.8rem;
+    margin-bottom: 2rem;
+  }
+
+  p {
+    font-size: 2.1rem;
+  }
+</style>

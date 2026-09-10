@@ -1,0 +1,80 @@
+{
+  "__typename": "TopicBusinessInfo",
+  "sys": {
+    "id": "3RjVfRfb2mQ6lSInyjGh62"
+  },
+  "media": null,
+  "name": "Holding Familiar",
+  "isDark": true,
+  "shortDescription": "Proteja seu patrimônio com estratégias inteligentes\n",
+  "youtube": "https://www.youtube.com/watch?v=sxZ1HdzYgGk&list=PLk5qvOMfDB9RnzyQ2WRpwVGaOHQUnpQSf&index=6",
+  "featuredImage": {
+    "__typename": "Asset",
+    "sys": {
+      "id": "46VWjsk4I1yEFOEh1ynqSP"
+    },
+    "contentType": "image/png",
+    "width": 1440,
+    "height": 558,
+    "url": "/assets/46VWjsk4I1yEFOEh1ynqSP-bg-conceito.png",
+    "fileName": "bg-conceito.png",
+    "title": "bg-conceito",
+    "description": "",
+    "localPath": "/assets/46VWjsk4I1yEFOEh1ynqSP-bg-conceito.png"
+  },
+  "body": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "A Holding Familiar como uma ferramenta especializada da Conceito para organizar e proteger o patrimônio de nossos clientes. ",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Através da estruturação de holdings, oferecemos economia, organização e blindagem patrimonial. Um serviço diferenciado e que gera resultados significativos, estruturado em parceria com cada cliente, levando em consideração seus objetivos e necessidades.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "\n",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      },
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      }
+    }
+  }
+}

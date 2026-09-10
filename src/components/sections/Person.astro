@@ -1,0 +1,42 @@
+---
+import { defaultLayout } from '../../lib/theme';
+import type { LayoutProps } from '../../lib/types';
+import Asset from '../shared/Asset.astro';
+import RichText from '../shared/RichText.astro';
+
+interface Props {
+  entry: any;
+  locale: string;
+  layout?: LayoutProps;
+}
+
+const { entry, locale, layout = defaultLayout } = Astro.props;
+const leadership = entry.cardStyle === false;
+---
+
+<article class:list={['person', leadership && 'is-leadership']} style={`max-width:${layout.containerWidth / 10}rem`}>
+  {entry.avatar && <Asset {...entry.avatar} showDescription={false} layout={{ ...layout, parent: 'card-person' }} />}
+  <div>
+    {entry.name && <h3>{entry.name}</h3>}
+    {entry.location && <p class="meta">{entry.location}</p>}
+    {entry.website && <a href={entry.website} target="_blank" rel="noreferrer">{entry.website}</a>}
+    {entry.bio && <RichText field={entry.bio} locale={locale} layout={{ ...layout, parent: 'card-person' }} />}
+  </div>
+</article>
+
+<style>
+  .person {
+    display: grid;
+    gap: 2rem;
+    margin: 1.5rem auto;
+  }
+
+  .is-leadership {
+    text-align: center;
+  }
+
+  .meta {
+    opacity: 0.7;
+    font-size: 1.5rem;
+  }
+</style>

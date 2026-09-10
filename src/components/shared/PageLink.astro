@@ -1,0 +1,112 @@
+---
+import { resolvePageHref } from '../../lib/hrefs';
+import type { PageLinkFields } from '../../lib/types';
+
+interface Props {
+  page?: PageLinkFields | null;
+  href?: string;
+  locale: string;
+  class?: string;
+  variant?: 'text' | 'contained';
+  type?: 'primary' | 'secondary' | 'secondary-light';
+  underline?: boolean;
+  title?: string;
+  external?: boolean;
+}
+
+const {
+  page,
+  href: hrefProp,
+  locale,
+  class: className = '',
+  variant = 'text',
+  type = 'primary',
+  underline = false,
+  title,
+  external = false,
+} = Astro.props;
+
+const href = hrefProp || resolvePageHref(page?.slug, locale);
+const classes = [
+  className,
+  variant === 'contained' ? 'page-link page-link-button' : 'page-link',
+  variant === 'contained' ? `page-link-${type}` : '',
+  underline ? 'page-link-underline' : '',
+]
+  .filter(Boolean)
+  .join(' ');
+---
+
+<a
+  href={href}
+  class={classes}
+  title={title}
+  target={external ? '_blank' : undefined}
+  rel={external ? 'noopener noreferrer' : undefined}
+>
+  <slot />
+</a>
+
+<style>
+  .page-link {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .page-link-underline {
+    text-decoration: underline;
+  }
+
+  .page-link-button {
+    display: inline-flex;
+    align-items: center;
+    border-radius: 200px;
+    padding: 1.25rem 4.5rem;
+    transition: ease 0.5s all;
+    font-size: 2.1rem;
+    font-weight: 500;
+    line-height: 1.52;
+    text-transform: none;
+  }
+
+  .page-link-button:hover,
+  .page-link-button:focus {
+    transform: translateY(-4px);
+  }
+
+  .page-link-primary {
+    background: #001bdb;
+    color: #fff;
+  }
+
+  .page-link-primary:hover,
+  .page-link-primary:focus {
+    background: #000;
+  }
+
+  .page-link-secondary {
+    background: none;
+    border: 2px solid #fff;
+    color: #fff;
+  }
+
+  .page-link-secondary:hover,
+  .page-link-secondary:focus {
+    background: #001bdb;
+    border-color: #001bdb;
+  }
+
+  .page-link-secondary-light {
+    background: none;
+    border: 2px solid #3a393e;
+    color: #3a393e;
+    padding: 1.25rem 2.5rem;
+    font-size: 1.6rem;
+  }
+
+  .page-link-secondary-light:hover,
+  .page-link-secondary-light:focus {
+    background: #3a393e;
+    color: #fff;
+  }
+</style>

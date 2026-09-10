@@ -1,0 +1,29 @@
+---
+import Base from '../../layouts/Base.astro';
+import PageView from '../../components/sections/PageView.astro';
+import { getManifest, getPage } from '../../lib/content';
+import { DEFAULT_LOCALE } from '../../lib/theme';
+
+export function getStaticPaths() {
+  return getManifest()
+    .pages.filter((page) => page.locale !== DEFAULT_LOCALE && page.slug !== 'home')
+    .map((page) => ({ params: { locale: page.locale, slug: page.slug } }));
+}
+
+const { locale, slug } = Astro.params;
+if (!locale || !slug) throw new Error('Missing locale or slug');
+const page = getPage(locale, slug);
+if (!page) throw new Error(`Missing page snapshot ${locale}/${slug}`);
+---
+
+<Base
+  locale={locale}
+  slug={slug}
+  title={page.seo?.title || page.pageName}
+  description={page.seo?.description}
+  image={page.seo?.image?.url}
+  noIndex={page.seo?.noIndex}
+  noFollow={page.seo?.noFollow}
+>
+  <PageView page={page} locale={locale} />
+</Base>

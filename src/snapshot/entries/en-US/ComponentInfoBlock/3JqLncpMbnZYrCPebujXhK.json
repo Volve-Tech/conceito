@@ -1,0 +1,204 @@
+{
+  "__typename": "ComponentInfoBlock",
+  "sys": {
+    "id": "3JqLncpMbnZYrCPebujXhK"
+  },
+  "headline": null,
+  "subline": null,
+  "colorPalette": null,
+  "block1Image": {
+    "__typename": "Asset",
+    "sys": {
+      "id": "7IhsDLG4vu2tVJTvWRo3SJ"
+    },
+    "contentType": "image/svg+xml",
+    "width": 377,
+    "height": 368,
+    "url": "/assets/7IhsDLG4vu2tVJTvWRo3SJ-dashboard.svg",
+    "fileName": "dashboard.svg",
+    "title": "dashboard",
+    "description": null,
+    "localPath": "/assets/7IhsDLG4vu2tVJTvWRo3SJ-dashboard.svg"
+  },
+  "block2Image": {
+    "__typename": "Asset",
+    "sys": {
+      "id": "1YMPPHSXoWeGFfukysBiLM"
+    },
+    "contentType": "image/svg+xml",
+    "width": 377,
+    "height": 368,
+    "url": "/assets/1YMPPHSXoWeGFfukysBiLM-chart.svg",
+    "fileName": "chart.svg",
+    "title": "chart",
+    "description": null,
+    "localPath": "/assets/1YMPPHSXoWeGFfukysBiLM-chart.svg"
+  },
+  "block3Image": {
+    "__typename": "Asset",
+    "sys": {
+      "id": "5WMBnHUD2eeSRuBrBRjiTz"
+    },
+    "contentType": "image/svg+xml",
+    "width": 377,
+    "height": 368,
+    "url": "/assets/5WMBnHUD2eeSRuBrBRjiTz-Deposit-Protection-1-.svg",
+    "fileName": "Deposit-Protection (1).svg",
+    "title": "Deposit-Protection (1)",
+    "description": null,
+    "localPath": "/assets/5WMBnHUD2eeSRuBrBRjiTz-Deposit-Protection-1-.svg"
+  },
+  "block1Body": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "value": "Real-time balance",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "heading-3"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "See up-to-date balance account and receive real-time notifications about your card activity.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      },
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      }
+    }
+  },
+  "block2Body": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "value": "Built-in budgeting",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "heading-3"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Easily categorize your expenses and achieve saving goals with an award-winning budgeting assistant.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      },
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      }
+    }
+  },
+  "block3Body": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "value": "Full control",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "heading-3"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Change your PIN, lock the card, set daily spending and withdrawal limits — all within your mobile app.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      },
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      }
+    }
+  }
+}

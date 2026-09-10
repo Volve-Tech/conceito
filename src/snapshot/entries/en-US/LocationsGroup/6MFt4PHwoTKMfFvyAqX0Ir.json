@@ -1,0 +1,29 @@
+{
+  "__typename": "LocationsGroup",
+  "sys": {
+    "id": "6MFt4PHwoTKMfFvyAqX0Ir"
+  },
+  "label": "Locations Home",
+  "locationsCollection": {
+    "items": [
+      {
+        "__typename": "Locations",
+        "sys": {
+          "id": "5x8VuTBDnwluPGT5kPXwWC"
+        }
+      },
+      {
+        "__typename": "Locations",
+        "sys": {
+          "id": "1svsy45WCLjr0fDTnVL9FC"
+        }
+      },
+      {
+        "__typename": "Locations",
+        "sys": {
+          "id": "6sXFl6jTi5AE2AUvT8Qqc2"
+        }
+      }
+    ]
+  }
+}

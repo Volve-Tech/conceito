@@ -1,0 +1,135 @@
+{
+  "__typename": "TopicProduct",
+  "sys": {
+    "id": "2Jv15oYNaOUzyyJEp5P5z4"
+  },
+  "name": "Coin Corporate",
+  "price": 27.99,
+  "featuredImage": {
+    "__typename": "Asset",
+    "sys": {
+      "id": "1fxfVEQ1lvTsLb0NE0QnHm"
+    },
+    "contentType": "image/png",
+    "width": 400,
+    "height": 210,
+    "url": "/assets/1fxfVEQ1lvTsLb0NE0QnHm-corporate.png",
+    "fileName": "corporate.png",
+    "title": "GoCoin Corporate product shot",
+    "description": null,
+    "localPath": "/assets/1fxfVEQ1lvTsLb0NE0QnHm-corporate.png"
+  },
+  "featuresCollection": {
+    "items": [
+      {
+        "__typename": "TopicProductFeature",
+        "sys": {
+          "id": "6fQD1Weqn7HctXcuZLWZa7"
+        }
+      },
+      {
+        "__typename": "TopicProductFeature",
+        "sys": {
+          "id": "41alIf28bCm3fElnzhwIIb"
+        }
+      },
+      {
+        "__typename": "TopicProductFeature",
+        "sys": {
+          "id": "6sZlbnNbXOFLB3CLtaG3uq"
+        }
+      },
+      {
+        "__typename": "TopicProductFeature",
+        "sys": {
+          "id": "2MjvmUBPCuLTxj3Vdheojm"
+        }
+      },
+      {
+        "__typename": "TopicProductFeature",
+        "sys": {
+          "id": "173dpLjoP8JUtCGzbaNXYW"
+        }
+      },
+      {
+        "__typename": "TopicProductFeature",
+        "sys": {
+          "id": "32Dfzc2ukClz9IseIAejR5"
+        }
+      },
+      {
+        "__typename": "TopicProductFeature",
+        "sys": {
+          "id": "5yXcHeDNEXNqp8qyMMsh1Z"
+        }
+      },
+      {
+        "__typename": "TopicProductFeature",
+        "sys": {
+          "id": "SSPLiIkFgDhnlIxLmfIcP"
+        }
+      },
+      {
+        "__typename": "TopicProductFeature",
+        "sys": {
+          "id": "7J3DNGSAIWlcxrOfC25KlX"
+        }
+      },
+      {
+        "__typename": "TopicProductFeature",
+        "sys": {
+          "id": "2e9cfREBBqfMwcqcnTLlVU"
+        }
+      },
+      {
+        "__typename": "TopicProductFeature",
+        "sys": {
+          "id": "17RSZS8Dl8C2Y2crEMxnlx"
+        }
+      },
+      {
+        "__typename": "TopicProductFeature",
+        "sys": {
+          "id": "7M8Xn1EvEnVQUP1JiamQB3"
+        }
+      },
+      {
+        "__typename": "TopicProductFeature",
+        "sys": {
+          "id": "SqM1CTv2IkrucOJhtQjQU"
+        }
+      }
+    ]
+  },
+  "description": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Set spending limits, enjoy generous cashbacks, comprehensive insurance, and dedicated 24/7 support.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      },
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      }
+    }
+  }
+}

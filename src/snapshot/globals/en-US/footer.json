@@ -1,0 +1,31 @@
+{
+  "items": [
+    {
+      "__typename": "FooterMenu",
+      "sys": {
+        "id": "6c9tUMxxamKB9R7S16ne1X"
+      },
+      "menuItemsCollection": {
+        "items": []
+      },
+      "twitterLink": "https://twitter.com/",
+      "facebookLink": "https://facebook.com/",
+      "linkedinLink": "https://linkedin.com/",
+      "instagramLink": "https://instagram.com/",
+      "legalLinks": {
+        "featuredPagesCollection": {
+          "items": [
+            {
+              "__typename": "Page",
+              "sys": {
+                "id": "4OSewDgF5UsbHVwRNIIILi"
+              },
+              "slug": "accessibility",
+              "pageName": "Accessibility"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

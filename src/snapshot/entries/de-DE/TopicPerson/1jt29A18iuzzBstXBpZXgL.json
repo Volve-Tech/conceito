@@ -1,0 +1,55 @@
+{
+  "__typename": "TopicPerson",
+  "sys": {
+    "id": "1jt29A18iuzzBstXBpZXgL"
+  },
+  "name": "Poppy Terrell, Gründerin und CEO",
+  "website": null,
+  "location": "Berlin, Deutschland",
+  "cardStyle": false,
+  "avatar": {
+    "__typename": "Asset",
+    "sys": {
+      "id": "26SAApp0DZ4xvKXLBBEbeX"
+    },
+    "contentType": "image/png",
+    "width": 100,
+    "height": 100,
+    "url": "/assets/26SAApp0DZ4xvKXLBBEbeX-Ellipse-1.png",
+    "fileName": "Ellipse 1.png",
+    "title": "Poppy Terrell",
+    "description": "",
+    "localPath": "/assets/26SAApp0DZ4xvKXLBBEbeX-Ellipse-1.png"
+  },
+  "bio": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Immer auf der Suche nach Möglichkeiten, die Welt um sie herum zu verbessern, kam Poppy auf die Idee für den Münzdienst, nachdem sie ein Sabbatical genommen hatte, um an einem Umweltprojekt in Sri Lanka zu arbeiten. Vor der Gründung von Coin arbeitete sie für die Investment-Banking-Abteilung von Chase, wo sie sich auf M&A-Transaktionen konzentrierte, und leitete die Abteilung Kundenbeziehungen bei der Credit Suisse. Poppy hat einen B.S. in Betriebswirtschaft von der University of West Florida.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      },
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      }
+    }
+  }
+}

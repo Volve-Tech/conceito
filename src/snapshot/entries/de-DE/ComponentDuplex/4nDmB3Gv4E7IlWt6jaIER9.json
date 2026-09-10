@@ -1,0 +1,58 @@
+{
+  "__typename": "ComponentDuplex",
+  "sys": {
+    "id": "4nDmB3Gv4E7IlWt6jaIER9"
+  },
+  "targetPage": null,
+  "title": "<b>Quem confia</b> em nós",
+  "containerLayout": true,
+  "headline": "Entdecken Sie eine ganz neue Welt des Reisens",
+  "ctaText": null,
+  "imageStyle": false,
+  "colorPalette": "1. White (#FFFFFF)",
+  "image": {
+    "__typename": "Asset",
+    "sys": {
+      "id": "4azWb8oJIgKCme6TNzk5mu"
+    },
+    "contentType": "image/png",
+    "width": 1596,
+    "height": 392,
+    "url": "/assets/4azWb8oJIgKCme6TNzk5mu-logos1.png",
+    "fileName": "logos1.png",
+    "title": "logos1",
+    "description": "",
+    "localPath": "/assets/4azWb8oJIgKCme6TNzk5mu-logos1.png"
+  },
+  "bodyText": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Mit kostenlosen Abhebungen an Geldautomaten im Ausland und einem 24/7-Kundendienst macht Coin das Reisen so einfach wie nie zuvor. Rüsten Sie Ihr Konto auf und werden Sie Teil der Jetset Gesellschaft.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      },
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      }
+    }
+  }
+}

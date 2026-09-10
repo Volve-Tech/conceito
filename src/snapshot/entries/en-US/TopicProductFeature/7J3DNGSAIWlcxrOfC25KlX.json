@@ -1,0 +1,141 @@
+{
+  "__typename": "TopicProductFeature",
+  "sys": {
+    "id": "7J3DNGSAIWlcxrOfC25KlX"
+  },
+  "name": "Travel insurance",
+  "longDescription": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "value": "Medical emergency coverage",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "heading-5"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "If you are injured or become sick during a trip requiring a medical service, you can be covered for eligible medical services and transportation home.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "value": "Lost luggage reimbursement",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "heading-5"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Lost or damaged carry-on bags and checked-in luggage are covered up to €2,100 per passenger.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "value": "Baggage delay insurance",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "heading-5"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "When the baggage is delayed over 5 hours, your essential purchases like toiletries and clothing are reimbursed. The maximum reimbursement amount is up to €80 per passenger per day, for up to 3 days.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      },
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      }
+    }
+  },
+  "shortDescription": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Medical, flight, and luggage delay insurance coverage",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      },
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      }
+    }
+  }
+}

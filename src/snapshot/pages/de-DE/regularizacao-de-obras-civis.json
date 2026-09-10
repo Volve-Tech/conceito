@@ -1,0 +1,36 @@
+{
+  "__typename": "Page",
+  "sys": {
+    "id": "799xQ9qvjEJTseN9opLFqF"
+  },
+  "pageName": "Über das Unternehmen",
+  "slug": "regularizacao-de-obras-civis",
+  "seo": null,
+  "topSection": [],
+  "pageContent": {
+    "__typename": "TopicBusinessInfo",
+    "sys": {
+      "id": "2w1xvoNtd235mGYtpPr26g"
+    }
+  },
+  "extraSection": [
+    {
+      "__typename": "ContactSection",
+      "sys": {
+        "id": "SDbMOAHowuvbuAp18vrDy"
+      }
+    },
+    {
+      "__typename": "Testimonials",
+      "sys": {
+        "id": "1nRQoCtjPkX7amearb4IiG"
+      }
+    },
+    {
+      "__typename": "LocationsGroup",
+      "sys": {
+        "id": "6MFt4PHwoTKMfFvyAqX0Ir"
+      }
+    }
+  ]
+}

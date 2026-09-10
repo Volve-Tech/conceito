@@ -1,0 +1,30 @@
+{
+  "__typename": "Page",
+  "sys": {
+    "id": "3Qnjx9WkvM4ZC44AIBDZwt"
+  },
+  "pageName": "Classic",
+  "slug": "classic-card",
+  "seo": null,
+  "topSection": [],
+  "pageContent": {
+    "__typename": "TopicProduct",
+    "sys": {
+      "id": "4iZO00YnKE8I8c90VIUuhN"
+    }
+  },
+  "extraSection": [
+    {
+      "__typename": "ComponentInfoBlock",
+      "sys": {
+        "id": "7bAX9PLozjr4DWQTgxpvuv"
+      }
+    },
+    {
+      "__typename": "ComponentInfoBlock",
+      "sys": {
+        "id": "1TDY4os1IjIPbyAXnjJLk3"
+      }
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "__typename": "TopicProduct",
+  "sys": {
+    "id": "4iZO00YnKE8I8c90VIUuhN"
+  },
+  "name": "Coin Classic",
+  "price": 7.99,
+  "featuresCollection": {
+    "items": [
+      {
+        "__typename": "TopicProductFeature",
+        "sys": {
+          "id": "6fQD1Weqn7HctXcuZLWZa7"
+        }
+      },
+      {
+        "__typename": "TopicProductFeature",
+        "sys": {
+          "id": "41alIf28bCm3fElnzhwIIb"
+        }
+      },
+      {
+        "__typename": "TopicProductFeature",
+        "sys": {
+          "id": "6sZlbnNbXOFLB3CLtaG3uq"
+        }
+      },
+      {
+        "__typename": "TopicProductFeature",
+        "sys": {
+          "id": "2MjvmUBPCuLTxj3Vdheojm"
+        }
+      },
+      {
+        "__typename": "TopicProductFeature",
+        "sys": {
+          "id": "sgpsMiv7AtzWsqt9T1Edf"
+        }
+      },
+      {
+        "__typename": "TopicProductFeature",
+        "sys": {
+          "id": "4eX9tqXH7tAZr967OFqmmg"
+        }
+      }
+    ]
+  },
+  "featuredImage": {
+    "__typename": "Asset",
+    "sys": {
+      "id": "3tfemZitZGCb42qEfO1ipW"
+    },
+    "contentType": "image/png",
+    "width": 400,
+    "height": 210,
+    "url": "/assets/3tfemZitZGCb42qEfO1ipW-classic.png",
+    "fileName": "classic.png",
+    "title": "GoCoin Classic Product shot",
+    "description": null,
+    "localPath": "/assets/3tfemZitZGCb42qEfO1ipW-classic.png"
+  },
+  "description": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Behalten Sie den Überblick über Ihre Finanzen und erhalten Sie personalisierte Tipps auf der Grundlage Ihres Ausgabeverhaltens.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      },
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      }
+    }
+  }
+}

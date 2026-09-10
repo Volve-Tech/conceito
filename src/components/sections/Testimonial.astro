@@ -1,0 +1,108 @@
+---
+import { defaultLayout } from '../../lib/theme';
+import { imageAlt } from '../../lib/sanitize';
+import RichText from '../shared/RichText.astro';
+
+interface Props {
+  entry: any;
+  locale: string;
+}
+
+const { entry, locale } = Astro.props;
+---
+
+<article class="testimonial">
+  <div class="brand">
+    {entry.brand?.url && (
+      <img src={entry.brand.url} alt={imageAlt(entry.brand.title, entry.brand.description, entry.company)} width="200" />
+    )}
+  </div>
+  <div>
+    {entry.body && (
+      <div class="copy">
+        <RichText field={entry.body} locale={locale} layout={defaultLayout} class="rich" />
+      </div>
+    )}
+    <p class="meta">
+      <b>{entry.fullname}</b><br />
+      <small>{entry.position} - {entry.company}</small>
+    </p>
+    {entry.youtube && (
+      <div class="play-wrap">
+        <a class="play" href={entry.youtube} target="_blank" rel="noreferrer">
+          <img src="/assets/brand/play.svg" alt="" width="42" height="42" class="play-icon" />
+          Assista ao depoimento
+        </a>
+      </div>
+    )}
+  </div>
+</article>
+
+<style>
+  .testimonial {
+    display: grid;
+    gap: 2rem;
+    max-width: 126rem;
+    margin: 0 auto;
+    padding: 4rem 2.5rem;
+  }
+
+  .brand img {
+    filter: invert(1) grayscale(1);
+    opacity: 0.5;
+    margin: 0 auto;
+  }
+
+  .copy {
+    margin: 4rem -1rem;
+  }
+
+  .copy :global(.rt-p) {
+    color: #000;
+  }
+
+  .meta b {
+    font-weight: 600;
+  }
+
+  .meta small {
+    font-size: 1.4rem;
+    font-weight: 400;
+  }
+
+  .play-wrap {
+    display: flex;
+  }
+
+  .play {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    color: #000;
+    text-decoration: none;
+  }
+
+  .play-icon {
+    width: 42px;
+    height: 42px;
+    margin-right: 1rem;
+    flex-shrink: 0;
+  }
+
+  @media (min-width: 600px) {
+    .testimonial {
+      grid-template-columns: 1fr 2fr;
+    }
+  }
+
+  @media (max-width: 899px) {
+    .testimonial {
+      padding: 4rem 0;
+    }
+
+    .play {
+      margin-left: 0;
+      margin-top: 2rem;
+    }
+  }
+</style>

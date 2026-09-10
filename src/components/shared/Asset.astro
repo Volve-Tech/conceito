@@ -1,0 +1,59 @@
+---
+import type { AssetFields, LayoutProps } from '../../lib/types';
+import { defaultLayout } from '../../lib/theme';
+import { imageAlt } from '../../lib/sanitize';
+
+interface Props extends AssetFields {
+  class?: string;
+  showDescription?: boolean;
+  layout?: LayoutProps;
+}
+
+const {
+  contentType,
+  url,
+  title,
+  description,
+  width,
+  height,
+  class: className = '',
+  showDescription = true,
+  layout = defaultLayout,
+} = Astro.props;
+
+const hideCaption = ['quote', 'product-table', 'info-block', 'duplex'].includes(layout.parent);
+const caption = !hideCaption && showDescription ? description : null;
+---
+
+{contentType?.startsWith('image') && url && (
+  <figure class:list={['asset', className]}>
+    <img src={url} alt={imageAlt(title, description)} width={width || undefined} height={height || undefined} />
+    {caption && <figcaption>{caption}</figcaption>}
+  </figure>
+)}
+
+{contentType?.startsWith('video') && url && (
+  <video class:list={['asset', className]} src={url} controls playsinline width={width || undefined} height={height || undefined}>
+    {title}
+  </video>
+)}
+
+<style>
+  .asset {
+    margin: 0;
+    font-size: 0;
+  }
+
+  .asset img,
+  .asset video {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  figcaption {
+    font-size: 1.5rem;
+    opacity: 0.6;
+    margin-top: 0.8rem;
+  }
+</style>

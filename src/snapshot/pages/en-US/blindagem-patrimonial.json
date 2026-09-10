@@ -1,0 +1,36 @@
+{
+  "__typename": "Page",
+  "sys": {
+    "id": "5vvyPhFdR4J1E2quKvUCjE"
+  },
+  "pageName": "Blindagem Patrimonial",
+  "slug": "blindagem-patrimonial",
+  "seo": null,
+  "topSection": [],
+  "pageContent": {
+    "__typename": "TopicBusinessInfo",
+    "sys": {
+      "id": "4WgOguzvmuvcSw1JDHP3Gg"
+    }
+  },
+  "extraSection": [
+    {
+      "__typename": "ContactSection",
+      "sys": {
+        "id": "SDbMOAHowuvbuAp18vrDy"
+      }
+    },
+    {
+      "__typename": "Testimonials",
+      "sys": {
+        "id": "1nRQoCtjPkX7amearb4IiG"
+      }
+    },
+    {
+      "__typename": "LocationsGroup",
+      "sys": {
+        "id": "6MFt4PHwoTKMfFvyAqX0Ir"
+      }
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+---
+import { optimizeLineBreak } from '../../lib/sanitize';
+import { resolvePageHref } from '../../lib/hrefs';
+import { defaultLayout } from '../../lib/theme';
+import RichText from '../shared/RichText.astro';
+
+interface Props {
+  entry: any;
+  locale: string;
+}
+
+const { entry, locale } = Astro.props;
+const href = entry.targetPage?.slug ? resolvePageHref(entry.targetPage.slug, locale) : undefined;
+const Tag = href ? 'a' : 'div';
+---
+
+<Tag class="item" href={href}>
+  {entry.name && <h2 class="headline">{optimizeLineBreak(entry.name)}</h2>}
+  {entry.description && (
+    <div class="copy">
+      <RichText field={entry.description} locale={locale} layout={defaultLayout} class="rich" />
+    </div>
+  )}
+  <img src="/assets/brand/service-item.svg" alt="" width="32" height="32" />
+</Tag>
+
+<style>
+  .item {
+    padding: 38px;
+    box-sizing: border-box;
+    border: 1px solid #001bdb;
+    border-radius: 18px;
+    width: 310px;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    background: #001bdb;
+    color: #fff;
+    text-decoration: none;
+    transition: ease 0.2s all;
+  }
+
+  .headline {
+    color: #fff;
+    font-size: 2.5rem;
+    line-height: 1.2;
+  }
+
+  .copy {
+    margin: 4rem -1rem;
+    overflow: hidden;
+    height: 100%;
+  }
+
+  .copy :global(.rich p),
+  .copy :global(.rich .rt-p) {
+    color: #fff;
+  }
+</style>

@@ -1,0 +1,43 @@
+---
+import type { PageShell } from '../../lib/types';
+import { wideLayout, defaultLayout } from '../../lib/theme';
+import ComponentResolver from './ComponentResolver.astro';
+
+interface Props {
+  page: PageShell;
+  locale: string;
+}
+
+const { page, locale } = Astro.props;
+const top = page.topSection.filter(Boolean);
+const extra = page.extraSection.filter(Boolean);
+---
+
+{top.map((entry, index) => (
+  <ComponentResolver
+    typename={entry.__typename}
+    id={entry.sys.id}
+    locale={locale}
+    layout={wideLayout}
+    previousComponent={index > 0 ? top[index - 1]?.__typename : null}
+  />
+))}
+
+{page.pageContent && (
+  <ComponentResolver
+    typename={page.pageContent.__typename}
+    id={page.pageContent.sys.id}
+    locale={locale}
+    layout={defaultLayout}
+  />
+)}
+
+{extra.map((entry, index) => (
+  <ComponentResolver
+    typename={entry.__typename}
+    id={entry.sys.id}
+    locale={locale}
+    layout={wideLayout}
+    previousComponent={index > 0 ? extra[index - 1]?.__typename : null}
+  />
+))}

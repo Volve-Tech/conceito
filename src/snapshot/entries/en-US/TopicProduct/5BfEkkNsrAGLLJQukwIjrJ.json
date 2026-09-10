@@ -1,0 +1,117 @@
+{
+  "__typename": "TopicProduct",
+  "sys": {
+    "id": "5BfEkkNsrAGLLJQukwIjrJ"
+  },
+  "name": "Coin Black",
+  "price": 14.99,
+  "featuredImage": {
+    "__typename": "Asset",
+    "sys": {
+      "id": "4s8qZjpP5qBvxgMwSlqPLr"
+    },
+    "contentType": "image/png",
+    "width": 400,
+    "height": 210,
+    "url": "/assets/4s8qZjpP5qBvxgMwSlqPLr-black.png",
+    "fileName": "black.png",
+    "title": "GoCoin Black product shot",
+    "description": null,
+    "localPath": "/assets/4s8qZjpP5qBvxgMwSlqPLr-black.png"
+  },
+  "featuresCollection": {
+    "items": [
+      {
+        "__typename": "TopicProductFeature",
+        "sys": {
+          "id": "6fQD1Weqn7HctXcuZLWZa7"
+        }
+      },
+      {
+        "__typename": "TopicProductFeature",
+        "sys": {
+          "id": "41alIf28bCm3fElnzhwIIb"
+        }
+      },
+      {
+        "__typename": "TopicProductFeature",
+        "sys": {
+          "id": "6sZlbnNbXOFLB3CLtaG3uq"
+        }
+      },
+      {
+        "__typename": "TopicProductFeature",
+        "sys": {
+          "id": "2MjvmUBPCuLTxj3Vdheojm"
+        }
+      },
+      {
+        "__typename": "TopicProductFeature",
+        "sys": {
+          "id": "1NoAzQOubK9yoTk4chu1yd"
+        }
+      },
+      {
+        "__typename": "TopicProductFeature",
+        "sys": {
+          "id": "3KREKCeDxNxMxRHUAm6zk2"
+        }
+      },
+      {
+        "__typename": "TopicProductFeature",
+        "sys": {
+          "id": "5yXcHeDNEXNqp8qyMMsh1Z"
+        }
+      },
+      {
+        "__typename": "TopicProductFeature",
+        "sys": {
+          "id": "SSPLiIkFgDhnlIxLmfIcP"
+        }
+      },
+      {
+        "__typename": "TopicProductFeature",
+        "sys": {
+          "id": "7J3DNGSAIWlcxrOfC25KlX"
+        }
+      },
+      {
+        "__typename": "TopicProductFeature",
+        "sys": {
+          "id": "4bqCgi4k0dGpQJmwO4prBa"
+        }
+      }
+    ]
+  },
+  "description": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Enjoy free miles, partner discounts, comprehensive insurance and unique travel perks.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      },
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      }
+    }
+  }
+}

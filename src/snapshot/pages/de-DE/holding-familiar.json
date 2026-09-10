@@ -1,0 +1,36 @@
+{
+  "__typename": "Page",
+  "sys": {
+    "id": "7ezf5Vdd4hytVWYluHqJUs"
+  },
+  "pageName": "Über das Unternehmen",
+  "slug": "holding-familiar",
+  "seo": null,
+  "topSection": [],
+  "pageContent": {
+    "__typename": "TopicBusinessInfo",
+    "sys": {
+      "id": "3RjVfRfb2mQ6lSInyjGh62"
+    }
+  },
+  "extraSection": [
+    {
+      "__typename": "ContactSection",
+      "sys": {
+        "id": "SDbMOAHowuvbuAp18vrDy"
+      }
+    },
+    {
+      "__typename": "Testimonials",
+      "sys": {
+        "id": "1nRQoCtjPkX7amearb4IiG"
+      }
+    },
+    {
+      "__typename": "LocationsGroup",
+      "sys": {
+        "id": "6MFt4PHwoTKMfFvyAqX0Ir"
+      }
+    }
+  ]
+}

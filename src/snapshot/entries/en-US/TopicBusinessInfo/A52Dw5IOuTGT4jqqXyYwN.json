@@ -1,0 +1,92 @@
+{
+  "__typename": "TopicBusinessInfo",
+  "sys": {
+    "id": "A52Dw5IOuTGT4jqqXyYwN"
+  },
+  "media": null,
+  "name": "Departamento Pessoal",
+  "isDark": true,
+  "shortDescription": "Uma equipe que trabalha lado a lado com a sua\n",
+  "youtube": "https://www.youtube.com/watch?v=OrsCJNpl86I&list=PLk5qvOMfDB9RnzyQ2WRpwVGaOHQUnpQSf&index=4",
+  "featuredImage": {
+    "__typename": "Asset",
+    "sys": {
+      "id": "46VWjsk4I1yEFOEh1ynqSP"
+    },
+    "contentType": "image/png",
+    "width": 1440,
+    "height": 558,
+    "url": "/assets/46VWjsk4I1yEFOEh1ynqSP-bg-conceito.png",
+    "fileName": "bg-conceito.png",
+    "title": "bg-conceito",
+    "description": "",
+    "localPath": "/assets/46VWjsk4I1yEFOEh1ynqSP-bg-conceito.png"
+  },
+  "body": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "O Departamento Pessoal é um dos setores mais sensíveis de qualquer negócio, por isso agimos como um braço amigo do cliente no dia a dia, garantindo que todas as questões sejam tratadas com a devida atenção e cuidado.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Muito mais que realizar cálculos e enviar folhas de pagamento, nossa equipe é comprometida em entender as demandas dos nossos clientes e orientá-los em tudo que for necessário, agindo sempre com foco nas dificuldades que cada negócio apresenta.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Na Conceito, você conta com um DP eficiente e comprometido com o sucesso do seu negócio, e recebe um atendimento pautado pela segurança, orientação e precaução. ",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "\n",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      },
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      }
+    }
+  }
+}

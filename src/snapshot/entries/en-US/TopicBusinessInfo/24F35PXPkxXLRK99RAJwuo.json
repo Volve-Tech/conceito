@@ -1,0 +1,80 @@
+{
+  "__typename": "TopicBusinessInfo",
+  "sys": {
+    "id": "24F35PXPkxXLRK99RAJwuo"
+  },
+  "media": null,
+  "name": "Recuperações Tributárias e Administrativas",
+  "isDark": true,
+  "shortDescription": "Uma maneira inteligente de economizar e melhorar a saúde financeira do seu negócio",
+  "youtube": "https://www.youtube.com/watch?v=WAqyBGGOCRY&list=PLk5qvOMfDB9RnzyQ2WRpwVGaOHQUnpQSf&index=11",
+  "featuredImage": {
+    "__typename": "Asset",
+    "sys": {
+      "id": "46VWjsk4I1yEFOEh1ynqSP"
+    },
+    "contentType": "image/png",
+    "width": 1440,
+    "height": 558,
+    "url": "/assets/46VWjsk4I1yEFOEh1ynqSP-bg-conceito.png",
+    "fileName": "bg-conceito.png",
+    "title": "bg-conceito",
+    "description": "",
+    "localPath": "/assets/46VWjsk4I1yEFOEh1ynqSP-bg-conceito.png"
+  },
+  "body": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Recuperações tributárias e administrativas são estratégias poderosas para reaver valores pagos a mais em impostos, reduzir passivos tributários e fortalecer a saúde financeira das empresas.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Na Conceito, contamos com uma equipe preparada para identificar essas oportunidades e oferecer soluções eficazes, seja por via administrativa ou judicial. ",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Aqui, economia é palavra-chave e, com métodos exclusivos, potencializamos os resultados dos nossos clientes.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      },
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      }
+    }
+  }
+}

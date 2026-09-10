@@ -1,0 +1,92 @@
+{
+  "__typename": "TopicBusinessInfo",
+  "sys": {
+    "id": "4WgOguzvmuvcSw1JDHP3Gg"
+  },
+  "media": null,
+  "name": "Blindagem Patrimonial",
+  "isDark": true,
+  "shortDescription": "Proteção que traz tranquilidade e gera resultados",
+  "youtube": "https://www.youtube.com/watch?v=6-cWggwRMpw&list=PLk5qvOMfDB9RnzyQ2WRpwVGaOHQUnpQSf&index=2  ",
+  "featuredImage": {
+    "__typename": "Asset",
+    "sys": {
+      "id": "46VWjsk4I1yEFOEh1ynqSP"
+    },
+    "contentType": "image/png",
+    "width": 1440,
+    "height": 558,
+    "url": "/assets/46VWjsk4I1yEFOEh1ynqSP-bg-conceito.png",
+    "fileName": "bg-conceito.png",
+    "title": "bg-conceito",
+    "description": "",
+    "localPath": "/assets/46VWjsk4I1yEFOEh1ynqSP-bg-conceito.png"
+  },
+  "body": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Não podemos negar que empreender envolve riscos, mas a Blindagem Patrimonial ajuda a garantir a segurança financeira e o sucesso dos negócios. Na Conceito, essa é uma das principais preocupações, por isso, estamos entre os poucos escritórios que oferecem esse serviço com excelência.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Muitas vezes, os negócios podem enfrentar dificuldades e colocar em risco a segurança patrimonial dos empresários e investidores, mas a blindagem patrimonial é um mecanismo eficaz para evitar que isso aconteça.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Com a nossa experiência e conhecimento especializado, podemos ajudar nossos clientes a identificar os riscos e ameaças, propor as melhores soluções de proteção e segurança e, com isso, gerar muita economia e tranquilidade.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "\n",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      },
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      }
+    }
+  }
+}

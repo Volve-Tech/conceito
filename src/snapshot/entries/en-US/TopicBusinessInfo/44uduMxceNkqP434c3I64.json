@@ -1,0 +1,92 @@
+{
+  "__typename": "TopicBusinessInfo",
+  "sys": {
+    "id": "44uduMxceNkqP434c3I64"
+  },
+  "media": null,
+  "name": "Planejamento Previdenciário",
+  "isDark": true,
+  "shortDescription": "Uma vida bem planejada é uma vida mais feliz",
+  "youtube": "https://www.youtube.com/watch?v=V0FMrEkF34s&list=PLk5qvOMfDB9RnzyQ2WRpwVGaOHQUnpQSf&index=9",
+  "featuredImage": {
+    "__typename": "Asset",
+    "sys": {
+      "id": "46VWjsk4I1yEFOEh1ynqSP"
+    },
+    "contentType": "image/png",
+    "width": 1440,
+    "height": 558,
+    "url": "/assets/46VWjsk4I1yEFOEh1ynqSP-bg-conceito.png",
+    "fileName": "bg-conceito.png",
+    "title": "bg-conceito",
+    "description": "",
+    "localPath": "/assets/46VWjsk4I1yEFOEh1ynqSP-bg-conceito.png"
+  },
+  "body": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Oferecemos aos nossos clientes uma consultoria especializada em planejamento previdenciário, com foco na aposentadoria. Nosso objetivo é auxiliar você a fazer escolhas conscientes, de forma a planejar sua aposentadoria e garantir um descanso tranquilo no futuro.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Por meio de nossa consultoria, analisamos detalhadamente sua situação previdenciária, levando em consideração fatores como idade, tempo de contribuição, benefícios disponíveis e suas expectativas pessoais. Com base nessas informações, orientamos decisões estratégicas para alcançar seus objetivos de aposentadoria.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Acreditamos que o planejamento previdenciário é essencial para garantir uma transição tranquila para a aposentadoria e proporcionar segurança financeira nessa fase da vida. ",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Conte com a Conceito e garanta um presente e um futuro mais tranquilos!",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      },
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      }
+    }
+  }
+}

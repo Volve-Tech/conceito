@@ -1,0 +1,94 @@
+---
+import { getEntry } from '../../lib/content';
+import { defaultLayout } from '../../lib/theme';
+import Asset from '../shared/Asset.astro';
+import RichText from '../shared/RichText.astro';
+
+interface Props {
+  entry: any;
+  locale: string;
+}
+
+const { entry, locale } = Astro.props;
+const features = (entry.featuresCollection?.items || [])
+  .filter(Boolean)
+  .map((item: any) => getEntry<any>(locale, item.__typename, item.sys.id))
+  .filter(Boolean);
+---
+
+<article class="product">
+  <div class="intro">
+    <div>
+      {entry.name && <h1 class="headline">{entry.name}</h1>}
+      {entry.description && (
+        <RichText field={entry.description} locale={locale} layout={{ ...defaultLayout, parent: 'product-description' }} class="body" />
+      )}
+      {entry.price != null && <p class="price">{entry.price}</p>}
+    </div>
+    {entry.featuredImage && (
+      <div class="media">
+        <Asset {...entry.featuredImage} />
+      </div>
+    )}
+  </div>
+  {features.length > 0 && (
+    <div class="features">
+      {features.map((feature: any) => (
+        <section class="feature">
+          {feature.name && <h2>{feature.name}</h2>}
+          {feature.longDescription && <RichText field={feature.longDescription} locale={locale} layout={defaultLayout} />}
+        </section>
+      ))}
+    </div>
+  )}
+</article>
+
+<style>
+  .product {
+    width: 100%;
+  }
+
+  .intro {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 126rem;
+    padding: 9.5rem 2.5rem;
+    gap: 4rem;
+  }
+
+  .headline {
+    font-size: 3.2rem;
+    max-width: 60.4rem;
+    font-weight: 600;
+    line-height: 1.39;
+  }
+
+  .price {
+    margin-top: 2rem;
+    font-size: 2.4rem;
+  }
+
+  .features {
+    max-width: 126rem;
+    margin: 0 auto;
+    padding: 0 2.5rem 9rem;
+  }
+
+  .feature {
+    margin-bottom: 4rem;
+  }
+
+  @media (min-width: 900px) {
+    .intro {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .intro > div,
+    .media {
+      width: calc(50% - 2.5rem);
+    }
+  }
+</style>

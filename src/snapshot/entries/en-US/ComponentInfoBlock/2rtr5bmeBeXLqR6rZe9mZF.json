@@ -1,0 +1,188 @@
+{
+  "__typename": "ComponentInfoBlock",
+  "sys": {
+    "id": "2rtr5bmeBeXLqR6rZe9mZF"
+  },
+  "headline": "Included in all our plans",
+  "subline": null,
+  "colorPalette": null,
+  "block1Image": {
+    "__typename": "Asset",
+    "sys": {
+      "id": "2YmAPpb1FhPh77wWxasGY0"
+    },
+    "contentType": "image/svg+xml",
+    "width": 377,
+    "height": 368,
+    "url": "/assets/2YmAPpb1FhPh77wWxasGY0-Biometric-login-1-.svg",
+    "fileName": "Biometric-login (1).svg",
+    "title": "Biometric-login (1)",
+    "description": null,
+    "localPath": "/assets/2YmAPpb1FhPh77wWxasGY0-Biometric-login-1-.svg"
+  },
+  "block2Image": {
+    "__typename": "Asset",
+    "sys": {
+      "id": "5WMBnHUD2eeSRuBrBRjiTz"
+    },
+    "contentType": "image/svg+xml",
+    "width": 377,
+    "height": 368,
+    "url": "/assets/5WMBnHUD2eeSRuBrBRjiTz-Deposit-Protection-1-.svg",
+    "fileName": "Deposit-Protection (1).svg",
+    "title": "Deposit-Protection (1)",
+    "description": null,
+    "localPath": "/assets/5WMBnHUD2eeSRuBrBRjiTz-Deposit-Protection-1-.svg"
+  },
+  "block3Image": {
+    "__typename": "Asset",
+    "sys": {
+      "id": "10jmqCiNU047SMTkUhvwYi"
+    },
+    "contentType": "image/svg+xml",
+    "width": 377,
+    "height": 368,
+    "url": "/assets/10jmqCiNU047SMTkUhvwYi-247-help-line.svg",
+    "fileName": "247-help-line.svg",
+    "title": "247-help-line",
+    "description": null,
+    "localPath": "/assets/10jmqCiNU047SMTkUhvwYi-247-help-line.svg"
+  },
+  "block1Body": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Secure Login",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "heading-3"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Single-device use, biometric login and optional two-factor authentication (2FA) prevents unauthorized access.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      },
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      }
+    }
+  },
+  "block2Body": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "value": "Mobile wallet",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "heading-3"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Never touch your wallet again with our ApplePay and GooglePay-compatible digital cards.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      },
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      }
+    }
+  },
+  "block3Body": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "value": "24/7 support",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "heading-3"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Access in-app support at any time of the day. Choose among five supported languages.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      },
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      }
+    }
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "__typename": "ComponentInfoBlock",
+  "sys": {
+    "id": "1TDY4os1IjIPbyAXnjJLk3"
+  },
+  "headline": "Wie man eine Coin-Karte beantragt",
+  "subline": null,
+  "colorPalette": null,
+  "block1Image": {
+    "__typename": "Asset",
+    "sys": {
+      "id": "1mM6972p1OR37qDIeOnSDn"
+    },
+    "contentType": "image/svg+xml",
+    "width": 377,
+    "height": 368,
+    "url": "/assets/1mM6972p1OR37qDIeOnSDn-workspace-fintech-59-1-.svg",
+    "fileName": "workspace-fintech-59 (1).svg",
+    "title": "Icon 1",
+    "description": null,
+    "localPath": "/assets/1mM6972p1OR37qDIeOnSDn-workspace-fintech-59-1-.svg"
+  },
+  "block2Image": {
+    "__typename": "Asset",
+    "sys": {
+      "id": "6cB1N4r6hycdID5rBffet0"
+    },
+    "contentType": "image/svg+xml",
+    "width": 377,
+    "height": 368,
+    "url": "/assets/6cB1N4r6hycdID5rBffet0-workspace-fintech-60.svg",
+    "fileName": "workspace-fintech-60.svg",
+    "title": "Icon 2",
+    "description": null,
+    "localPath": "/assets/6cB1N4r6hycdID5rBffet0-workspace-fintech-60.svg"
+  },
+  "block3Image": {
+    "__typename": "Asset",
+    "sys": {
+      "id": "1rPTgePvx7Ya618G39Kl8b"
+    },
+    "contentType": "image/svg+xml",
+    "width": 377,
+    "height": 368,
+    "url": "/assets/1rPTgePvx7Ya618G39Kl8b-workspace-fintech-62.svg",
+    "fileName": "workspace-fintech-62.svg",
+    "title": "Icon 3",
+    "description": null,
+    "localPath": "/assets/1rPTgePvx7Ya618G39Kl8b-workspace-fintech-62.svg"
+  },
+  "block1Body": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Ein Konto eröffnen",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "heading-3"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Eröffnen Sie ein Coin-Konto und folgen Sie den Anweisungen, um Ihre Telefonnummer zu überprüfen. Sie können ein Konto über die Website oder eine mobile App eröffnen.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      },
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      }
+    }
+  },
+  "block2Body": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Überprüfen Sie Ihre Identität",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "heading-3"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Bestätigen Sie Ihre Identität, ohne das Haus zu verlassen. Halten Sie Ihr Smartphone und Ihren Lichtbildausweis bereit und folgen Sie den In-App-Anweisungen für einen Videoanruf.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      },
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      }
+    }
+  },
+  "block3Body": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Beantragen Sie eine Karte",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "heading-3"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Wählen Sie eine Karte und übermitteln Sie die erforderlichen persönlichen Daten. Wir prüfen die Anträge innerhalb von 24 Stunden. Wenn Ihr Antrag erfolgreich ist, wird Ihnen die Karte per Post zugestellt.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      },
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      }
+    }
+  }
+}

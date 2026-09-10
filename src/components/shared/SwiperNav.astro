@@ -1,0 +1,25 @@
+---
+interface Props {
+  variant?: 'white' | 'blue';
+}
+
+/**
+ * Custom Swiper prev/next controls matching Next `SwiperPrev` / `SwiperNext`.
+ */
+const { variant = 'white' } = Astro.props;
+---
+
+<button
+  type="button"
+  class:list={['swiper-nav', 'swiper-nav-prev', variant === 'white' && 'is-white']}
+  aria-label="Previous slide"
+>
+  <img src="/assets/brand/arrow.svg" alt="" width="12" height="10" />
+</button>
+<button
+  type="button"
+  class:list={['swiper-nav', 'swiper-nav-next', variant === 'white' && 'is-white']}
+  aria-label="Next slide"
+>
+  <img src="/assets/brand/arrow.svg" alt="" width="12" height="10" />
+</button>

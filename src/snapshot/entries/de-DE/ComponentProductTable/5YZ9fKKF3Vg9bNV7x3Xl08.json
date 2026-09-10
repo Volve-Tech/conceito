@@ -1,0 +1,30 @@
+{
+  "__typename": "ComponentProductTable",
+  "sys": {
+    "id": "5YZ9fKKF3Vg9bNV7x3Xl08"
+  },
+  "headline": "Kreditkarte wurde gerade aktualisiert",
+  "subline": "Eröffnen Sie ein kostenloses Konto und beantragen Sie eine Karte online",
+  "productsCollection": {
+    "items": [
+      {
+        "__typename": "TopicProduct",
+        "sys": {
+          "id": "4iZO00YnKE8I8c90VIUuhN"
+        }
+      },
+      {
+        "__typename": "TopicProduct",
+        "sys": {
+          "id": "5BfEkkNsrAGLLJQukwIjrJ"
+        }
+      },
+      {
+        "__typename": "TopicProduct",
+        "sys": {
+          "id": "2Jv15oYNaOUzyyJEp5P5z4"
+        }
+      }
+    ]
+  }
+}

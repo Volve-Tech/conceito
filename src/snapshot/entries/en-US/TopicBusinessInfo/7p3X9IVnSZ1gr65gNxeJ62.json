@@ -1,0 +1,80 @@
+{
+  "__typename": "TopicBusinessInfo",
+  "sys": {
+    "id": "7p3X9IVnSZ1gr65gNxeJ62"
+  },
+  "media": null,
+  "name": "Imposto de Renda Pessoa Física",
+  "isDark": true,
+  "shortDescription": "Quem conta com a Conceito, conta com mais tranquilidade",
+  "youtube": "https://www.youtube.com/watch?v=71_nTHmJfXo&list=PLk5qvOMfDB9RnzyQ2WRpwVGaOHQUnpQSf&index=7",
+  "featuredImage": {
+    "__typename": "Asset",
+    "sys": {
+      "id": "46VWjsk4I1yEFOEh1ynqSP"
+    },
+    "contentType": "image/png",
+    "width": 1440,
+    "height": 558,
+    "url": "/assets/46VWjsk4I1yEFOEh1ynqSP-bg-conceito.png",
+    "fileName": "bg-conceito.png",
+    "title": "bg-conceito",
+    "description": "",
+    "localPath": "/assets/46VWjsk4I1yEFOEh1ynqSP-bg-conceito.png"
+  },
+  "body": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Na Conceito Contabilidade, não cuidamos apenas da declaração do Imposto de Renda de Pessoa Física, cuidamos da sua vida financeira como um todo. Nossa equipe está pronta para acompanhar seu IRPF durante todo o processo, desde a elaboração até o processamento pela Receita Federal, que acontece meses depois.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Além disso, monitoramos a restituição e débitos de IRPF, garantindo que você tenha a tranquilidade de estar sempre em dia com suas obrigações fiscais. Nosso atendimento é pautado pela cautela e zelo, e todas as informações são tratadas com a devida atenção e cuidado.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Na Conceito, o serviço de IRPF é completo e comprometido com a saúde financeira do seu patrimônio.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      },
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      }
+    }
+  }
+}

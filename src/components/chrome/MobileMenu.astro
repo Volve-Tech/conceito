@@ -1,0 +1,114 @@
+---
+import { getNavigation, notNull } from '../../lib/content';
+import { resolvePageHref } from '../../lib/hrefs';
+import type { MenuChild, MenuGroup } from '../../lib/types';
+
+interface Props {
+  locale: string;
+}
+
+const { locale } = Astro.props;
+const navigation = getNavigation(locale);
+const items = (navigation.items?.[0]?.menuItemsCollection?.items || []).filter(notNull) as MenuGroup[];
+
+function childHref(item: MenuChild) {
+  return resolvePageHref(item.slug, locale);
+}
+
+function childLabel(item: MenuChild) {
+  return item.pageName || item.categoryName || item.postName || item.slug || '';
+}
+---
+
+<div class="drawer" id="mobile-menu" role="dialog" aria-modal="true" hidden data-mobile-menu>
+  <button type="button" class="close" data-menu-close aria-label="Close menu">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      <path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+    </svg>
+  </button>
+  <nav aria-label="Mobile">
+    <ul class="menu">
+      {items.map((item) => {
+        const children = (item.children?.items || []).filter(notNull);
+        const href = item.link?.slug ? resolvePageHref(item.link.slug, locale) : null;
+        return (
+          <li class="menu-item">
+            {href ? <a href={href}>{item.groupName}</a> : <span>{item.groupName}</span>}
+            {!href && children.length > 0 && (
+              <ul class="submenu">
+                {children.map((child) => (
+                  <li>
+                    <a href={childHref(child)}>{childLabel(child)}</a>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </li>
+        );
+      })}
+    </ul>
+  </nav>
+</div>
+<div class="backdrop" hidden data-menu-backdrop></div>
+
+<style>
+  .drawer {
+    position: fixed;
+    inset: 0 0 0 auto;
+    width: min(36rem, 90vw);
+    background: #000;
+    color: #fff;
+    z-index: 40;
+    overflow: auto;
+  }
+
+  .drawer[hidden] {
+    display: none;
+  }
+
+  .close {
+    position: absolute;
+    top: 20px;
+    right: 12px;
+    background: none;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .menu {
+    list-style: none;
+    margin: 0;
+    padding: 2rem 4rem;
+  }
+
+  .menu-item {
+    display: block;
+    font-size: 2.1rem;
+    line-height: 1.8;
+    color: #fff;
+    margin: 15px 0;
+  }
+
+  .menu-item a {
+    color: #fff;
+  }
+
+  .submenu {
+    margin-top: 20px;
+    border-left: 1px solid #eee;
+    list-style: none;
+    padding: 0 0 0 1rem;
+  }
+
+  .backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 30;
+  }
+
+  .backdrop[hidden] {
+    display: none;
+  }
+</style>

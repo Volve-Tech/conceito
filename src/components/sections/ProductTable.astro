@@ -1,0 +1,68 @@
+---
+import { getEntry } from '../../lib/content';
+import { defaultLayout } from '../../lib/theme';
+import RichText from '../shared/RichText.astro';
+import SectionHeadlines from '../shared/SectionHeadlines.astro';
+import Asset from '../shared/Asset.astro';
+
+interface Props {
+  entry: any;
+  locale: string;
+}
+
+const { entry, locale } = Astro.props;
+const products = (entry.productsCollection?.items || [])
+  .filter(Boolean)
+  .map((item: any) => getEntry<any>(locale, item.__typename, item.sys.id))
+  .filter(Boolean);
+---
+
+<section class="table">
+  <div class="inner">
+    <SectionHeadlines headline={entry.headline} subline={entry.subline} class="heads" />
+    <div class="cols">
+      {products.map((product: any) => (
+        <article class="col">
+          {product.featuredImage && <Asset {...product.featuredImage} showDescription={false} layout={{ ...defaultLayout, parent: 'product-table' }} />}
+          {product.name && <h3>{product.name}</h3>}
+          {product.price != null && <p class="price">{product.price}</p>}
+          {product.description && <RichText field={product.description} locale={locale} layout={{ ...defaultLayout, parent: 'product-table' }} />}
+        </article>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  .table {
+    background: #fcfcfc;
+    width: 100%;
+  }
+
+  .inner {
+    margin: 0 auto;
+    max-width: 126rem;
+    padding: 9.5rem 0 5.5rem;
+  }
+
+  .heads {
+    margin-bottom: 6rem;
+  }
+
+  .cols {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4rem;
+  }
+
+  .col {
+    width: 35rem;
+    max-width: 100%;
+  }
+
+  .price {
+    font-size: 2.4rem;
+    margin: 1.6rem 0;
+  }
+</style>

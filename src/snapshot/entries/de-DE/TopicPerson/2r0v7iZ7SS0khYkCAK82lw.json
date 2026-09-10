@@ -1,0 +1,55 @@
+{
+  "__typename": "TopicPerson",
+  "sys": {
+    "id": "2r0v7iZ7SS0khYkCAK82lw"
+  },
+  "name": "Michael Estrada, CTO",
+  "website": null,
+  "location": "Berlin, Deutschland",
+  "cardStyle": false,
+  "avatar": {
+    "__typename": "Asset",
+    "sys": {
+      "id": "2762objjfxaE1DeUHFW1wf"
+    },
+    "contentType": "image/png",
+    "width": 100,
+    "height": 100,
+    "url": "/assets/2762objjfxaE1DeUHFW1wf-Ellipse-2.png",
+    "fileName": "Ellipse 2.png",
+    "title": "Michael Estrada",
+    "description": "",
+    "localPath": "/assets/2762objjfxaE1DeUHFW1wf-Ellipse-2.png"
+  },
+  "bio": {
+    "json": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Als Inhaber mehrerer Patente und begnadeter Saxophonspieler scheint Michael in allem, was er anfasst, überragend zu sein. Immer an Verbrauchertechnologien interessiert, trat Michael Coin bei, um die nächste Generation von Zahlungserfahrungen aufzubauen. Er hat zuvor in verschiedenen Positionen bei Google gearbeitet und ein erfolgreiches Hardware-Startup-Unternehmen Trezor gegründet. Michael hat einen Bachelor- und Master-Abschluss in Informatik von der Universität Stanford.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "links": {
+      "entries": {
+        "block": [],
+        "hyperlink": [],
+        "inline": []
+      },
+      "assets": {
+        "block": [],
+        "hyperlink": []
+      }
+    }
+  }
+}
