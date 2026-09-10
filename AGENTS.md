@@ -17,7 +17,7 @@ npm run preview         # serve dist/
 
 Harness after any content or UI change: `check-snapshot` → `build` → `check` → `check-html` → browser QA on the changed routes.
 
-Production hosting is GitHub Pages (`.github/workflows/deploy.yml`). Canonical URLs stay `https://conceitocontabilidade.com.br`. Keep `public/CNAME` and `public/.nojekyll`. The Pages workflow sets `ASTRO_BASE=/conceito/` so CSS, JS, and images resolve under `https://volve-tech.github.io/conceito/`. Drop `ASTRO_BASE` when the apex custom domain is live so public URLs stay `/` and `/{slug}`. All in-app asset `src`/`href` values go through `publicHref`.
+Production hosting is GitHub Pages (`.github/workflows/deploy.yml`). Canonical URLs stay `https://conceitocontabilidade.com.br`. Keep `public/.nojekyll`. Do not add `public/CNAME` until apex DNS points at GitHub — that file makes `*.github.io` redirect to the current Vercel site. The Pages workflow sets `ASTRO_BASE=/conceito/` so CSS, JS, and images resolve under `https://volve-tech.github.io/conceito/`. When the apex is live: add `public/CNAME` with `conceitocontabilidade.com.br` and drop `ASTRO_BASE`. All in-app asset `src`/`href` values go through `publicHref`.
 
 `astro build` must succeed with Contentful env vars unset.
 
