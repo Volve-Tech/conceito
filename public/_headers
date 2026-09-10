@@ -1,5 +1,0 @@
-/*
-  X-Robots-Tag: noindex
-
-/_astro/*
-  Cache-Control: public, max-age=31556952, immutable

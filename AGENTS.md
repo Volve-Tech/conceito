@@ -13,13 +13,11 @@ npm run build           # static dist/, no Contentful required
 npm run check           # astro check
 npm run check-html      # crawl dist/ for /home, /en-US, broken links, SEO, alts
 npm run preview         # serve dist/
-npm run cf:dev          # serve dist/ with Wrangler (needs a prior build)
-npm run deploy          # astro build && wrangler deploy to workers.dev
 ```
 
 Harness after any content or UI change: `check-snapshot` → `build` → `check` → `check-html` → browser QA on the changed routes.
 
-Preview hosting is Cloudflare Workers static assets (`wrangler.jsonc`). No `@astrojs/cloudflare` adapter. Canonical URLs stay `https://conceitocontabilidade.com.br`. `public/_headers` sends `X-Robots-Tag: noindex` on the workers.dev preview — drop that before a production DNS cutover.
+Production hosting is GitHub Pages (`.github/workflows/deploy.yml`). Canonical URLs stay `https://conceitocontabilidade.com.br`. Keep `public/CNAME` and `public/.nojekyll` so Pages serves `/_astro/*` and the custom domain. Do not set Astro `base`.
 
 `astro build` must succeed with Contentful env vars unset.
 
