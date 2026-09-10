@@ -1,4 +1,5 @@
 ---
+import { publicHref } from '../../lib/hrefs';
 import type { AssetFields, LayoutProps } from '../../lib/types';
 import { defaultLayout } from '../../lib/theme';
 import { imageAlt } from '../../lib/sanitize';
@@ -27,13 +28,13 @@ const caption = !hideCaption && showDescription ? description : null;
 
 {contentType?.startsWith('image') && url && (
   <figure class:list={['asset', className]}>
-    <img src={url} alt={imageAlt(title, description)} width={width || undefined} height={height || undefined} />
+    <img src={publicHref(url)} alt={imageAlt(title, description)} width={width || undefined} height={height || undefined} />
     {caption && <figcaption>{caption}</figcaption>}
   </figure>
 )}
 
 {contentType?.startsWith('video') && url && (
-  <video class:list={['asset', className]} src={url} controls playsinline width={width || undefined} height={height || undefined}>
+  <video class:list={['asset', className]} src={publicHref(url)} controls playsinline width={width || undefined} height={height || undefined}>
     {title}
   </video>
 )}

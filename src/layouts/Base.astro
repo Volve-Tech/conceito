@@ -9,7 +9,7 @@ import Footer from '../components/chrome/Footer.astro';
 import MobileMenu from '../components/chrome/MobileMenu.astro';
 import { getStrings } from '../lib/content';
 import { GA_MEASUREMENT_ID, SITE_NAME, SITE_TAGLINE } from '../lib/theme';
-import { resolveAbsoluteHref } from '../lib/hrefs';
+import { publicHref, resolveAbsoluteHref } from '../lib/hrefs';
 
 interface Props {
   locale: string;
@@ -56,7 +56,7 @@ const ogLocale = locale.replace('-', '_');
     {image && <meta property="og:image" content={new URL(image, Astro.site).toString()} />}
     {image && <meta property="og:image:width" content="1200" />}
     {image && <meta property="og:image:height" content="630" />}
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href={publicHref('/favicon.svg')} type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap" rel="stylesheet" />
@@ -79,7 +79,7 @@ const ogLocale = locale.replace('-', '_');
       <Footer locale={locale} />
       <MobileMenu locale={locale} />
     </div>
-    <script is:inline src="/scripts/ui.js"></script>
+    <script is:inline src={publicHref('/scripts/ui.js')}></script>
     <script>
       import { initCarousels } from '../scripts/carousels';
       initCarousels();

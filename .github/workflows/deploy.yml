@@ -18,6 +18,8 @@ jobs:
         uses: actions/checkout@v7
       - name: Install, build, and upload the static site
         uses: withastro/action@v6
+        env:
+          ASTRO_BASE: /conceito/
 
   deploy:
     needs: build

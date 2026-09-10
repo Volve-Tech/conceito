@@ -14,8 +14,19 @@ function walkFiles(dir, acc = []) {
   return acc;
 }
 
+const PAGES_BASE = '/conceito';
+
+/**
+ * Strip the GitHub project Pages prefix so link checks stay base-agnostic.
+ */
+function stripBase(href) {
+  if (href === PAGES_BASE || href === `${PAGES_BASE}/`) return '/';
+  if (href.startsWith(`${PAGES_BASE}/`)) return href.slice(PAGES_BASE.length);
+  return href;
+}
+
 function pathExists(dist, href) {
-  const clean = href.split('#')[0].split('?')[0];
+  const clean = stripBase(href.split('#')[0].split('?')[0]);
   if (!clean || clean === '/') return existsSync(join(dist, 'index.html'));
   const relativePath = clean.replace(/^\//, '');
   return (
@@ -52,20 +63,21 @@ export function validateHtml(root) {
 
     for (const match of html.matchAll(/href="([^"]+)"/g)) {
       const href = match[1];
-      if (href === '/home' || href.startsWith('/home/')) {
+      const logical = stripBase(href);
+      if (logical === '/home' || logical.startsWith('/home/')) {
         errors.push(`${rel}: generated /home link ${href}`);
       }
-      if (href === '/en-US' || href.startsWith('/en-US/')) {
+      if (logical === '/en-US' || logical.startsWith('/en-US/')) {
         errors.push(`${rel}: generated /en-US link ${href}`);
       }
       if (
         href.startsWith('/') &&
         !href.startsWith('//') &&
-        !href.startsWith('/assets') &&
-        !href.startsWith('/_astro') &&
-        !href.startsWith('/scripts') &&
-        !href.startsWith('/locales') &&
-        !href.startsWith('/favicon') &&
+        !logical.startsWith('/assets') &&
+        !logical.startsWith('/_astro') &&
+        !logical.startsWith('/scripts') &&
+        !logical.startsWith('/locales') &&
+        !logical.startsWith('/favicon') &&
         href !== '#'
       ) {
         if (!pathExists(dist, href)) {

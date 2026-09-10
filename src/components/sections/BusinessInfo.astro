@@ -1,4 +1,5 @@
 ---
+import { publicHref } from '../../lib/hrefs';
 import { defaultLayout } from '../../lib/theme';
 import { imageAlt } from '../../lib/sanitize';
 import RichText from '../shared/RichText.astro';
@@ -24,7 +25,7 @@ const youtube = entry.youtube?.includes('youtube.com/embed/')
 <article class:list={['biz', entry.isDark && 'is-dark', entry.body && 'has-body', !hasHero && 'no-hero']}>
   {hasHero && (
     <header class="hero">
-      {bg && <div class="hero-bg" style={`background-image:url(${bg})`}></div>}
+      {bg && <div class="hero-bg" style={`background-image:url(${publicHref(bg)})`}></div>}
       <div class="hero-inner">
         {entry.name && <h2 class="name">{entry.name}</h2>}
         {entry.shortDescription && <h1 class="subtitle">{entry.shortDescription}</h1>}
@@ -43,7 +44,7 @@ const youtube = entry.youtube?.includes('youtube.com/embed/')
           allowfullscreen
         ></iframe>
       ) : (
-        <img src={entry.media.url} alt={imageAlt(entry.media.title, entry.media.description, entry.name)} width={entry.media.width || undefined} height={entry.media.height || undefined} />
+        <img src={publicHref(entry.media.url)} alt={imageAlt(entry.media.title, entry.media.description, entry.name)} width={entry.media.width || undefined} height={entry.media.height || undefined} />
       )}
     </div>
   )}

@@ -1,6 +1,6 @@
 ---
 import { CONTAINER_WIDTH, HEADER_HEIGHT, HEADER_HEIGHT_MD } from '../../lib/theme';
-import { resolvePageHref } from '../../lib/hrefs';
+import { publicHref, resolvePageHref } from '../../lib/hrefs';
 import { t } from '../../lib/content';
 import Navigation from './Navigation.astro';
 
@@ -16,7 +16,7 @@ const homeHref = resolvePageHref('home', locale);
 <header class="site-header" data-header>
   <div class="toolbar" style={`max-width:${CONTAINER_WIDTH / 10}rem`}>
     <a href={homeHref} class="logo-link" title={t(strings, 'common.homepage')}>
-      <img src="/assets/brand/conceito-logo.svg" alt={t(strings, 'common.logoImageAltText')} class="logo" width="220" height="49" />
+      <img src={publicHref('/assets/brand/conceito-logo.svg')} alt={t(strings, 'common.logoImageAltText')} class="logo" width="220" height="49" />
     </a>
     <div class="desktop-nav">
       <Navigation locale={locale} />

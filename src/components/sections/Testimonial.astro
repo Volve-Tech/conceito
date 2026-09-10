@@ -1,4 +1,5 @@
 ---
+import { publicHref } from '../../lib/hrefs';
 import { defaultLayout } from '../../lib/theme';
 import { imageAlt } from '../../lib/sanitize';
 import RichText from '../shared/RichText.astro';
@@ -14,7 +15,7 @@ const { entry, locale } = Astro.props;
 <article class="testimonial">
   <div class="brand">
     {entry.brand?.url && (
-      <img src={entry.brand.url} alt={imageAlt(entry.brand.title, entry.brand.description, entry.company)} width="200" />
+      <img src={publicHref(entry.brand.url)} alt={imageAlt(entry.brand.title, entry.brand.description, entry.company)} width="200" />
     )}
   </div>
   <div>
@@ -30,7 +31,7 @@ const { entry, locale } = Astro.props;
     {entry.youtube && (
       <div class="play-wrap">
         <a class="play" href={entry.youtube} target="_blank" rel="noreferrer">
-          <img src="/assets/brand/play.svg" alt="" width="42" height="42" class="play-icon" />
+          <img src={publicHref('/assets/brand/play.svg')} alt="" width="42" height="42" class="play-icon" />
           Assista ao depoimento
         </a>
       </div>

@@ -1,6 +1,6 @@
 ---
 import { optimizeLineBreak } from '../../lib/sanitize';
-import { resolvePageHref } from '../../lib/hrefs';
+import { publicHref, resolvePageHref } from '../../lib/hrefs';
 import { defaultLayout } from '../../lib/theme';
 import RichText from '../shared/RichText.astro';
 
@@ -21,7 +21,7 @@ const Tag = href ? 'a' : 'div';
       <RichText field={entry.description} locale={locale} layout={defaultLayout} class="rich" />
     </div>
   )}
-  <img src="/assets/brand/service-item.svg" alt="" width="32" height="32" />
+  <img src={publicHref('/assets/brand/service-item.svg')} alt="" width="32" height="32" />
 </Tag>
 
 <style>

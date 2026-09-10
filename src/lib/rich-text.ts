@@ -1,6 +1,6 @@
 import { BLOCKS, INLINES, MARKS } from '@contentful/rich-text-types';
 
-import { resolvePageHref } from './hrefs';
+import { publicHref, resolvePageHref } from './hrefs';
 import { escapeHtml } from './sanitize';
 import type { AssetFields, EntryRef, LayoutProps, RichTextDocument, RichTextField } from './types';
 
@@ -125,7 +125,7 @@ function renderNode(
   if (node.nodeType === INLINES.ASSET_HYPERLINK) {
     const id = (node.data?.target as { sys?: { id?: string } } | undefined)?.sys?.id;
     const asset = id ? findAsset(field.links, id) : undefined;
-    const href = asset?.url || '#';
+    const href = publicHref(asset?.url || '#');
     return `<a href="${escapeHtml(href)}">${children}</a>`;
   }
 

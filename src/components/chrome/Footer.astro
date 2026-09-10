@@ -1,6 +1,6 @@
 ---
 import { getFooter, notNull } from '../../lib/content';
-import { resolvePageHref } from '../../lib/hrefs';
+import { publicHref, resolvePageHref } from '../../lib/hrefs';
 import { CONTAINER_WIDTH } from '../../lib/theme';
 import type { MenuChild } from '../../lib/types';
 
@@ -38,7 +38,7 @@ const socials = [
 <footer class="footer-wrap">
   <div class="footer" style={`max-width:${CONTAINER_WIDTH / 10}rem`}>
     <div class="logo-col">
-      <img src="/assets/brand/conceito-logo.svg" alt="Conceito Contabilidade" width="185" height="41" />
+      <img src={publicHref('/assets/brand/conceito-logo.svg')} alt="Conceito Contabilidade" width="185" height="41" />
       <p class="tagline">
         Comprometimento. Eficiência. Performance. Isso é Conceito Contabilidade.
       </p>

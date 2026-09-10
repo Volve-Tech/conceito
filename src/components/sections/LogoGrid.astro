@@ -1,5 +1,6 @@
 ---
 import { clientLogos } from '../../data/client-logos';
+import { publicHref } from '../../lib/hrefs';
 import { imageAlt } from '../../lib/sanitize';
 
 /**
@@ -11,7 +12,7 @@ import { imageAlt } from '../../lib/sanitize';
   {clientLogos.map((logo) => (
     <li class="item">
       <img
-        src={logo.src}
+        src={publicHref(logo.src)}
         alt={imageAlt(logo.alt)}
         width={logo.width}
         height={logo.height}

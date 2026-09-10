@@ -1,4 +1,6 @@
 ---
+import { publicHref } from '../../lib/hrefs';
+
 interface Props {
   variant?: 'white' | 'blue';
 }
@@ -14,12 +16,12 @@ const { variant = 'white' } = Astro.props;
   class:list={['swiper-nav', 'swiper-nav-prev', variant === 'white' && 'is-white']}
   aria-label="Previous slide"
 >
-  <img src="/assets/brand/arrow.svg" alt="" width="12" height="10" />
+  <img src={publicHref('/assets/brand/arrow.svg')} alt="" width="12" height="10" />
 </button>
 <button
   type="button"
   class:list={['swiper-nav', 'swiper-nav-next', variant === 'white' && 'is-white']}
   aria-label="Next slide"
 >
-  <img src="/assets/brand/arrow.svg" alt="" width="12" height="10" />
+  <img src={publicHref('/assets/brand/arrow.svg')} alt="" width="12" height="10" />
 </button>

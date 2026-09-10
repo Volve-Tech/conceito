@@ -1,4 +1,5 @@
 ---
+import { publicHref } from '../../lib/hrefs';
 import { getColorConfigFromPalette, defaultLayout } from '../../lib/theme';
 import { imageAlt, optimizeLineBreak } from '../../lib/sanitize';
 import { isClientLogoDuplex } from '../../data/client-logos';
@@ -34,7 +35,7 @@ const imageFixed = Boolean(entry.imageStyle);
         entry.image?.url && (
           <img
             class:list={['image', imageFixed && 'is-fixed']}
-            src={entry.image.url}
+            src={publicHref(entry.image.url)}
             alt={imageAlt(entry.image.title, entry.image.description, entry.headline)}
             width={entry.image.width || undefined}
             height={entry.image.height || undefined}
@@ -46,7 +47,7 @@ const imageFixed = Boolean(entry.imageStyle);
     <div class="grid">
       {imageFirst && entry.image?.url && (
         <div class="media">
-          <img class:list={['image', imageFixed && 'is-fixed']} src={entry.image.url} alt={imageAlt(entry.image.title, entry.image.description, entry.headline)} width={entry.image.width || undefined} height={entry.image.height || undefined} />
+          <img class:list={['image', imageFixed && 'is-fixed']} src={publicHref(entry.image.url)} alt={imageAlt(entry.image.title, entry.image.description, entry.headline)} width={entry.image.width || undefined} height={entry.image.height || undefined} />
         </div>
       )}
       <div class="content">
@@ -60,14 +61,14 @@ const imageFixed = Boolean(entry.imageStyle);
           <div class="cta">
             <PageLink page={entry.targetPage} locale={locale} variant="contained" type="secondary-light">
               {entry.ctaText}
-              <img src="/assets/brand/tick-button.svg" alt="" class="tick" width="24" height="24" />
+              <img src={publicHref('/assets/brand/tick-button.svg')} alt="" class="tick" width="24" height="24" />
             </PageLink>
           </div>
         )}
       </div>
       {!imageFirst && entry.image?.url && (
         <div class="media">
-          <img class:list={['image', imageFixed && 'is-fixed']} src={entry.image.url} alt={imageAlt(entry.image.title, entry.image.description, entry.headline)} width={entry.image.width || undefined} height={entry.image.height || undefined} />
+          <img class:list={['image', imageFixed && 'is-fixed']} src={publicHref(entry.image.url)} alt={imageAlt(entry.image.title, entry.image.description, entry.headline)} width={entry.image.width || undefined} height={entry.image.height || undefined} />
         </div>
       )}
     </div>
