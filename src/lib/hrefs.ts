@@ -1,7 +1,7 @@
 import { DEFAULT_LOCALE, type Locale } from './theme';
 
 /**
- * Prefix a site-root path with Astro `base` (GitHub project Pages uses `/conceito/`).
+ * Prefix a site-root path with Astro `base` (apex Pages uses `/`).
  * External URLs, hashes, and schemes are left unchanged. Canonicals must not use this.
  */
 export function publicHref(path?: string | null): string {

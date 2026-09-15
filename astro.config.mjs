@@ -6,7 +6,7 @@ const base = process.env.ASTRO_BASE || '/';
 /**
  * Astro config for the Conceito static marketing site.
  * Default locale is unprefixed so public URLs stay `/` and `/{slug}`.
- * GitHub project Pages sets `ASTRO_BASE=/conceito/` so `/_astro` and `/assets` resolve.
+ * Apex GitHub Pages uses `base: /`. Set `ASTRO_BASE` only for a project-Pages preview.
  */
 export default defineConfig({
   site,
