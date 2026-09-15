@@ -13,7 +13,10 @@
     "check": "astro check",
     "snapshot": "node scripts/snapshot-contentful.mjs",
     "check-snapshot": "node scripts/check-snapshot.mjs",
-    "check-html": "node scripts/check-html.mjs"
+    "check-html": "node scripts/check-html.mjs",
+    "contact:dev": "wrangler dev --config worker/wrangler.jsonc",
+    "contact:deploy": "wrangler deploy --config worker/wrangler.jsonc",
+    "contact:types": "wrangler types --config worker/wrangler.jsonc worker/worker-configuration.d.ts"
   },
   "dependencies": {
     "@contentful/rich-text-types": "^16.8.5",
@@ -23,6 +26,7 @@
   "devDependencies": {
     "@astrojs/check": "^0.9.4",
     "@types/node": "^24.3.0",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.2",
+    "wrangler": "^4.131.0"
   }
 }

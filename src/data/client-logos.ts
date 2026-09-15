@@ -11,18 +11,43 @@ export interface ClientLogo {
   height: number;
 }
 
+/** Snapshot id of the AMB slide in “Ao lado da empresa em todos os momentos”. */
+export const AMB_TESTIMONIAL_ID = '3BCxBDykQVR1y6xaHlWfVB';
+
+/** In-repo AMB mark; survives a Contentful snapshot wipe of the CMS asterisk asset. */
+export const AMB_BRAND_SRC = '/assets/brand/clients/amb.png';
+
 /**
- * Client marks cropped from the CMS composite `logos1.png`, in visual order.
+ * Client marks for “Quem confia em nós”, in visual order.
+ * Most were cropped from the CMS composite `logos1.png`; AMB and COT are brand files.
  */
 export const clientLogos: ClientLogo[] = [
   { src: '/assets/brand/clients/simaq.png', alt: 'Simaq', width: 284, height: 98 },
   { src: '/assets/brand/clients/oboticario.png', alt: 'oBoticário', width: 274, height: 112 },
   { src: '/assets/brand/clients/c-nivel.png', alt: 'C-Nível Energias', width: 220, height: 82 },
-  { src: '/assets/brand/clients/amb.png', alt: 'AMB', width: 232, height: 73 },
+  { src: '/assets/brand/clients/amb.png', alt: 'AMB Soluções Corporativas', width: 952, height: 323 },
   { src: '/assets/brand/clients/bta.png', alt: 'BTA', width: 227, height: 96 },
   { src: '/assets/brand/clients/gsc.png', alt: 'GSC Soluções em Fibra de Vidro', width: 220, height: 122 },
   { src: '/assets/brand/clients/hidropav.png', alt: 'Hidropav Industrial', width: 297, height: 74 },
+  { src: '/assets/brand/clients/cot.png', alt: 'COT', width: 976, height: 323 },
 ];
+
+/**
+ * Resolve the brand image for a testimonial, overriding the CMS AMB asset.
+ */
+export function resolveTestimonialBrandUrl(entry: { sys?: { id?: string }; brand?: { url?: string } } | null | undefined): string | undefined {
+  if (entry?.sys?.id === AMB_TESTIMONIAL_ID) {
+    return AMB_BRAND_SRC;
+  }
+  return entry?.brand?.url;
+}
+
+/**
+ * True when the testimonial brand is already a muted grey mark and must skip invert.
+ */
+export function isNeutralTestimonialBrand(entry: { sys?: { id?: string } } | null | undefined): boolean {
+  return entry?.sys?.id === AMB_TESTIMONIAL_ID;
+}
 
 /**
  * True when this duplex should render the logo grid instead of a single image.

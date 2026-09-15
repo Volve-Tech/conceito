@@ -1,4 +1,8 @@
 ---
+/**
+ * Single testimonial slide: brand mark, quote, attribution, and optional YouTube link.
+ */
+import { isNeutralTestimonialBrand, resolveTestimonialBrandUrl } from '../../data/client-logos';
 import { publicHref } from '../../lib/hrefs';
 import { defaultLayout } from '../../lib/theme';
 import { imageAlt } from '../../lib/sanitize';
@@ -10,12 +14,20 @@ interface Props {
 }
 
 const { entry, locale } = Astro.props;
+const brandUrl = resolveTestimonialBrandUrl(entry);
+const brandNeutral = isNeutralTestimonialBrand(entry);
 ---
 
 <article class="testimonial">
   <div class="brand">
-    {entry.brand?.url && (
-      <img src={publicHref(entry.brand.url)} alt={imageAlt(entry.brand.title, entry.brand.description, entry.company)} width="200" />
+    {brandUrl && (
+      <img
+        class:list={[brandNeutral && 'is-neutral']}
+        src={publicHref(brandUrl)}
+        alt={imageAlt(entry.brand?.title, entry.brand?.description, entry.company)}
+        width="200"
+        height="68"
+      />
     )}
   </div>
   <div>
@@ -48,10 +60,26 @@ const { entry, locale } = Astro.props;
     padding: 4rem 2.5rem;
   }
 
+  .brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .brand img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 20rem;
+    max-height: 12rem;
+    object-fit: contain;
     filter: invert(1) grayscale(1);
     opacity: 0.5;
-    margin: 0 auto;
+  }
+
+  .brand img.is-neutral {
+    filter: none;
+    opacity: 0.85;
   }
 
   .copy {
@@ -93,6 +121,7 @@ const { entry, locale } = Astro.props;
   @media (min-width: 600px) {
     .testimonial {
       grid-template-columns: 1fr 2fr;
+      align-items: center;
     }
   }
 

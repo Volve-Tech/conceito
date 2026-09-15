@@ -1,0 +1,4 @@
+# Local Worker secrets — copy to .dev.vars (gitignored). Never commit real values.
+RECAPTCHA_SECRET_KEY=
+CONTACT_EMAIL=
+CONTACT_FROM=

@@ -7,35 +7,65 @@ interface Props {
 }
 
 const { entry } = Astro.props;
+const apiUrl = import.meta.env.PUBLIC_CONTACT_API_URL?.trim() ?? '';
+const siteKey = import.meta.env.PUBLIC_RECAPTCHA_SITE_KEY?.trim() ?? '';
+const configured = Boolean(apiUrl && siteKey);
 ---
 
 <section class="contact">
   <div class="copy">
     {entry.title && <Title title={entry.title} variant="section" />}
   </div>
-  <form class="form" data-contact-form novalidate>
-    <p class="notice" data-contact-notice>
-      O envio de mensagens estará disponível após a configuração do backend de e-mail.
-    </p>
+  <form
+    class="form"
+    data-contact-form
+    data-contact-api={configured ? apiUrl : undefined}
+    data-recaptcha-site-key={configured ? siteKey : undefined}
+    novalidate
+  >
+    {
+      !configured && (
+        <p class="notice" data-contact-notice>
+          O envio de mensagens estará disponível após a configuração do backend de e-mail.
+        </p>
+      )
+    }
+    <p class="notice is-success" data-contact-success hidden>Email enviado com sucesso!</p>
+    <p class="notice is-error" data-contact-error hidden>Erro ao enviar email</p>
     <label>
       Nome
       <input type="text" name="name" autocomplete="name" required />
+      <span class="field-error" data-error-for="name" hidden>Nome é obrigatório</span>
     </label>
     <label>
       Email
       <input type="email" name="email" autocomplete="email" required />
+      <span class="field-error" data-error-for="email" hidden>Coloque um email válido</span>
     </label>
     <label>
       Telefone
       <input type="tel" name="phone" autocomplete="tel" required />
+      <span class="field-error" data-error-for="phone" hidden>Telefone é obrigatório</span>
     </label>
     <label>
       Mensagem
       <textarea name="message" rows="4" required></textarea>
+      <span class="field-error" data-error-for="message" hidden>Mensagem não pode ser vazio</span>
     </label>
-    <button type="submit" class="submit" disabled>Enviar</button>
+    <button type="submit" class="submit" disabled={!configured}>Enviar</button>
   </form>
 </section>
+
+{
+  configured && (
+    <script
+      is:inline
+      src={`https://www.google.com/recaptcha/api.js?render=${encodeURIComponent(siteKey)}`}
+      async
+      defer
+    />
+  )
+}
 
 <style>
   .contact {
@@ -88,6 +118,21 @@ const { entry } = Astro.props;
     font-size: 1.5rem;
   }
 
+  .notice.is-success {
+    background: #d1e7dd;
+    color: #0f5132;
+  }
+
+  .notice.is-error {
+    background: #f8d7da;
+    color: #842029;
+  }
+
+  .field-error {
+    font-size: 1.3rem;
+    color: #842029;
+  }
+
   @media (min-width: 600px) {
     .contact {
       grid-template-columns: 1fr 1fr;
@@ -113,6 +158,10 @@ const { entry } = Astro.props;
     .submit {
       background: #fff;
       color: #001bdb;
+    }
+
+    .field-error {
+      color: #ffd6d6;
     }
   }
 </style>
