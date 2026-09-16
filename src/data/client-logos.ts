@@ -25,7 +25,7 @@ export const clientLogos: ClientLogo[] = [
   { src: '/assets/brand/clients/oboticario.png', alt: 'oBoticário', width: 274, height: 112 },
   { src: '/assets/brand/clients/via-imagem.png', alt: 'Via Imagem', width: 1024, height: 425 },
   { src: '/assets/brand/clients/c-nivel.png', alt: 'C-Nível Energias', width: 1024, height: 341 },
-  { src: '/assets/brand/clients/amb.png', alt: 'AMB Soluções Corporativas', width: 952, height: 323 },
+  { src: '/assets/brand/clients/amb.png', alt: 'AMB Soluções Corporativas', width: 1024, height: 380 },
   { src: '/assets/brand/clients/bta.png', alt: 'BTA', width: 1024, height: 425 },
   { src: '/assets/brand/clients/gsc.png', alt: 'GSC Soluções em Fibra de Vidro', width: 1024, height: 425 },
   { src: '/assets/brand/clients/cot.png', alt: 'COT', width: 976, height: 323 },
@@ -42,7 +42,7 @@ export function resolveTestimonialBrandUrl(entry: { sys?: { id?: string }; brand
 }
 
 /**
- * True when the testimonial brand is already a muted grey mark and must skip invert.
+ * True when the testimonial brand is already a finished mark and must skip invert.
  */
 export function isNeutralTestimonialBrand(entry: { sys?: { id?: string } } | null | undefined): boolean {
   return entry?.sys?.id === AMB_TESTIMONIAL_ID;
