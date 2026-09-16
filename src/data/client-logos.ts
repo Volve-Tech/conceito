@@ -22,7 +22,7 @@ export const AMB_BRAND_SRC = '/assets/brand/clients/amb.png';
  * Brand PNGs live in `src/assets/brand/clients` and are copied to `public/assets/brand/clients`.
  */
 export const clientLogos: ClientLogo[] = [
-  { src: '/assets/brand/clients/oboticario.png', alt: 'oBoticário', width: 1024, height: 341 },
+  { src: '/assets/brand/clients/oboticario.png', alt: 'oBoticário', width: 274, height: 112 },
   { src: '/assets/brand/clients/via-imagem.png', alt: 'Via Imagem', width: 1024, height: 425 },
   { src: '/assets/brand/clients/c-nivel.png', alt: 'C-Nível Energias', width: 1024, height: 341 },
   { src: '/assets/brand/clients/amb.png', alt: 'AMB Soluções Corporativas', width: 952, height: 323 },
